@@ -1,0 +1,2274 @@
+[
+  {
+    "nameEn": "oldWorldSwallowtail",
+    "nameJa": "キアゲハ",
+    "level": 1,
+    "events": [],
+    "prices": [
+      {
+        "currency": "コイン",
+        "amount": 30
+      }
+    ],
+    "locations": [
+      "森林"
+    ],
+    "weathers": [
+      "全天気"
+    ],
+    "times": [
+      "全時間"
+    ],
+    "spawnSurfaces": []
+  },
+  {
+    "nameEn": "orangeTip",
+    "nameJa": "クモマツマキチョウ",
+    "level": 1,
+    "events": [],
+    "prices": [
+      {
+        "currency": "コイン",
+        "amount": 30
+      }
+    ],
+    "locations": [
+      "中心街"
+    ],
+    "weathers": [
+      "全天気"
+    ],
+    "times": [
+      "全時間"
+    ],
+    "spawnSurfaces": []
+  },
+  {
+    "nameEn": "commonBrimstone",
+    "nameJa": "ヤマキチョウ",
+    "level": 1,
+    "events": [],
+    "prices": [
+      {
+        "currency": "コイン",
+        "amount": 30
+      }
+    ],
+    "locations": [
+      "郊外"
+    ],
+    "weathers": [
+      "全天気"
+    ],
+    "times": [
+      "全時間"
+    ],
+    "spawnSurfaces": []
+  },
+  {
+    "nameEn": "cabbageWhite",
+    "nameJa": "モンシロチョウ",
+    "level": 1,
+    "events": [],
+    "prices": [
+      {
+        "currency": "コイン",
+        "amount": 30
+      }
+    ],
+    "locations": [
+      "漁村"
+    ],
+    "weathers": [
+      "全天気"
+    ],
+    "times": [
+      "全時間"
+    ],
+    "spawnSurfaces": []
+  },
+  {
+    "nameEn": "apollo",
+    "nameJa": "アポロウスバシロチョウ",
+    "level": 1,
+    "events": [],
+    "prices": [
+      {
+        "currency": "コイン",
+        "amount": 30
+      }
+    ],
+    "locations": [
+      "虫コイコイクエスト"
+    ],
+    "weathers": [
+      "全天気"
+    ],
+    "times": [
+      "全時間"
+    ],
+    "spawnSurfaces": []
+  },
+  {
+    "nameEn": "postmanButterfly",
+    "nameJa": "ベニモンアゲハ",
+    "level": 1,
+    "events": [],
+    "prices": [
+      {
+        "currency": "コイン",
+        "amount": 30
+      }
+    ],
+    "locations": [
+      "虫コイコイクエスト"
+    ],
+    "weathers": [
+      "全天気"
+    ],
+    "times": [
+      "全時間"
+    ],
+    "spawnSurfaces": []
+  },
+  {
+    "nameEn": "sulkowskysMorpho",
+    "nameJa": "スルコウスキーモルフォ",
+    "level": 1,
+    "events": [],
+    "prices": [
+      {
+        "currency": "コイン",
+        "amount": 90
+      }
+    ],
+    "locations": [
+      "虫寄せ装置"
+    ],
+    "weathers": [
+      "全天気"
+    ],
+    "times": [
+      "全時間"
+    ],
+    "spawnSurfaces": []
+  },
+  {
+    "nameEn": "asparagusBeetle",
+    "nameJa": "アスパラカズハムシ",
+    "level": 1,
+    "events": [],
+    "prices": [
+      {
+        "currency": "コイン",
+        "amount": 55
+      }
+    ],
+    "locations": [
+      "花畑"
+    ],
+    "weathers": [
+      "全天気"
+    ],
+    "times": [
+      "全時間"
+    ],
+    "spawnSurfaces": []
+  },
+  {
+    "nameEn": "goldGrasshopper",
+    "nameJa": "クリソクラオン",
+    "level": 1,
+    "events": [],
+    "prices": [
+      {
+        "currency": "コイン",
+        "amount": 45
+      }
+    ],
+    "locations": [
+      "温泉山"
+    ],
+    "weathers": [
+      "全天気"
+    ],
+    "times": [
+      "全時間"
+    ],
+    "spawnSurfaces": []
+  },
+  {
+    "nameEn": "europeanFirebug",
+    "nameJa": "コバネアカホシカメムシ",
+    "level": 1,
+    "events": [],
+    "prices": [
+      {
+        "currency": "コイン",
+        "amount": 35
+      }
+    ],
+    "locations": [
+      "マイハウス付近"
+    ],
+    "weathers": [
+      "全天気"
+    ],
+    "times": [
+      "全時間"
+    ],
+    "spawnSurfaces": [
+      "石"
+    ]
+  },
+  {
+    "nameEn": "largeRedDamselfly",
+    "nameJa": "アカイトトンボ",
+    "level": 1,
+    "events": [],
+    "prices": [
+      {
+        "currency": "コイン",
+        "amount": 35
+      }
+    ],
+    "locations": [
+      "水辺"
+    ],
+    "weathers": [
+      "全天気"
+    ],
+    "times": [
+      "全時間"
+    ],
+    "spawnSurfaces": []
+  },
+  {
+    "nameEn": "commonBlueButterfly",
+    "nameJa": "イカルスヒメシジミ",
+    "level": 2,
+    "events": [],
+    "prices": [
+      {
+        "currency": "コイン",
+        "amount": 105
+      }
+    ],
+    "locations": [
+      "中心街"
+    ],
+    "weathers": [
+      "全天気"
+    ],
+    "times": [
+      "全時間"
+    ],
+    "spawnSurfaces": []
+  },
+  {
+    "nameEn": "greenTigerBeetle",
+    "nameJa": "ミドリニワハンミョウ",
+    "level": 2,
+    "events": [],
+    "prices": [
+      {
+        "currency": "コイン",
+        "amount": 110
+      }
+    ],
+    "locations": [
+      "温泉山"
+    ],
+    "weathers": [
+      "全天気"
+    ],
+    "times": [
+      "全時間"
+    ],
+    "spawnSurfaces": []
+  },
+  {
+    "nameEn": "waspBeetle",
+    "nameJa": "コウホウトラカミキリ",
+    "level": 2,
+    "events": [],
+    "prices": [
+      {
+        "currency": "コイン",
+        "amount": 110
+      }
+    ],
+    "locations": [
+      "森林"
+    ],
+    "weathers": [
+      "全天気"
+    ],
+    "times": [
+      "全時間"
+    ],
+    "spawnSurfaces": [
+      "草",
+      "花壇"
+    ]
+  },
+  {
+    "nameEn": "amethystFlowerBeetle",
+    "nameJa": "アオホシハナムグリ",
+    "level": 2,
+    "events": [],
+    "prices": [
+      {
+        "currency": "コイン",
+        "amount": 165
+      }
+    ],
+    "locations": [
+      "マイハウス付近"
+    ],
+    "weathers": [
+      "雨",
+      "雪",
+      "虹"
+    ],
+    "times": [
+      "全時間"
+    ],
+    "spawnSurfaces": [
+      "石"
+    ]
+  },
+  {
+    "nameEn": "siberianGrasshopper",
+    "nameJa": "シベリアヒナバッタ",
+    "level": 2,
+    "events": [],
+    "prices": [
+      {
+        "currency": "コイン",
+        "amount": 90
+      }
+    ],
+    "locations": [
+      "漁村"
+    ],
+    "weathers": [
+      "全天気"
+    ],
+    "times": [
+      "全時間"
+    ],
+    "spawnSurfaces": [
+      "草",
+      "花",
+      "低木"
+    ]
+  },
+  {
+    "nameEn": "sevenSpottedLadybug",
+    "nameJa": "ナナホシテントウ",
+    "level": 2,
+    "events": [],
+    "prices": [
+      {
+        "currency": "コイン",
+        "amount": 110
+      }
+    ],
+    "locations": [
+      "郊外"
+    ],
+    "weathers": [
+      "雨",
+      "雪",
+      "虹"
+    ],
+    "times": [
+      "全時間"
+    ],
+    "spawnSurfaces": []
+  },
+  {
+    "nameEn": "fourSpottedSkimmer",
+    "nameJa": "ヨツボシトンボ",
+    "level": 2,
+    "events": [],
+    "prices": [
+      {
+        "currency": "コイン",
+        "amount": 75
+      }
+    ],
+    "locations": [
+      "郊外の湖畔"
+    ],
+    "weathers": [
+      "雨",
+      "雪",
+      "虹"
+    ],
+    "times": [
+      "全時間"
+    ],
+    "spawnSurfaces": []
+  },
+  {
+    "nameEn": "bumblebee",
+    "nameJa": "クマバチ",
+    "level": 2,
+    "events": [],
+    "prices": [
+      {
+        "currency": "コイン",
+        "amount": 110
+      }
+    ],
+    "locations": [
+      "花畑"
+    ],
+    "weathers": [
+      "全天気"
+    ],
+    "times": [
+      "全時間"
+    ],
+    "spawnSurfaces": []
+  },
+  {
+    "nameEn": "purpleEmperor",
+    "nameJa": "イリスコムラサキ",
+    "level": 3,
+    "events": [],
+    "prices": [
+      {
+        "currency": "コイン",
+        "amount": 90
+      }
+    ],
+    "locations": [
+      "花畑-クジラ山"
+    ],
+    "weathers": [
+      "晴れ",
+      "虹"
+    ],
+    "times": [
+      "0:00〜6:00",
+      "12:00〜24:00"
+    ],
+    "spawnSurfaces": []
+  },
+  {
+    "nameEn": "rajahBrookesBirdwing",
+    "nameJa": "アカエリトリバネアゲハ",
+    "level": 3,
+    "events": [],
+    "prices": [
+      {
+        "currency": "コイン",
+        "amount": 90
+      }
+    ],
+    "locations": [
+      "マイハウス付近"
+    ],
+    "weathers": [
+      "全天気"
+    ],
+    "times": [
+      "0:00〜12:00",
+      "18:00〜24:00"
+    ],
+    "spawnSurfaces": [
+      "低木",
+      "地面"
+    ]
+  },
+  {
+    "nameEn": "miniMoonMoth",
+    "nameJa": "ヒメオナガミズアオ",
+    "level": 3,
+    "events": [],
+    "prices": [
+      {
+        "currency": "コイン",
+        "amount": 105
+      }
+    ],
+    "locations": [
+      "郊外"
+    ],
+    "weathers": [
+      "晴れ",
+      "虹"
+    ],
+    "times": [
+      "6:00〜24:00"
+    ],
+    "spawnSurfaces": [
+      "木の幹"
+    ]
+  },
+  {
+    "nameEn": "fireColoredBeetle",
+    "nameJa": "アカハネムシ",
+    "level": 3,
+    "events": [],
+    "prices": [
+      {
+        "currency": "コイン",
+        "amount": 110
+      }
+    ],
+    "locations": [
+      "温泉山-温泉"
+    ],
+    "weathers": [
+      "全天気"
+    ],
+    "times": [
+      "全時間"
+    ],
+    "spawnSurfaces": [
+      "石",
+      "地面"
+    ]
+  },
+  {
+    "nameEn": "pinkKatydid",
+    "nameJa": "ピンクタイワンクツワムシ",
+    "level": 3,
+    "events": [],
+    "prices": [
+      {
+        "currency": "コイン",
+        "amount": 90
+      }
+    ],
+    "locations": [
+      "虫コイコイクエスト"
+    ],
+    "weathers": [
+      "全天気"
+    ],
+    "times": [
+      "全時間"
+    ],
+    "spawnSurfaces": []
+  },
+  {
+    "nameEn": "katydid",
+    "nameJa": "キリギリス",
+    "level": 3,
+    "events": [],
+    "prices": [
+      {
+        "currency": "コイン",
+        "amount": 180
+      }
+    ],
+    "locations": [
+      "花畑-パープルビーチ"
+    ],
+    "weathers": [
+      "全天気"
+    ],
+    "times": [
+      "全時間"
+    ],
+    "spawnSurfaces": []
+  },
+  {
+    "nameEn": "waroonaCuckooBee",
+    "nameJa": "シロマダラオバチ",
+    "level": 3,
+    "events": [],
+    "prices": [
+      {
+        "currency": "コイン",
+        "amount": 165
+      }
+    ],
+    "locations": [
+      "森林-コジカ塔"
+    ],
+    "weathers": [
+      "全天気"
+    ],
+    "times": [
+      "6:00〜24:00"
+    ],
+    "spawnSurfaces": []
+  },
+  {
+    "nameEn": "ant",
+    "nameJa": "アリ",
+    "level": 3,
+    "events": [],
+    "prices": [
+      {
+        "currency": "コイン",
+        "amount": 220
+      }
+    ],
+    "locations": [
+      "漁村-漁村広場"
+    ],
+    "weathers": [
+      "全天気"
+    ],
+    "times": [
+      "全時間"
+    ],
+    "spawnSurfaces": []
+  },
+  {
+    "nameEn": "beautifulLeopard",
+    "nameJa": "ツマグロヒョウモン",
+    "level": 4,
+    "events": [],
+    "prices": [
+      {
+        "currency": "コイン",
+        "amount": 90
+      }
+    ],
+    "locations": [
+      "漁村-波止場"
+    ],
+    "weathers": [
+      "雨",
+      "雪",
+      "虹"
+    ],
+    "times": [
+      "0:00〜12:00",
+      "18:00〜24:00"
+    ],
+    "spawnSurfaces": []
+  },
+  {
+    "nameEn": "largeBandedGrasshopper",
+    "nameJa": "アルキプテラフスカ",
+    "level": 4,
+    "events": [],
+    "prices": [
+      {
+        "currency": "コイン",
+        "amount": 140
+      }
+    ],
+    "locations": [
+      "郊外"
+    ],
+    "weathers": [
+      "晴れ",
+      "虹"
+    ],
+    "times": [
+      "0:00〜6:00",
+      "12:00〜24:00"
+    ],
+    "spawnSurfaces": []
+  },
+  {
+    "nameEn": "fourSpottedLadybug",
+    "nameJa": "ヨツボシテントウ",
+    "level": 4,
+    "events": [],
+    "prices": [
+      {
+        "currency": "コイン",
+        "amount": 165
+      }
+    ],
+    "locations": [
+      "温泉山-火山湖"
+    ],
+    "weathers": [
+      "雨",
+      "雪",
+      "虹"
+    ],
+    "times": [
+      "全時間"
+    ],
+    "spawnSurfaces": []
+  },
+  {
+    "nameEn": "cicada",
+    "nameJa": "セミ",
+    "level": 4,
+    "events": [],
+    "prices": [
+      {
+        "currency": "コイン",
+        "amount": 220
+      }
+    ],
+    "locations": [
+      "森林-不思議な松林"
+    ],
+    "weathers": [
+      "全天気"
+    ],
+    "times": [
+      "0:00〜6:00",
+      "12:00〜24:00"
+    ],
+    "spawnSurfaces": []
+  },
+  {
+    "nameEn": "commonWhitetail",
+    "nameJa": "シオカラトンボ",
+    "level": 4,
+    "events": [],
+    "prices": [
+      {
+        "currency": "コイン",
+        "amount": 75
+      }
+    ],
+    "locations": [
+      "川辺"
+    ],
+    "weathers": [
+      "雨",
+      "雪",
+      "虹"
+    ],
+    "times": [
+      "全時間"
+    ],
+    "spawnSurfaces": []
+  },
+  {
+    "nameEn": "mediterraneanMantis",
+    "nameJa": "ニジイロカマキリ",
+    "level": 4,
+    "events": [],
+    "prices": [
+      {
+        "currency": "コイン",
+        "amount": 195
+      }
+    ],
+    "locations": [
+      "温泉山-石海岸の崖"
+    ],
+    "weathers": [
+      "晴れ",
+      "虹"
+    ],
+    "times": [
+      "0:00〜6:00",
+      "12:00〜24:00"
+    ],
+    "spawnSurfaces": [
+      "草",
+      "花"
+    ]
+  },
+  {
+    "nameEn": "peacockButterfly",
+    "nameJa": "クジャクチョウ",
+    "level": 5,
+    "events": [],
+    "prices": [
+      {
+        "currency": "コイン",
+        "amount": 90
+      }
+    ],
+    "locations": [
+      "花畑-風車の花畑"
+    ],
+    "weathers": [
+      "全天気"
+    ],
+    "times": [
+      "全時間"
+    ],
+    "spawnSurfaces": []
+  },
+  {
+    "nameEn": "mourningCloak",
+    "nameJa": "キベリタテハ",
+    "level": 5,
+    "events": [],
+    "prices": [
+      {
+        "currency": "コイン",
+        "amount": 90
+      }
+    ],
+    "locations": [
+      "温泉山-温泉"
+    ],
+    "weathers": [
+      "晴れ",
+      "虹"
+    ],
+    "times": [
+      "0:00〜18:00"
+    ],
+    "spawnSurfaces": []
+  },
+  {
+    "nameEn": "whiteWitch",
+    "nameJa": "ナンベイオオヤガ",
+    "level": 5,
+    "events": [],
+    "prices": [
+      {
+        "currency": "コイン",
+        "amount": 90
+      }
+    ],
+    "locations": [
+      "虫コイコイクエスト"
+    ],
+    "weathers": [
+      "晴れ",
+      "虹"
+    ],
+    "times": [
+      "全時間"
+    ],
+    "spawnSurfaces": []
+  },
+  {
+    "nameEn": "alpineLonghornBeetle",
+    "nameJa": "タケウチトゲムネカミキリ",
+    "level": 5,
+    "events": [],
+    "prices": [
+      {
+        "currency": "コイン",
+        "amount": 165
+      }
+    ],
+    "locations": [
+      "森林-森の島"
+    ],
+    "weathers": [
+      "虹"
+    ],
+    "times": [
+      "全時間"
+    ],
+    "spawnSurfaces": []
+  },
+  {
+    "nameEn": "asianLadyBeetle",
+    "nameJa": "ナミテントウ",
+    "level": 5,
+    "events": [],
+    "prices": [
+      {
+        "currency": "コイン",
+        "amount": 165
+      }
+    ],
+    "locations": [
+      "森林-コジカ塔"
+    ],
+    "weathers": [
+      "雨",
+      "雪",
+      "虹"
+    ],
+    "times": [
+      "0:00〜6:00",
+      "12:00〜24:00"
+    ],
+    "spawnSurfaces": [
+      "花",
+      "地面"
+    ]
+  },
+  {
+    "nameEn": "giantAsianMantis",
+    "nameJa": "パプアハラビロカマキリ",
+    "level": 5,
+    "events": [],
+    "prices": [
+      {
+        "currency": "コイン",
+        "amount": 390
+      }
+    ],
+    "locations": [
+      "温泉山-遺跡"
+    ],
+    "weathers": [
+      "晴れ",
+      "虹"
+    ],
+    "times": [
+      "全時間"
+    ],
+    "spawnSurfaces": [
+      "花壇",
+      "草"
+    ]
+  },
+  {
+    "nameEn": "splayFootedCarpenter",
+    "nameJa": "ムラサキクマバチ",
+    "level": 5,
+    "events": [],
+    "prices": [
+      {
+        "currency": "コイン",
+        "amount": 165
+      }
+    ],
+    "locations": [
+      "花畑-クジラ山"
+    ],
+    "weathers": [
+      "晴れ",
+      "虹"
+    ],
+    "times": [
+      "全時間"
+    ],
+    "spawnSurfaces": [
+      "木の幹",
+      "低木"
+    ]
+  },
+  {
+    "nameEn": "greenBirdwing",
+    "nameJa": "オオミドリトリバネアゲハ",
+    "level": 6,
+    "events": [],
+    "prices": [
+      {
+        "currency": "コイン",
+        "amount": 150
+      }
+    ],
+    "locations": [
+      "郊外"
+    ],
+    "weathers": [
+      "全天気"
+    ],
+    "times": [
+      "0:00〜6:00",
+      "18:00〜24:00"
+    ],
+    "spawnSurfaces": []
+  },
+  {
+    "nameEn": "stagBeetle",
+    "nameJa": "ミヤマクワガタ",
+    "level": 6,
+    "events": [],
+    "prices": [
+      {
+        "currency": "コイン",
+        "amount": 275
+      }
+    ],
+    "locations": [
+      "森林-ジャンプステージ"
+    ],
+    "weathers": [
+      "雨",
+      "雪",
+      "虹"
+    ],
+    "times": [
+      "6:00〜24:00"
+    ],
+    "spawnSurfaces": []
+  },
+  {
+    "nameEn": "silverJewelScarab",
+    "nameJa": "シルバージュエルコガネ",
+    "level": 6,
+    "events": [],
+    "prices": [
+      {
+        "currency": "コイン",
+        "amount": 165
+      }
+    ],
+    "locations": [
+      "温泉山-石海岸の崖"
+    ],
+    "weathers": [
+      "晴れ",
+      "虹"
+    ],
+    "times": [
+      "0:00〜18:00"
+    ],
+    "spawnSurfaces": []
+  },
+  {
+    "nameEn": "blueShieldbug",
+    "nameJa": "ルリクチブトカメムシ",
+    "level": 6,
+    "events": [],
+    "prices": [
+      {
+        "currency": "コイン",
+        "amount": 110
+      }
+    ],
+    "locations": [
+      "漁村-灯台"
+    ],
+    "weathers": [
+      "全天気"
+    ],
+    "times": [
+      "6:00〜18:00"
+    ],
+    "spawnSurfaces": [
+      "草"
+    ]
+  },
+  {
+    "nameEn": "beautifulDemoiselle",
+    "nameJa": "アオハダトンボ",
+    "level": 6,
+    "events": [],
+    "prices": [
+      {
+        "currency": "コイン",
+        "amount": 110
+      }
+    ],
+    "locations": [
+      "森の湖"
+    ],
+    "weathers": [
+      "雨",
+      "雪",
+      "虹"
+    ],
+    "times": [
+      "全時間"
+    ],
+    "spawnSurfaces": []
+  },
+  {
+    "nameEn": "blueMorpho",
+    "nameJa": "メネラウスモルフォ",
+    "level": 7,
+    "events": [],
+    "prices": [
+      {
+        "currency": "コイン",
+        "amount": 150
+      }
+    ],
+    "locations": [
+      "森林-不思議な松林"
+    ],
+    "weathers": [
+      "晴れ",
+      "虹"
+    ],
+    "times": [
+      "6:00〜24:00"
+    ],
+    "spawnSurfaces": []
+  },
+  {
+    "nameEn": "chestnutTiger",
+    "nameJa": "アサギマダラ",
+    "level": 7,
+    "events": [],
+    "prices": [
+      {
+        "currency": "コイン",
+        "amount": 150
+      }
+    ],
+    "locations": [
+      "虫コイコイクエスト"
+    ],
+    "weathers": [
+      "雨",
+      "雪",
+      "虹"
+    ],
+    "times": [
+      "全時間"
+    ],
+    "spawnSurfaces": []
+  },
+  {
+    "nameEn": "minotaurBeetle",
+    "nameJa": "ミノタウロスコガネ",
+    "level": 7,
+    "events": [],
+    "prices": [
+      {
+        "currency": "コイン",
+        "amount": 275
+      }
+    ],
+    "locations": [
+      "温泉山-遺跡"
+    ],
+    "weathers": [
+      "全天気"
+    ],
+    "times": [
+      "0:00〜18:00"
+    ],
+    "spawnSurfaces": [
+      "地面"
+    ]
+  },
+  {
+    "nameEn": "elegantFlowerBeetle",
+    "nameJa": "ビューティースペキオーサ",
+    "level": 7,
+    "events": [],
+    "prices": [
+      {
+        "currency": "コイン",
+        "amount": 275
+      }
+    ],
+    "locations": [
+      "花畑-クジラ山"
+    ],
+    "weathers": [
+      "雨",
+      "雪",
+      "虹"
+    ],
+    "times": [
+      "6:00〜18:00"
+    ],
+    "spawnSurfaces": [
+      "木の幹"
+    ]
+  },
+  {
+    "nameEn": "goldenJewelScarab",
+    "nameJa": "ゴールドジュエルコガネ",
+    "level": 7,
+    "events": [],
+    "prices": [
+      {
+        "currency": "コイン",
+        "amount": 275
+      }
+    ],
+    "locations": [
+      "森林-ジャンプステージ"
+    ],
+    "weathers": [
+      "晴れ",
+      "虹"
+    ],
+    "times": [
+      "12:00〜24:00"
+    ],
+    "spawnSurfaces": []
+  },
+  {
+    "nameEn": "crimsonMarshGlider",
+    "nameJa": "ロサトンボ",
+    "level": 7,
+    "events": [],
+    "prices": [
+      {
+        "currency": "コイン",
+        "amount": 185
+      }
+    ],
+    "locations": [
+      "温泉山の湖畔"
+    ],
+    "weathers": [
+      "虹"
+    ],
+    "times": [
+      "0:00〜6:00",
+      "12:00〜24:00"
+    ],
+    "spawnSurfaces": []
+  },
+  {
+    "nameEn": "spanishMoonMoth",
+    "nameJa": "イザベラミズアオ",
+    "level": 8,
+    "events": [],
+    "prices": [
+      {
+        "currency": "コイン",
+        "amount": 150
+      }
+    ],
+    "locations": [
+      "森林-不思議な松林"
+    ],
+    "weathers": [
+      "晴れ",
+      "虹"
+    ],
+    "times": [
+      "12:00〜24:00"
+    ],
+    "spawnSurfaces": []
+  },
+  {
+    "nameEn": "cometMoth",
+    "nameJa": "マダガスカルムーンモス",
+    "level": 8,
+    "events": [],
+    "prices": [
+      {
+        "currency": "コイン",
+        "amount": 240
+      }
+    ],
+    "locations": [
+      "郊外"
+    ],
+    "weathers": [
+      "晴れ",
+      "虹"
+    ],
+    "times": [
+      "0:00〜6:00",
+      "18:00〜24:00"
+    ],
+    "spawnSurfaces": [
+      "街灯"
+    ]
+  },
+  {
+    "nameEn": "hornedBeetle",
+    "nameJa": "カブトムシ",
+    "level": 8,
+    "events": [],
+    "prices": [
+      {
+        "currency": "コイン",
+        "amount": 275
+      }
+    ],
+    "locations": [
+      "漁村-漁村東桟橋"
+    ],
+    "weathers": [
+      "晴れ",
+      "虹"
+    ],
+    "times": [
+      "0:00〜6:00",
+      "18:00〜24:00"
+    ],
+    "spawnSurfaces": [
+      "木の幹"
+    ]
+  },
+  {
+    "nameEn": "picassoBug",
+    "nameJa": "ピカソバグ",
+    "level": 8,
+    "events": [],
+    "prices": [
+      {
+        "currency": "コイン",
+        "amount": 185
+      }
+    ],
+    "locations": [
+      "花畑-パープルビーチ"
+    ],
+    "weathers": [
+      "晴れ",
+      "虹"
+    ],
+    "times": [
+      "0:00〜6:00",
+      "18:00〜24:00"
+    ],
+    "spawnSurfaces": [
+      "花壇"
+    ]
+  },
+  {
+    "nameEn": "motherOfPearl",
+    "nameJa": "シンジュタテハ",
+    "level": 9,
+    "events": [],
+    "prices": [
+      {
+        "currency": "コイン",
+        "amount": 240
+      }
+    ],
+    "locations": [
+      "花畑-風車の花畑"
+    ],
+    "weathers": [
+      "雨",
+      "雪",
+      "虹"
+    ],
+    "times": [
+      "0:00〜12:00"
+    ],
+    "spawnSurfaces": []
+  },
+  {
+    "nameEn": "goldenStagBeetle",
+    "nameJa": "オウゴンオニクワガタ",
+    "level": 9,
+    "events": [],
+    "prices": [
+      {
+        "currency": "コイン",
+        "amount": 440
+      }
+    ],
+    "locations": [
+      "森林-不思議な松林"
+    ],
+    "weathers": [
+      "雨",
+      "雪",
+      "虹"
+    ],
+    "times": [
+      "0:00〜6:00",
+      "18:00〜24:00"
+    ],
+    "spawnSurfaces": []
+  },
+  {
+    "nameEn": "rainbowStagBeetle",
+    "nameJa": "ニジイロクワガタ",
+    "level": 9,
+    "events": [],
+    "prices": [
+      {
+        "currency": "コイン",
+        "amount": 440
+      }
+    ],
+    "locations": [
+      "虫コイコイクエスト-遺跡（追加段階）"
+    ],
+    "weathers": [
+      "全天気"
+    ],
+    "times": [
+      "全時間"
+    ],
+    "spawnSurfaces": [
+      "木の幹"
+    ]
+  },
+  {
+    "nameEn": "coneheadMantis",
+    "nameJa": "ヨウカイカマキリ",
+    "level": 9,
+    "events": [],
+    "prices": [
+      {
+        "currency": "コイン",
+        "amount": 515
+      }
+    ],
+    "locations": [
+      "温泉山-遺跡"
+    ],
+    "weathers": [
+      "雨",
+      "雪",
+      "虹"
+    ],
+    "times": [
+      "12:00〜24:00"
+    ],
+    "spawnSurfaces": [
+      "花",
+      "地面"
+    ]
+  },
+  {
+    "nameEn": "ceruleanCarpenter",
+    "nameJa": "青いクマバチ",
+    "level": 9,
+    "events": [],
+    "prices": [
+      {
+        "currency": "コイン",
+        "amount": 440
+      }
+    ],
+    "locations": [
+      "漁村-漁村広場"
+    ],
+    "weathers": [
+      "虹"
+    ],
+    "times": [
+      "0:00〜6:00",
+      "18:00〜24:00"
+    ],
+    "spawnSurfaces": []
+  },
+  {
+    "nameEn": "morphoHelena",
+    "nameJa": "ヘレナモルフォ",
+    "level": 10,
+    "events": [],
+    "prices": [
+      {
+        "currency": "コイン",
+        "amount": 240
+      }
+    ],
+    "locations": [
+      "花畑-パープルビーチ"
+    ],
+    "weathers": [
+      "虹"
+    ],
+    "times": [
+      "6:00〜18:00"
+    ],
+    "spawnSurfaces": []
+  },
+  {
+    "nameEn": "sunsetMorpho",
+    "nameJa": "タイヨウモルフォ",
+    "level": 10,
+    "events": [],
+    "prices": [
+      {
+        "currency": "コイン",
+        "amount": 240
+      }
+    ],
+    "locations": [
+      "森林-コジカ塔"
+    ],
+    "weathers": [
+      "虹"
+    ],
+    "times": [
+      "6:00〜18:00"
+    ],
+    "spawnSurfaces": []
+  },
+  {
+    "nameEn": "herculesBeetle",
+    "nameJa": "ヘラクレスオオカブト",
+    "level": 10,
+    "events": [],
+    "prices": [
+      {
+        "currency": "コイン",
+        "amount": 440
+      }
+    ],
+    "locations": [
+      "温泉山-火山湖"
+    ],
+    "weathers": [
+      "晴れ",
+      "虹"
+    ],
+    "times": [
+      "12:00〜24:00"
+    ],
+    "spawnSurfaces": []
+  },
+  {
+    "nameEn": "bagwormMoth",
+    "nameJa": "クロツヤミノガ",
+    "level": 10,
+    "events": [],
+    "prices": [
+      {
+        "currency": "コイン",
+        "amount": 440
+      }
+    ],
+    "locations": [
+      "森林-コジカ塔"
+    ],
+    "weathers": [
+      "晴れ",
+      "虹"
+    ],
+    "times": [
+      "0:00〜6:00",
+      "18:00〜24:00"
+    ],
+    "spawnSurfaces": [
+      "街灯",
+      "木の幹"
+    ]
+  },
+  {
+    "nameEn": "queenAlexandrasBirdwing",
+    "nameJa": "アレクサンドラトリバネアゲハ",
+    "level": 11,
+    "events": [],
+    "prices": [],
+    "locations": [
+      "郊外の湖畔"
+    ],
+    "weathers": [
+      "晴れ",
+      "虹"
+    ],
+    "times": [
+      "0:00〜6:00",
+      "18:00〜24:00"
+    ],
+    "spawnSurfaces": []
+  },
+  {
+    "nameEn": "atlasBeetle",
+    "nameJa": "アトラスオオカブト",
+    "level": 11,
+    "events": [],
+    "prices": [],
+    "locations": [
+      "森林-不思議な松林"
+    ],
+    "weathers": [
+      "虹"
+    ],
+    "times": [
+      "0:00〜6:00",
+      "12:00〜24:00"
+    ],
+    "spawnSurfaces": [
+      "木の幹"
+    ]
+  },
+  {
+    "nameEn": "greaterAsianLadyBeetle",
+    "nameJa": "ジュウサンホシテントウ",
+    "level": 11,
+    "events": [],
+    "prices": [],
+    "locations": [
+      "花畑-クジラ山"
+    ],
+    "weathers": [
+      "虹"
+    ],
+    "times": [
+      "12:00〜24:00"
+    ],
+    "spawnSurfaces": []
+  },
+  {
+    "nameEn": "orchidMantis",
+    "nameJa": "ハナカマキリ",
+    "level": 11,
+    "events": [],
+    "prices": [],
+    "locations": [
+      "温泉山-遺跡"
+    ],
+    "weathers": [
+      "雨",
+      "雪",
+      "虹"
+    ],
+    "times": [
+      "6:00〜18:00"
+    ],
+    "spawnSurfaces": []
+  },
+  {
+    "nameEn": "purpleSpottedSwallowtail",
+    "nameJa": "ミイロタイマイ",
+    "level": 12,
+    "events": [],
+    "prices": [],
+    "locations": [
+      "花畑-風車の花畑"
+    ],
+    "weathers": [
+      "雨",
+      "雪",
+      "虹"
+    ],
+    "times": [
+      "0:00〜12:00",
+      "18:00〜24:00"
+    ],
+    "spawnSurfaces": []
+  },
+  {
+    "nameEn": "goliathBeetle",
+    "nameJa": "オオサマゴライアス",
+    "level": 12,
+    "events": [],
+    "prices": [],
+    "locations": [
+      "森林-コジカ塔"
+    ],
+    "weathers": [
+      "虹"
+    ],
+    "times": [
+      "0:00〜6:00",
+      "18:00〜24:00"
+    ],
+    "spawnSurfaces": []
+  },
+  {
+    "nameEn": "redMilkweedLocust",
+    "nameJa": "トウワタバッタ",
+    "level": 12,
+    "events": [],
+    "prices": [],
+    "locations": [
+      "温泉山"
+    ],
+    "weathers": [
+      "雨",
+      "雪",
+      "虹"
+    ],
+    "times": [
+      "6:00〜18:00"
+    ],
+    "spawnSurfaces": []
+  },
+  {
+    "nameEn": "flamerSkimmer",
+    "nameJa": "ベニトンボ",
+    "level": 12,
+    "events": [],
+    "prices": [],
+    "locations": [
+      "草原の湖"
+    ],
+    "weathers": [
+      "虹"
+    ],
+    "times": [
+      "6:00〜18:00"
+    ],
+    "spawnSurfaces": []
+  },
+  {
+    "nameEn": "scarceMorpho",
+    "nameJa": "デイダミアモルフォ",
+    "level": 13,
+    "events": [],
+    "prices": [],
+    "locations": [
+      "温泉山-火山湖"
+    ],
+    "weathers": [
+      "虹"
+    ],
+    "times": [
+      "12:00〜24:00"
+    ],
+    "spawnSurfaces": []
+  },
+  {
+    "nameEn": "greenMetalwing",
+    "nameJa": "ミドリカワトンボ",
+    "level": 13,
+    "events": [],
+    "prices": [],
+    "locations": [
+      "郊外の湖畔"
+    ],
+    "weathers": [
+      "雨",
+      "雪",
+      "虹"
+    ],
+    "times": [
+      "12:00〜24:00"
+    ],
+    "spawnSurfaces": []
+  },
+  {
+    "nameEn": "glasswingButterfly",
+    "nameJa": "グラスウィングバタフライ",
+    "level": 14,
+    "events": [],
+    "prices": [],
+    "locations": [
+      "花畑-クジラ山"
+    ],
+    "weathers": [
+      "虹"
+    ],
+    "times": [
+      "12:00〜24:00"
+    ],
+    "spawnSurfaces": []
+  },
+  {
+    "nameEn": "greenSnail",
+    "nameJa": "アオミオカタニシ",
+    "level": 14,
+    "events": [],
+    "prices": [],
+    "locations": [
+      "森林-森の島"
+    ],
+    "weathers": [
+      "雨",
+      "雪",
+      "虹"
+    ],
+    "times": [
+      "全時間"
+    ],
+    "spawnSurfaces": []
+  },
+  {
+    "nameEn": "frostsporeMotherOfPearl",
+    "nameJa": "氷晶・シンジュタテハ",
+    "level": 1,
+    "events": [
+      "スノーシーズン"
+    ],
+    "prices": [
+      {
+        "currency": "コイン",
+        "amount": 60
+      },
+      {
+        "currency": "トレンドコイン",
+        "amount": 40
+      }
+    ],
+    "locations": [
+      "森林-ジャンプステージ"
+    ],
+    "weathers": [
+      "全天気"
+    ],
+    "times": [
+      "全時間"
+    ],
+    "spawnSurfaces": []
+  },
+  {
+    "nameEn": "frostsporePurpleSpottedSwallowtail",
+    "nameJa": "氷晶・ミイロタイマイ",
+    "level": 1,
+    "events": [
+      "スノーシーズン"
+    ],
+    "prices": [
+      {
+        "currency": "コイン",
+        "amount": 60
+      },
+      {
+        "currency": "トレンドコイン",
+        "amount": 40
+      }
+    ],
+    "locations": [
+      "森林-不思議な松林"
+    ],
+    "weathers": [
+      "全天気"
+    ],
+    "times": [
+      "全時間"
+    ],
+    "spawnSurfaces": []
+  },
+  {
+    "nameEn": "frostsporeQueenAlexandrasBirdwing",
+    "nameJa": "氷晶・アレクサンドラトリバネアゲハ",
+    "level": 1,
+    "events": [
+      "スノーシーズン"
+    ],
+    "prices": [
+      {
+        "currency": "コイン",
+        "amount": 60
+      },
+      {
+        "currency": "トレンドコイン",
+        "amount": 40
+      }
+    ],
+    "locations": [
+      "森林-コジカ塔"
+    ],
+    "weathers": [
+      "全天気"
+    ],
+    "times": [
+      "全時間"
+    ],
+    "spawnSurfaces": []
+  },
+  {
+    "nameEn": "frostsporeSulkowskysMorpho",
+    "nameJa": "氷晶・スルコウスキーモルフォ",
+    "level": 1,
+    "events": [
+      "スノーシーズン"
+    ],
+    "prices": [
+      {
+        "currency": "コイン",
+        "amount": 60
+      },
+      {
+        "currency": "トレンドコイン",
+        "amount": 40
+      }
+    ],
+    "locations": [
+      "森林-コジカ塔"
+    ],
+    "weathers": [
+      "全天気"
+    ],
+    "times": [
+      "全時間"
+    ],
+    "spawnSurfaces": []
+  },
+  {
+    "nameEn": "frostsporePostmanButterfly",
+    "nameJa": "氷晶・メルポメネドクチョウ",
+    "level": 1,
+    "events": [
+      "スノーシーズン"
+    ],
+    "prices": [
+      {
+        "currency": "コイン",
+        "amount": 90
+      },
+      {
+        "currency": "トレンドコイン",
+        "amount": 60
+      }
+    ],
+    "locations": [
+      "「氷晶の蝶」クエスト（追加段階）"
+    ],
+    "weathers": [
+      "全天気"
+    ],
+    "times": [
+      "全時間"
+    ],
+    "spawnSurfaces": []
+  },
+  {
+    "nameEn": "pinkScriptSupervisorBumblebee",
+    "nameJa": "スクリプター・ピンククマバチ",
+    "level": 1,
+    "events": [
+      "ドリームライトフェス"
+    ],
+    "prices": [
+      {
+        "currency": "コイン",
+        "amount": 110
+      },
+      {
+        "currency": "フェスコイン",
+        "amount": 25
+      }
+    ],
+    "locations": [
+      "花畑-風車の花畑"
+    ],
+    "weathers": [
+      "全天気"
+    ],
+    "times": [
+      "全時間"
+    ],
+    "spawnSurfaces": []
+  },
+  {
+    "nameEn": "redScriptSupervisorBumblebee",
+    "nameJa": "スクリプター・赤クマバチ",
+    "level": 1,
+    "events": [
+      "ドリームライトフェス"
+    ],
+    "prices": [
+      {
+        "currency": "コイン",
+        "amount": 110
+      },
+      {
+        "currency": "フェスコイン",
+        "amount": 25
+      }
+    ],
+    "locations": [
+      "花畑-クジラ山"
+    ],
+    "weathers": [
+      "全天気"
+    ],
+    "times": [
+      "全時間"
+    ],
+    "spawnSurfaces": []
+  },
+  {
+    "nameEn": "greenScriptSupervisorBumblebee",
+    "nameJa": "スクリプター・緑クマバチ",
+    "level": 1,
+    "events": [
+      "ドリームライトフェス"
+    ],
+    "prices": [
+      {
+        "currency": "コイン",
+        "amount": 110
+      },
+      {
+        "currency": "フェスコイン",
+        "amount": 25
+      }
+    ],
+    "locations": [
+      "花畑-パープルビーチ"
+    ],
+    "weathers": [
+      "全天気"
+    ],
+    "times": [
+      "全時間"
+    ],
+    "spawnSurfaces": []
+  },
+  {
+    "nameEn": "purpleScriptSupervisorBumblebee",
+    "nameJa": "スクリプター・紫クマバチ",
+    "level": 1,
+    "events": [
+      "ドリームライトフェス"
+    ],
+    "prices": [
+      {
+        "currency": "コイン",
+        "amount": 110
+      },
+      {
+        "currency": "フェスコイン",
+        "amount": 25
+      }
+    ],
+    "locations": [
+      "花畑-風車の花畑"
+    ],
+    "weathers": [
+      "全天気"
+    ],
+    "times": [
+      "全時間"
+    ],
+    "spawnSurfaces": []
+  },
+  {
+    "nameEn": "goldenScriptSupervisorBumblebee",
+    "nameJa": "スクリプター・金クマバチ",
+    "level": 1,
+    "events": [
+      "ドリームライトフェス"
+    ],
+    "prices": [
+      {
+        "currency": "コイン",
+        "amount": 165
+      },
+      {
+        "currency": "フェスコイン",
+        "amount": 40
+      }
+    ],
+    "locations": [
+      "「スクリプター・ビー」クエスト（追加段階）"
+    ],
+    "weathers": [
+      "全天気"
+    ],
+    "times": [
+      "全時間"
+    ],
+    "spawnSurfaces": []
+  },
+  {
+    "nameEn": "pinkBrickLargeRedDamselfly",
+    "nameJa": "積み木アカイトトンボ（ピンク）",
+    "level": 1,
+    "events": [
+      "ブロック市街地フェス"
+    ],
+    "prices": [
+      {
+        "currency": "コイン",
+        "amount": 75
+      },
+      {
+        "currency": "フェスコイン",
+        "amount": 25
+      }
+    ],
+    "locations": [
+      "森林-ジャンプステージ"
+    ],
+    "weathers": [
+      "全天気"
+    ],
+    "times": [
+      "全時間"
+    ],
+    "spawnSurfaces": []
+  },
+  {
+    "nameEn": "yellowBrickLargeRedDamselfly",
+    "nameJa": "積み木アカイトトンボ（黄）",
+    "level": 1,
+    "events": [
+      "ブロック市街地フェス"
+    ],
+    "prices": [
+      {
+        "currency": "コイン",
+        "amount": 75
+      },
+      {
+        "currency": "フェスコイン",
+        "amount": 25
+      }
+    ],
+    "locations": [
+      "森林-不思議な松林"
+    ],
+    "weathers": [
+      "全天気"
+    ],
+    "times": [
+      "全時間"
+    ],
+    "spawnSurfaces": []
+  },
+  {
+    "nameEn": "blueBrickLargeRedDamselfly",
+    "nameJa": "積み木アカイトトンボ（青）",
+    "level": 1,
+    "events": [
+      "ブロック市街地フェス"
+    ],
+    "prices": [
+      {
+        "currency": "コイン",
+        "amount": 75
+      },
+      {
+        "currency": "フェスコイン",
+        "amount": 25
+      }
+    ],
+    "locations": [
+      "森林-コジカ塔"
+    ],
+    "weathers": [
+      "全天気"
+    ],
+    "times": [
+      "全時間"
+    ],
+    "spawnSurfaces": []
+  },
+  {
+    "nameEn": "purpleBrickLargeRedDamselfly",
+    "nameJa": "積み木アカイトトンボ（紫）",
+    "level": 1,
+    "events": [
+      "ブロック市街地フェス"
+    ],
+    "prices": [
+      {
+        "currency": "コイン",
+        "amount": 75
+      },
+      {
+        "currency": "フェスコイン",
+        "amount": 25
+      }
+    ],
+    "locations": [
+      "森林-森の島"
+    ],
+    "weathers": [
+      "全天気"
+    ],
+    "times": [
+      "全時間"
+    ],
+    "spawnSurfaces": []
+  },
+  {
+    "nameEn": "colorfulBrickLargeRedDamselfly",
+    "nameJa": "積み木アカイトトンボ（虹）",
+    "level": 1,
+    "events": [
+      "ブロック市街地フェス"
+    ],
+    "prices": [
+      {
+        "currency": "コイン",
+        "amount": 110
+      },
+      {
+        "currency": "フェスコイン",
+        "amount": 35
+      }
+    ],
+    "locations": [
+      "特殊積み木虫クエスト"
+    ],
+    "weathers": [
+      "全天気"
+    ],
+    "times": [
+      "全時間"
+    ],
+    "spawnSurfaces": []
+  },
+  {
+    "nameEn": "agriasButterfly",
+    "nameJa": "ミイロタテハ",
+    "level": 1,
+    "events": [
+      "ホエールシーズン"
+    ],
+    "prices": [
+      {
+        "currency": "コイン",
+        "amount": 60
+      },
+      {
+        "currency": "トレンドコイン",
+        "amount": 30
+      }
+    ],
+    "locations": [
+      "森林-ジャンプステージ"
+    ],
+    "weathers": [
+      "全天気"
+    ],
+    "times": [
+      "全時間"
+    ],
+    "spawnSurfaces": []
+  },
+  {
+    "nameEn": "greenFlowerChafer",
+    "nameJa": "アオカナブン",
+    "level": 1,
+    "events": [
+      "ホエールシーズン"
+    ],
+    "prices": [
+      {
+        "currency": "コイン",
+        "amount": 110
+      },
+      {
+        "currency": "トレンドコイン",
+        "amount": 60
+      }
+    ],
+    "locations": [
+      "森林-コジカ塔"
+    ],
+    "weathers": [
+      "全天気"
+    ],
+    "times": [
+      "全時間"
+    ],
+    "spawnSurfaces": []
+  },
+  {
+    "nameEn": "blueMilkweedBeetle",
+    "nameJa": "オオサルハムシ",
+    "level": 1,
+    "events": [
+      "ホエールシーズン"
+    ],
+    "prices": [
+      {
+        "currency": "コイン",
+        "amount": 110
+      },
+      {
+        "currency": "トレンドコイン",
+        "amount": 60
+      }
+    ],
+    "locations": [
+      "森林-森の島"
+    ],
+    "weathers": [
+      "全天気"
+    ],
+    "times": [
+      "全時間"
+    ],
+    "spawnSurfaces": []
+  },
+  {
+    "nameEn": "whiteBandedErebusMoth",
+    "nameJa": "タマフチマガンヤガ",
+    "level": 1,
+    "events": [
+      "ホエールシーズン"
+    ],
+    "prices": [
+      {
+        "currency": "コイン",
+        "amount": 60
+      },
+      {
+        "currency": "トレンドコイン",
+        "amount": 30
+      }
+    ],
+    "locations": [
+      "森林-不思議な松林"
+    ],
+    "weathers": [
+      "全天気"
+    ],
+    "times": [
+      "全時間"
+    ],
+    "spawnSurfaces": []
+  }
+]

@@ -1,0 +1,3101 @@
+[
+  {
+    "nameEn": "europeanRobin",
+    "nameJa": "コマドリ",
+    "level": 1,
+    "events": [],
+    "prices": [
+      {
+        "currency": "コイン",
+        "amount": 7
+      }
+    ],
+    "locations": [
+      "中心街"
+    ],
+    "weathers": [
+      "全天気"
+    ],
+    "times": [
+      "全時間"
+    ],
+    "distanceMeters": 3,
+    "fiveStarAction": "羽を広げる",
+    "fiveStarWeathers": [
+      "雨",
+      "雪",
+      "虹"
+    ],
+    "fiveStarTimes": [
+      "全時間"
+    ]
+  },
+  {
+    "nameEn": "greatTit",
+    "nameJa": "シジュウカラ",
+    "level": 1,
+    "events": [],
+    "prices": [
+      {
+        "currency": "コイン",
+        "amount": 7
+      }
+    ],
+    "locations": [
+      "温泉山"
+    ],
+    "weathers": [
+      "全天気"
+    ],
+    "times": [
+      "全時間"
+    ],
+    "distanceMeters": 3,
+    "fiveStarAction": "羽を広げる",
+    "fiveStarWeathers": [
+      "雨",
+      "雪",
+      "虹"
+    ],
+    "fiveStarTimes": [
+      "全時間"
+    ]
+  },
+  {
+    "nameEn": "eurasianWren",
+    "nameJa": "ミソサザイ",
+    "level": 1,
+    "events": [],
+    "prices": [
+      {
+        "currency": "コイン",
+        "amount": 7
+      }
+    ],
+    "locations": [
+      "森林"
+    ],
+    "weathers": [
+      "全天気"
+    ],
+    "times": [
+      "全時間"
+    ],
+    "distanceMeters": 3,
+    "fiveStarAction": "羽を広げる",
+    "fiveStarWeathers": [
+      "雨",
+      "雪",
+      "虹"
+    ],
+    "fiveStarTimes": [
+      "全時間"
+    ]
+  },
+  {
+    "nameEn": "eurasianBullfinch",
+    "nameJa": "ウソ",
+    "level": 1,
+    "events": [],
+    "prices": [
+      {
+        "currency": "コイン",
+        "amount": 7
+      }
+    ],
+    "locations": [
+      "郊外"
+    ],
+    "weathers": [
+      "全天気"
+    ],
+    "times": [
+      "全時間"
+    ],
+    "distanceMeters": 3,
+    "fiveStarAction": "羽を広げる",
+    "fiveStarWeathers": [
+      "雨",
+      "雪",
+      "虹"
+    ],
+    "fiveStarTimes": [
+      "全時間"
+    ]
+  },
+  {
+    "nameEn": "eurasianChaffinch",
+    "nameJa": "ズアオアトリ",
+    "level": 1,
+    "events": [],
+    "prices": [
+      {
+        "currency": "コイン",
+        "amount": 7
+      }
+    ],
+    "locations": [
+      "花畑"
+    ],
+    "weathers": [
+      "全天気"
+    ],
+    "times": [
+      "全時間"
+    ],
+    "distanceMeters": 3,
+    "fiveStarAction": "羽を広げる",
+    "fiveStarWeathers": [
+      "雨",
+      "雪",
+      "虹"
+    ],
+    "fiveStarTimes": [
+      "全時間"
+    ]
+  },
+  {
+    "nameEn": "blueAndYellowMacaw",
+    "nameJa": "ルリコンゴウインコ",
+    "level": 1,
+    "events": [],
+    "prices": [
+      {
+        "currency": "コイン",
+        "amount": 7
+      }
+    ],
+    "locations": [
+      "巣ごもりクエスト"
+    ],
+    "weathers": [
+      "全天気"
+    ],
+    "times": [
+      "全時間"
+    ],
+    "distanceMeters": 3,
+    "fiveStarAction": "羽を広げる",
+    "fiveStarWeathers": [
+      "雨",
+      "雪",
+      "虹"
+    ],
+    "fiveStarTimes": [
+      "全時間"
+    ]
+  },
+  {
+    "nameEn": "stockDove",
+    "nameJa": "ヒメモリバト",
+    "level": 1,
+    "events": [],
+    "prices": [
+      {
+        "currency": "コイン",
+        "amount": 10
+      }
+    ],
+    "locations": [
+      "中心街"
+    ],
+    "weathers": [
+      "全天気"
+    ],
+    "times": [
+      "全時間"
+    ],
+    "distanceMeters": 3,
+    "fiveStarAction": "羽を広げる",
+    "fiveStarWeathers": [
+      "雨",
+      "雪",
+      "虹"
+    ],
+    "fiveStarTimes": [
+      "全時間"
+    ]
+  },
+  {
+    "nameEn": "eurasianCollaredDove",
+    "nameJa": "シラコバト",
+    "level": 1,
+    "events": [],
+    "prices": [
+      {
+        "currency": "コイン",
+        "amount": 10
+      }
+    ],
+    "locations": [
+      "ホーム"
+    ],
+    "weathers": [
+      "全天気"
+    ],
+    "times": [
+      "全時間"
+    ],
+    "distanceMeters": 3,
+    "fiveStarAction": "羽を広げる",
+    "fiveStarWeathers": [
+      "雨",
+      "雪",
+      "虹"
+    ],
+    "fiveStarTimes": [
+      "全時間"
+    ]
+  },
+  {
+    "nameEn": "piedImperialPigeon",
+    "nameJa": "ソデグロバト",
+    "level": 1,
+    "events": [],
+    "prices": [
+      {
+        "currency": "コイン",
+        "amount": 10
+      }
+    ],
+    "locations": [
+      "漁村"
+    ],
+    "weathers": [
+      "全天気"
+    ],
+    "times": [
+      "全時間"
+    ],
+    "distanceMeters": 3,
+    "fiveStarAction": "羽を広げる",
+    "fiveStarWeathers": [
+      "雨",
+      "雪",
+      "虹"
+    ],
+    "fiveStarTimes": [
+      "全時間"
+    ]
+  },
+  {
+    "nameEn": "greaterFlamingo",
+    "nameJa": "オオフラミンゴ",
+    "level": 1,
+    "events": [],
+    "prices": [
+      {
+        "currency": "コイン",
+        "amount": 15
+      }
+    ],
+    "locations": [
+      "水辺"
+    ],
+    "weathers": [
+      "全天気"
+    ],
+    "times": [
+      "全時間"
+    ],
+    "distanceMeters": 4,
+    "fiveStarAction": "首を伸ばす",
+    "fiveStarWeathers": [
+      "雨",
+      "雪",
+      "虹"
+    ],
+    "fiveStarTimes": [
+      "全時間"
+    ]
+  },
+  {
+    "nameEn": "bluePeafowl",
+    "nameJa": "インドクジャク",
+    "level": 1,
+    "events": [],
+    "prices": [
+      {
+        "currency": "コイン",
+        "amount": 10
+      }
+    ],
+    "locations": [
+      "巣ごもりクエスト"
+    ],
+    "weathers": [
+      "全天気"
+    ],
+    "times": [
+      "全時間"
+    ],
+    "distanceMeters": 5,
+    "fiveStarAction": "羽を広げる",
+    "fiveStarWeathers": [
+      "雨",
+      "雪",
+      "虹"
+    ],
+    "fiveStarTimes": [
+      "全時間"
+    ]
+  },
+  {
+    "nameEn": "mallard",
+    "nameJa": "マガモ",
+    "level": 1,
+    "events": [],
+    "prices": [
+      {
+        "currency": "コイン",
+        "amount": 12
+      }
+    ],
+    "locations": [
+      "湖"
+    ],
+    "weathers": [
+      "全天気"
+    ],
+    "times": [
+      "全時間"
+    ],
+    "distanceMeters": 3,
+    "fiveStarAction": "羽を広げる",
+    "fiveStarWeathers": [
+      "雨",
+      "雪",
+      "虹"
+    ],
+    "fiveStarTimes": [
+      "全時間"
+    ]
+  },
+  {
+    "nameEn": "longTailedTit",
+    "nameJa": "エナガ",
+    "level": 2,
+    "events": [],
+    "prices": [
+      {
+        "currency": "コイン",
+        "amount": 2
+      }
+    ],
+    "locations": [
+      "ブランクの頭上"
+    ],
+    "weathers": [
+      "全天気"
+    ],
+    "times": [
+      "全時間"
+    ],
+    "distanceMeters": 2,
+    "fiveStarAction": "羽を広げる",
+    "fiveStarWeathers": [
+      "全天気"
+    ],
+    "fiveStarTimes": [
+      "全時間"
+    ]
+  },
+  {
+    "nameEn": "eurasianNuthatch",
+    "nameJa": "ゴジュウカラ",
+    "level": 2,
+    "events": [],
+    "prices": [
+      {
+        "currency": "コイン",
+        "amount": 10
+      }
+    ],
+    "locations": [
+      "漁村"
+    ],
+    "weathers": [
+      "全天気"
+    ],
+    "times": [
+      "全時間"
+    ],
+    "distanceMeters": 3,
+    "fiveStarAction": "羽を広げる",
+    "fiveStarWeathers": [
+      "雨",
+      "雪",
+      "虹"
+    ],
+    "fiveStarTimes": [
+      "全時間"
+    ]
+  },
+  {
+    "nameEn": "beardedReedling",
+    "nameJa": "ヒゲガラ",
+    "level": 2,
+    "events": [],
+    "prices": [
+      {
+        "currency": "コイン",
+        "amount": 10
+      }
+    ],
+    "locations": [
+      "温泉山"
+    ],
+    "weathers": [
+      "全天気"
+    ],
+    "times": [
+      "全時間"
+    ],
+    "distanceMeters": 3,
+    "fiveStarAction": "羽を広げる",
+    "fiveStarWeathers": [
+      "雨",
+      "雪",
+      "虹"
+    ],
+    "fiveStarTimes": [
+      "全時間"
+    ]
+  },
+  {
+    "nameEn": "woodchatShrike",
+    "nameJa": "ズアカモズ",
+    "level": 2,
+    "events": [],
+    "prices": [
+      {
+        "currency": "コイン",
+        "amount": 10
+      }
+    ],
+    "locations": [
+      "郊外"
+    ],
+    "weathers": [
+      "全天気"
+    ],
+    "times": [
+      "全時間"
+    ],
+    "distanceMeters": 3,
+    "fiveStarAction": "羽を広げる",
+    "fiveStarWeathers": [
+      "雨",
+      "雪",
+      "虹"
+    ],
+    "fiveStarTimes": [
+      "全時間"
+    ]
+  },
+  {
+    "nameEn": "wongaPigeon",
+    "nameJa": "ウォンガバト",
+    "level": 2,
+    "events": [],
+    "prices": [
+      {
+        "currency": "コイン",
+        "amount": 15
+      }
+    ],
+    "locations": [
+      "森林"
+    ],
+    "weathers": [
+      "全天気"
+    ],
+    "times": [
+      "全時間"
+    ],
+    "distanceMeters": 3,
+    "fiveStarAction": "羽を広げる",
+    "fiveStarWeathers": [
+      "雨",
+      "雪",
+      "虹"
+    ],
+    "fiveStarTimes": [
+      "全時間"
+    ]
+  },
+  {
+    "nameEn": "pinkNeckedGreenPigeon",
+    "nameJa": "コアオバト",
+    "level": 2,
+    "events": [],
+    "prices": [
+      {
+        "currency": "コイン",
+        "amount": 15
+      }
+    ],
+    "locations": [
+      "花畑"
+    ],
+    "weathers": [
+      "全天気"
+    ],
+    "times": [
+      "全時間"
+    ],
+    "distanceMeters": 3,
+    "fiveStarAction": "羽を広げる",
+    "fiveStarWeathers": [
+      "雨",
+      "雪",
+      "虹"
+    ],
+    "fiveStarTimes": [
+      "全時間"
+    ]
+  },
+  {
+    "nameEn": "eurasianWigeon",
+    "nameJa": "ヒドリガモ",
+    "level": 2,
+    "events": [],
+    "prices": [
+      {
+        "currency": "コイン",
+        "amount": 17
+      }
+    ],
+    "locations": [
+      "川"
+    ],
+    "weathers": [
+      "全天気"
+    ],
+    "times": [
+      "全時間"
+    ],
+    "distanceMeters": 3,
+    "fiveStarAction": "羽を広げる",
+    "fiveStarWeathers": [
+      "雨",
+      "雪",
+      "虹"
+    ],
+    "fiveStarTimes": [
+      "全時間"
+    ]
+  },
+  {
+    "nameEn": "seagull",
+    "nameJa": "カモメ",
+    "level": 2,
+    "events": [],
+    "prices": [
+      {
+        "currency": "コイン",
+        "amount": 17
+      }
+    ],
+    "locations": [
+      "海辺"
+    ],
+    "weathers": [
+      "全天気"
+    ],
+    "times": [
+      "全時間"
+    ],
+    "distanceMeters": 3,
+    "fiveStarAction": "羽を広げる",
+    "fiveStarWeathers": [
+      "雨",
+      "雪",
+      "虹"
+    ],
+    "fiveStarTimes": [
+      "全時間"
+    ]
+  },
+  {
+    "nameEn": "eurasianGoldenOriole",
+    "nameJa": "ニシコウライウグイス",
+    "level": 3,
+    "events": [],
+    "prices": [
+      {
+        "currency": "コイン",
+        "amount": 15
+      }
+    ],
+    "locations": [
+      "ホーム"
+    ],
+    "weathers": [
+      "全天気"
+    ],
+    "times": [
+      "全時間"
+    ],
+    "distanceMeters": 3,
+    "fiveStarAction": "羽を広げる",
+    "fiveStarWeathers": [
+      "虹"
+    ],
+    "fiveStarTimes": [
+      "6:00〜24:00"
+    ]
+  },
+  {
+    "nameEn": "doubleBarredFinch",
+    "nameJa": "カノコスズメ",
+    "level": 3,
+    "events": [],
+    "prices": [
+      {
+        "currency": "コイン",
+        "amount": 10
+      }
+    ],
+    "locations": [
+      "漁村-灯台"
+    ],
+    "weathers": [
+      "全天気"
+    ],
+    "times": [
+      "全時間"
+    ],
+    "distanceMeters": 2,
+    "fiveStarAction": "羽を広げる",
+    "fiveStarWeathers": [
+      "雨",
+      "雪",
+      "虹"
+    ],
+    "fiveStarTimes": [
+      "全時間"
+    ]
+  },
+  {
+    "nameEn": "silverThroatedTit",
+    "nameJa": "シマエナガ",
+    "level": 3,
+    "events": [],
+    "prices": [
+      {
+        "currency": "コイン",
+        "amount": 10
+      }
+    ],
+    "locations": [
+      "森林-ジャンプステージ"
+    ],
+    "weathers": [
+      "全天気"
+    ],
+    "times": [
+      "全時間"
+    ],
+    "distanceMeters": 2,
+    "fiveStarAction": "羽を広げる",
+    "fiveStarWeathers": [
+      "雨",
+      "雪",
+      "虹"
+    ],
+    "fiveStarTimes": [
+      "全時間"
+    ]
+  },
+  {
+    "nameEn": "redAndGreenMacaw",
+    "nameJa": "ベニコンゴウインコ",
+    "level": 3,
+    "events": [],
+    "prices": [
+      {
+        "currency": "コイン",
+        "amount": 10
+      }
+    ],
+    "locations": [
+      "巣ごもりクエスト"
+    ],
+    "weathers": [
+      "全天気"
+    ],
+    "times": [
+      "全時間"
+    ],
+    "distanceMeters": 3,
+    "fiveStarAction": "羽を広げる",
+    "fiveStarWeathers": [
+      "雨",
+      "雪",
+      "虹"
+    ],
+    "fiveStarTimes": [
+      "全時間"
+    ]
+  },
+  {
+    "nameEn": "ruddyShelduck",
+    "nameJa": "アカツクシガモ",
+    "level": 3,
+    "events": [],
+    "prices": [
+      {
+        "currency": "コイン",
+        "amount": 17
+      }
+    ],
+    "locations": [
+      "郊外の湖"
+    ],
+    "weathers": [
+      "全天気"
+    ],
+    "times": [
+      "全時間"
+    ],
+    "distanceMeters": 3,
+    "fiveStarAction": "羽を広げる",
+    "fiveStarWeathers": [
+      "雨",
+      "雪",
+      "虹"
+    ],
+    "fiveStarTimes": [
+      "全時間"
+    ]
+  },
+  {
+    "nameEn": "kingEider",
+    "nameJa": "ケワタガモ",
+    "level": 3,
+    "events": [],
+    "prices": [
+      {
+        "currency": "コイン",
+        "amount": 17
+      }
+    ],
+    "locations": [
+      "川"
+    ],
+    "weathers": [
+      "全天気"
+    ],
+    "times": [
+      "全時間"
+    ],
+    "distanceMeters": 3,
+    "fiveStarAction": "羽を広げる",
+    "fiveStarWeathers": [
+      "雨",
+      "雪",
+      "虹"
+    ],
+    "fiveStarTimes": [
+      "全時間"
+    ]
+  },
+  {
+    "nameEn": "audouinsGull",
+    "nameJa": "オデュアンカモメ",
+    "level": 3,
+    "events": [],
+    "prices": [
+      {
+        "currency": "コイン",
+        "amount": 17
+      }
+    ],
+    "locations": [
+      "クジラ海の海辺"
+    ],
+    "weathers": [
+      "全天気"
+    ],
+    "times": [
+      "全時間"
+    ],
+    "distanceMeters": 3,
+    "fiveStarAction": "羽を広げる",
+    "fiveStarWeathers": [
+      "雨",
+      "雪",
+      "虹"
+    ],
+    "fiveStarTimes": [
+      "全時間"
+    ]
+  },
+  {
+    "nameEn": "europeanShag",
+    "nameJa": "ヨーロッパヒメウ",
+    "level": 3,
+    "events": [],
+    "prices": [
+      {
+        "currency": "コイン",
+        "amount": 17
+      }
+    ],
+    "locations": [
+      "海"
+    ],
+    "weathers": [
+      "全天気"
+    ],
+    "times": [
+      "全時間"
+    ],
+    "distanceMeters": 4,
+    "fiveStarAction": "羽を広げる",
+    "fiveStarWeathers": [
+      "雨",
+      "雪",
+      "虹"
+    ],
+    "fiveStarTimes": [
+      "全時間"
+    ]
+  },
+  {
+    "nameEn": "whiteWagtail",
+    "nameJa": "タイリクハクセキレイ",
+    "level": 4,
+    "events": [],
+    "prices": [
+      {
+        "currency": "コイン",
+        "amount": 15
+      }
+    ],
+    "locations": [
+      "花畑-パープルビーチ"
+    ],
+    "weathers": [
+      "全天気"
+    ],
+    "times": [
+      "全時間"
+    ],
+    "distanceMeters": 3,
+    "fiveStarAction": "羽を広げる",
+    "fiveStarWeathers": [
+      "虹"
+    ],
+    "fiveStarTimes": [
+      "6:00〜24:00"
+    ]
+  },
+  {
+    "nameEn": "przevalskisParrotbill",
+    "nameJa": "ハイズキンダルマエナガ",
+    "level": 4,
+    "events": [],
+    "prices": [
+      {
+        "currency": "コイン",
+        "amount": 15
+      }
+    ],
+    "locations": [
+      "漁村-漁村広場"
+    ],
+    "weathers": [
+      "晴れ",
+      "虹"
+    ],
+    "times": [
+      "全時間"
+    ],
+    "distanceMeters": 3,
+    "fiveStarAction": "羽を広げる",
+    "fiveStarWeathers": [
+      "虹"
+    ],
+    "fiveStarTimes": [
+      "6:00〜24:00"
+    ]
+  },
+  {
+    "nameEn": "pineGrosbeak",
+    "nameJa": "ギンザンマシコ",
+    "level": 4,
+    "events": [],
+    "prices": [
+      {
+        "currency": "コイン",
+        "amount": 15
+      }
+    ],
+    "locations": [
+      "森林-森の島"
+    ],
+    "weathers": [
+      "全天気"
+    ],
+    "times": [
+      "全時間"
+    ],
+    "distanceMeters": 3,
+    "fiveStarAction": "羽を広げる",
+    "fiveStarWeathers": [
+      "虹"
+    ],
+    "fiveStarTimes": [
+      "6:00〜24:00"
+    ]
+  },
+  {
+    "nameEn": "regentBowerbird",
+    "nameJa": "フウチョウモドキ",
+    "level": 4,
+    "events": [],
+    "prices": [
+      {
+        "currency": "コイン",
+        "amount": 15
+      }
+    ],
+    "locations": [
+      "森林-不思議な松林"
+    ],
+    "weathers": [
+      "全天気"
+    ],
+    "times": [
+      "全時間"
+    ],
+    "distanceMeters": 3,
+    "fiveStarAction": "羽を広げる",
+    "fiveStarWeathers": [
+      "虹"
+    ],
+    "fiveStarTimes": [
+      "6:00〜24:00"
+    ]
+  },
+  {
+    "nameEn": "wallacesFruitDove",
+    "nameJa": "キンミノヒメアオバト",
+    "level": 4,
+    "events": [],
+    "prices": [
+      {
+        "currency": "コイン",
+        "amount": 17
+      }
+    ],
+    "locations": [
+      "花畑-風車の花畑"
+    ],
+    "weathers": [
+      "全天気"
+    ],
+    "times": [
+      "全時間"
+    ],
+    "distanceMeters": 3,
+    "fiveStarAction": "羽を広げる",
+    "fiveStarWeathers": [
+      "雨",
+      "雪",
+      "虹"
+    ],
+    "fiveStarTimes": [
+      "全時間"
+    ]
+  },
+  {
+    "nameEn": "ladyAmherstPheasant",
+    "nameJa": "ギンケイ",
+    "level": 4,
+    "events": [],
+    "prices": [
+      {
+        "currency": "コイン",
+        "amount": 17
+      }
+    ],
+    "locations": [
+      "温泉山-遺跡"
+    ],
+    "weathers": [
+      "全天気"
+    ],
+    "times": [
+      "全時間"
+    ],
+    "distanceMeters": 3,
+    "fiveStarAction": "羽を広げる",
+    "fiveStarWeathers": [
+      "雨",
+      "雪",
+      "虹"
+    ],
+    "fiveStarTimes": [
+      "全時間"
+    ]
+  },
+  {
+    "nameEn": "smew",
+    "nameJa": "ミコアイサ",
+    "level": 4,
+    "events": [],
+    "prices": [
+      {
+        "currency": "コイン",
+        "amount": 22
+      }
+    ],
+    "locations": [
+      "森の湖"
+    ],
+    "weathers": [
+      "全天気"
+    ],
+    "times": [
+      "全時間"
+    ],
+    "distanceMeters": 3,
+    "fiveStarAction": "羽を広げる",
+    "fiveStarWeathers": [
+      "虹"
+    ],
+    "fiveStarTimes": [
+      "6:00〜24:00"
+    ]
+  },
+  {
+    "nameEn": "yellowBelliedFlycatcher",
+    "nameJa": "キバラメジロハエトリ",
+    "level": 5,
+    "events": [],
+    "prices": [
+      {
+        "currency": "コイン",
+        "amount": 15
+      }
+    ],
+    "locations": [
+      "漁村-波止場"
+    ],
+    "weathers": [
+      "全天気"
+    ],
+    "times": [
+      "全時間"
+    ],
+    "distanceMeters": 3,
+    "fiveStarAction": "羽を広げる",
+    "fiveStarWeathers": [
+      "虹"
+    ],
+    "fiveStarTimes": [
+      "6:00〜24:00"
+    ]
+  },
+  {
+    "nameEn": "europeanBeeEater",
+    "nameJa": "ヨーロッパハチクイ",
+    "level": 5,
+    "events": [],
+    "prices": [
+      {
+        "currency": "コイン",
+        "amount": 22
+      }
+    ],
+    "locations": [
+      "温泉山の湖畔"
+    ],
+    "weathers": [
+      "雨",
+      "雪",
+      "虹"
+    ],
+    "times": [
+      "全時間"
+    ],
+    "distanceMeters": 3,
+    "fiveStarAction": "羽を広げる",
+    "fiveStarWeathers": [
+      "虹"
+    ],
+    "fiveStarTimes": [
+      "6:00〜24:00"
+    ]
+  },
+  {
+    "nameEn": "greatGreenMacaw",
+    "nameJa": "ヒワコンゴウインコ",
+    "level": 5,
+    "events": [],
+    "prices": [
+      {
+        "currency": "コイン",
+        "amount": 15
+      }
+    ],
+    "locations": [
+      "巣ごもりクエスト"
+    ],
+    "weathers": [
+      "晴れ",
+      "虹"
+    ],
+    "times": [
+      "全時間"
+    ],
+    "distanceMeters": 3,
+    "fiveStarAction": "羽を広げる",
+    "fiveStarWeathers": [
+      "虹"
+    ],
+    "fiveStarTimes": [
+      "6:00〜24:00"
+    ]
+  },
+  {
+    "nameEn": "africanOlivePigeon",
+    "nameJa": "オリーブバト",
+    "level": 5,
+    "events": [],
+    "prices": [
+      {
+        "currency": "コイン",
+        "amount": 27
+      }
+    ],
+    "locations": [
+      "温泉山-温泉"
+    ],
+    "weathers": [
+      "全天気"
+    ],
+    "times": [
+      "全時間"
+    ],
+    "distanceMeters": 3,
+    "fiveStarAction": "羽を広げる",
+    "fiveStarWeathers": [
+      "虹"
+    ],
+    "fiveStarTimes": [
+      "6:00〜24:00"
+    ]
+  },
+  {
+    "nameEn": "lesserFlamingo",
+    "nameJa": "コフラミンゴ",
+    "level": 5,
+    "events": [],
+    "prices": [
+      {
+        "currency": "コイン",
+        "amount": 27
+      }
+    ],
+    "locations": [
+      "森の湖畔"
+    ],
+    "weathers": [
+      "雨",
+      "雪",
+      "虹"
+    ],
+    "times": [
+      "全時間"
+    ],
+    "distanceMeters": 4,
+    "fiveStarAction": "首を伸ばす",
+    "fiveStarWeathers": [
+      "虹"
+    ],
+    "fiveStarTimes": [
+      "6:00〜24:00"
+    ]
+  },
+  {
+    "nameEn": "brownNoddy",
+    "nameJa": "クロアジサシ",
+    "level": 5,
+    "events": [],
+    "prices": [
+      {
+        "currency": "コイン",
+        "amount": 22
+      }
+    ],
+    "locations": [
+      "旧海の海辺"
+    ],
+    "weathers": [
+      "全天気"
+    ],
+    "times": [
+      "全時間"
+    ],
+    "distanceMeters": 3,
+    "fiveStarAction": "羽を広げる",
+    "fiveStarWeathers": [
+      "虹"
+    ],
+    "fiveStarTimes": [
+      "6:00〜24:00"
+    ]
+  },
+  {
+    "nameEn": "hawfinch",
+    "nameJa": "シメ",
+    "level": 6,
+    "events": [],
+    "prices": [
+      {
+        "currency": "コイン",
+        "amount": 15
+      }
+    ],
+    "locations": [
+      "温泉山-火山湖"
+    ],
+    "weathers": [
+      "全天気"
+    ],
+    "times": [
+      "全時間"
+    ],
+    "distanceMeters": 3,
+    "fiveStarAction": "羽を広げる",
+    "fiveStarWeathers": [
+      "虹"
+    ],
+    "fiveStarTimes": [
+      "6:00〜24:00"
+    ]
+  },
+  {
+    "nameEn": "cinnamonGroundDove",
+    "nameJa": "キンムネバト",
+    "level": 6,
+    "events": [],
+    "prices": [
+      {
+        "currency": "コイン",
+        "amount": 27
+      }
+    ],
+    "locations": [
+      "漁村-漁村東桟橋"
+    ],
+    "weathers": [
+      "全天気"
+    ],
+    "times": [
+      "全時間"
+    ],
+    "distanceMeters": 3,
+    "fiveStarAction": "羽を広げる",
+    "fiveStarWeathers": [
+      "虹"
+    ],
+    "fiveStarTimes": [
+      "6:00〜24:00"
+    ]
+  },
+  {
+    "nameEn": "redFacedCormorant",
+    "nameJa": "チシマウガラス",
+    "level": 6,
+    "events": [],
+    "prices": [
+      {
+        "currency": "コイン",
+        "amount": 22
+      }
+    ],
+    "locations": [
+      "旧海",
+      "クジラ海"
+    ],
+    "weathers": [
+      "全天気"
+    ],
+    "times": [
+      "全時間"
+    ],
+    "distanceMeters": 4,
+    "fiveStarAction": "羽を広げる",
+    "fiveStarWeathers": [
+      "虹"
+    ],
+    "fiveStarTimes": [
+      "6:00〜24:00"
+    ]
+  },
+  {
+    "nameEn": "longEaredOwl",
+    "nameJa": "トラフズク",
+    "level": 6,
+    "events": [],
+    "prices": [
+      {
+        "currency": "コイン",
+        "amount": 47
+      }
+    ],
+    "locations": [
+      "温泉山-石海岸の崖"
+    ],
+    "weathers": [
+      "晴れ",
+      "虹"
+    ],
+    "times": [
+      "全時間"
+    ],
+    "distanceMeters": 4,
+    "fiveStarAction": "首回し",
+    "fiveStarWeathers": [
+      "虹"
+    ],
+    "fiveStarTimes": [
+      "6:00〜12:00",
+      "18:00〜24:00"
+    ]
+  },
+  {
+    "nameEn": "azureTit",
+    "nameJa": "ルリガラ",
+    "level": 7,
+    "events": [],
+    "prices": [
+      {
+        "currency": "コイン",
+        "amount": 22
+      }
+    ],
+    "locations": [
+      "花畑-風車の花畑"
+    ],
+    "weathers": [
+      "全天気"
+    ],
+    "times": [
+      "全時間"
+    ],
+    "distanceMeters": 3,
+    "fiveStarAction": "羽を広げる",
+    "fiveStarWeathers": [
+      "虹"
+    ],
+    "fiveStarTimes": [
+      "6:00〜24:00"
+    ]
+  },
+  {
+    "nameEn": "learsMacaw",
+    "nameJa": "スミレコンゴウインコ",
+    "level": 7,
+    "events": [],
+    "prices": [
+      {
+        "currency": "コイン",
+        "amount": 22
+      }
+    ],
+    "locations": [
+      "巣ごもりクエスト"
+    ],
+    "weathers": [
+      "雨",
+      "雪",
+      "虹"
+    ],
+    "times": [
+      "全時間"
+    ],
+    "distanceMeters": 3,
+    "fiveStarAction": "羽を広げる",
+    "fiveStarWeathers": [
+      "虹"
+    ],
+    "fiveStarTimes": [
+      "18:00〜24:00"
+    ]
+  },
+  {
+    "nameEn": "jambuFruitDove",
+    "nameJa": "ボタンバト",
+    "level": 7,
+    "events": [],
+    "prices": [
+      {
+        "currency": "コイン",
+        "amount": 27
+      }
+    ],
+    "locations": [
+      "郊外"
+    ],
+    "weathers": [
+      "全天気"
+    ],
+    "times": [
+      "全時間"
+    ],
+    "distanceMeters": 3,
+    "fiveStarAction": "羽を広げる",
+    "fiveStarWeathers": [
+      "虹"
+    ],
+    "fiveStarTimes": [
+      "6:00〜24:00"
+    ]
+  },
+  {
+    "nameEn": "tern",
+    "nameJa": "アジサシ",
+    "level": 7,
+    "events": [],
+    "prices": [
+      {
+        "currency": "コイン",
+        "amount": 35
+      }
+    ],
+    "locations": [
+      "東海の海辺"
+    ],
+    "weathers": [
+      "虹"
+    ],
+    "times": [
+      "全時間"
+    ],
+    "distanceMeters": 3,
+    "fiveStarAction": "羽を広げる",
+    "fiveStarWeathers": [
+      "虹"
+    ],
+    "fiveStarTimes": [
+      "6:00〜18:00"
+    ]
+  },
+  {
+    "nameEn": "commonKestrel",
+    "nameJa": "チョウゲンボウ",
+    "level": 7,
+    "events": [],
+    "prices": [
+      {
+        "currency": "コイン",
+        "amount": 47
+      }
+    ],
+    "locations": [
+      "森林-コジカ塔（木のてっぺん）"
+    ],
+    "weathers": [
+      "晴れ",
+      "虹"
+    ],
+    "times": [
+      "全時間"
+    ],
+    "distanceMeters": 4,
+    "fiveStarAction": "羽を広げる",
+    "fiveStarWeathers": [
+      "虹"
+    ],
+    "fiveStarTimes": [
+      "6:00〜24:00"
+    ]
+  },
+  {
+    "nameEn": "easternBluebird",
+    "nameJa": "ルリツグミ",
+    "level": 8,
+    "events": [],
+    "prices": [
+      {
+        "currency": "コイン",
+        "amount": 30
+      }
+    ],
+    "locations": [
+      "郊外"
+    ],
+    "weathers": [
+      "雨",
+      "雪",
+      "虹"
+    ],
+    "times": [
+      "全時間"
+    ],
+    "distanceMeters": 3,
+    "fiveStarAction": "羽を広げる",
+    "fiveStarWeathers": [
+      "虹"
+    ],
+    "fiveStarTimes": [
+      "18:00〜24:00"
+    ]
+  },
+  {
+    "nameEn": "redpoll",
+    "nameJa": "ベニヒワ",
+    "level": 8,
+    "events": [],
+    "prices": [
+      {
+        "currency": "コイン",
+        "amount": 22
+      }
+    ],
+    "locations": [
+      "森林-不思議な松林"
+    ],
+    "weathers": [
+      "全天気"
+    ],
+    "times": [
+      "全時間"
+    ],
+    "distanceMeters": 3,
+    "fiveStarAction": "羽を広げる",
+    "fiveStarWeathers": [
+      "虹"
+    ],
+    "fiveStarTimes": [
+      "12:00〜24:00"
+    ]
+  },
+  {
+    "nameEn": "pinkPigeon",
+    "nameJa": "モモイロバト",
+    "level": 8,
+    "events": [],
+    "prices": [
+      {
+        "currency": "コイン",
+        "amount": 27
+      }
+    ],
+    "locations": [
+      "花畑-クジラ山"
+    ],
+    "weathers": [
+      "全天気"
+    ],
+    "times": [
+      "全時間"
+    ],
+    "distanceMeters": 3,
+    "fiveStarAction": "羽を広げる",
+    "fiveStarWeathers": [
+      "虹"
+    ],
+    "fiveStarTimes": [
+      "12:00〜24:00"
+    ]
+  },
+  {
+    "nameEn": "peregrineFalcon",
+    "nameJa": "ハヤブサ",
+    "level": 8,
+    "events": [],
+    "prices": [
+      {
+        "currency": "コイン",
+        "amount": 65
+      }
+    ],
+    "locations": [
+      "温泉山-温泉（崖の上）"
+    ],
+    "weathers": [
+      "雨",
+      "雪",
+      "虹"
+    ],
+    "times": [
+      "全時間"
+    ],
+    "distanceMeters": 4,
+    "fiveStarAction": "羽を広げる",
+    "fiveStarWeathers": [
+      "虹"
+    ],
+    "fiveStarTimes": [
+      "18:00〜24:00"
+    ]
+  },
+  {
+    "nameEn": "paradiseTanager",
+    "nameJa": "ナナイロフウキンチョウ",
+    "level": 9,
+    "events": [],
+    "prices": [
+      {
+        "currency": "コイン",
+        "amount": 30
+      }
+    ],
+    "locations": [
+      "郊外"
+    ],
+    "weathers": [
+      "虹"
+    ],
+    "times": [
+      "全時間"
+    ],
+    "distanceMeters": 3,
+    "fiveStarAction": "羽を広げる",
+    "fiveStarWeathers": [
+      "虹"
+    ],
+    "fiveStarTimes": [
+      "18:00〜24:00"
+    ]
+  },
+  {
+    "nameEn": "americanFlamingo",
+    "nameJa": "ベニイロフラミンゴ",
+    "level": 9,
+    "events": [],
+    "prices": [
+      {
+        "currency": "コイン",
+        "amount": 55
+      }
+    ],
+    "locations": [
+      "花畑-パープルビーチ"
+    ],
+    "weathers": [
+      "虹"
+    ],
+    "times": [
+      "全時間"
+    ],
+    "distanceMeters": 4,
+    "fiveStarAction": "首を伸ばす",
+    "fiveStarWeathers": [
+      "虹"
+    ],
+    "fiveStarTimes": [
+      "12:00〜18:00"
+    ]
+  },
+  {
+    "nameEn": "greenPeafowl",
+    "nameJa": "マクジャク",
+    "level": 9,
+    "events": [],
+    "prices": [
+      {
+        "currency": "コイン",
+        "amount": 37
+      }
+    ],
+    "locations": [
+      "巣ごもりクエスト（追加段階）"
+    ],
+    "weathers": [
+      "全天気"
+    ],
+    "times": [
+      "全時間"
+    ],
+    "distanceMeters": 5,
+    "fiveStarAction": "羽を広げる",
+    "fiveStarWeathers": [
+      "虹"
+    ],
+    "fiveStarTimes": [
+      "12:00〜18:00"
+    ]
+  },
+  {
+    "nameEn": "whiteHeadedDuck",
+    "nameJa": "カオジロオタテガモ",
+    "level": 9,
+    "events": [],
+    "prices": [
+      {
+        "currency": "コイン",
+        "amount": 45
+      }
+    ],
+    "locations": [
+      "温泉山の湖"
+    ],
+    "weathers": [
+      "雨",
+      "雪",
+      "虹"
+    ],
+    "times": [
+      "全時間"
+    ],
+    "distanceMeters": 3,
+    "fiveStarAction": "羽を広げる",
+    "fiveStarWeathers": [
+      "虹"
+    ],
+    "fiveStarTimes": [
+      "12:00〜18:00"
+    ]
+  },
+  {
+    "nameEn": "imperialShag",
+    "nameJa": "インペリアルシャグ",
+    "level": 9,
+    "events": [],
+    "prices": [
+      {
+        "currency": "コイン",
+        "amount": 45
+      }
+    ],
+    "locations": [
+      "東海",
+      "そよ風の海"
+    ],
+    "weathers": [
+      "全天気"
+    ],
+    "times": [
+      "全時間"
+    ],
+    "distanceMeters": 4,
+    "fiveStarAction": "羽を広げる",
+    "fiveStarWeathers": [
+      "虹"
+    ],
+    "fiveStarTimes": [
+      "12:00〜18:00"
+    ]
+  },
+  {
+    "nameEn": "azoresBullfinch",
+    "nameJa": "アゾレスウソ",
+    "level": 10,
+    "events": [],
+    "prices": [
+      {
+        "currency": "コイン",
+        "amount": 30
+      }
+    ],
+    "locations": [
+      "漁村-灯台"
+    ],
+    "weathers": [
+      "虹"
+    ],
+    "times": [
+      "全時間"
+    ],
+    "distanceMeters": 3,
+    "fiveStarAction": "羽を広げる",
+    "fiveStarWeathers": [
+      "虹"
+    ],
+    "fiveStarTimes": [
+      "18:00〜24:00"
+    ]
+  },
+  {
+    "nameEn": "verditerFlycatcher",
+    "nameJa": "ロクショウヒタキ",
+    "level": 10,
+    "events": [],
+    "prices": [
+      {
+        "currency": "コイン",
+        "amount": 30
+      }
+    ],
+    "locations": [
+      "森林-ジャンプステージ"
+    ],
+    "weathers": [
+      "虹"
+    ],
+    "times": [
+      "全時間"
+    ],
+    "distanceMeters": 3,
+    "fiveStarAction": "羽を広げる",
+    "fiveStarWeathers": [
+      "虹"
+    ],
+    "fiveStarTimes": [
+      "18:00〜24:00"
+    ]
+  },
+  {
+    "nameEn": "amurFalcon",
+    "nameJa": "アカアシチョウゲンボウ",
+    "level": 10,
+    "events": [],
+    "prices": [
+      {
+        "currency": "コイン",
+        "amount": 65
+      }
+    ],
+    "locations": [
+      "温泉山-遺跡（崖の上）"
+    ],
+    "weathers": [
+      "全天気"
+    ],
+    "times": [
+      "全時間"
+    ],
+    "distanceMeters": 4,
+    "fiveStarAction": "羽を広げる",
+    "fiveStarWeathers": [
+      "虹"
+    ],
+    "fiveStarTimes": [
+      "18:00〜24:00"
+    ]
+  },
+  {
+    "nameEn": "eagleOwl",
+    "nameJa": "ワシミミズク",
+    "level": 10,
+    "events": [],
+    "prices": [
+      {
+        "currency": "コイン",
+        "amount": 65
+      }
+    ],
+    "locations": [
+      "森林-コジカ塔（木のてっぺん）"
+    ],
+    "weathers": [
+      "雨",
+      "雪",
+      "虹"
+    ],
+    "times": [
+      "全時間"
+    ],
+    "distanceMeters": 4,
+    "fiveStarAction": "首回し",
+    "fiveStarWeathers": [
+      "虹"
+    ],
+    "fiveStarTimes": [
+      "18:00〜24:00"
+    ]
+  },
+  {
+    "nameEn": "chestnutCheekedStarling",
+    "nameJa": "コムクドリ",
+    "level": 11,
+    "events": [],
+    "prices": [
+      {
+        "currency": "コイン",
+        "amount": 30
+      }
+    ],
+    "locations": [
+      "花畑-風車の花畑"
+    ],
+    "weathers": [
+      "全天気"
+    ],
+    "times": [
+      "全時間"
+    ],
+    "distanceMeters": 3,
+    "fiveStarAction": "羽を広げる",
+    "fiveStarWeathers": [
+      "虹"
+    ],
+    "fiveStarTimes": [
+      "18:00〜24:00"
+    ]
+  },
+  {
+    "nameEn": "blueHeadedQuailDove",
+    "nameJa": "クロヒゲバト",
+    "level": 11,
+    "events": [],
+    "prices": [
+      {
+        "currency": "コイン",
+        "amount": 37
+      }
+    ],
+    "locations": [
+      "郊外"
+    ],
+    "weathers": [
+      "晴れ",
+      "虹"
+    ],
+    "times": [
+      "0:00〜6:00",
+      "12:00〜24:00"
+    ],
+    "distanceMeters": 3,
+    "fiveStarAction": "羽を広げる",
+    "fiveStarWeathers": [
+      "虹"
+    ],
+    "fiveStarTimes": [
+      "12:00〜24:00"
+    ]
+  },
+  {
+    "nameEn": "whitePeafowl",
+    "nameJa": "シロクジャク",
+    "level": 11,
+    "events": [],
+    "prices": [
+      {
+        "currency": "コイン",
+        "amount": 37
+      }
+    ],
+    "locations": [
+      "巣ごもりクエスト（追加段階）"
+    ],
+    "weathers": [
+      "全天気"
+    ],
+    "times": [
+      "全時間"
+    ],
+    "distanceMeters": 5,
+    "fiveStarAction": "羽を広げる",
+    "fiveStarWeathers": [
+      "虹"
+    ],
+    "fiveStarTimes": [
+      "12:00〜18:00"
+    ]
+  },
+  {
+    "nameEn": "baikalTeal",
+    "nameJa": "トモエガモ",
+    "level": 11,
+    "events": [],
+    "prices": [
+      {
+        "currency": "コイン",
+        "amount": 45
+      }
+    ],
+    "locations": [
+      "温泉山の湖"
+    ],
+    "weathers": [
+      "虹"
+    ],
+    "times": [
+      "全時間"
+    ],
+    "distanceMeters": 3,
+    "fiveStarAction": "羽を広げる",
+    "fiveStarWeathers": [
+      "虹"
+    ],
+    "fiveStarTimes": [
+      "12:00〜18:00"
+    ]
+  },
+  {
+    "nameEn": "incaTern",
+    "nameJa": "インカアジサシ",
+    "level": 11,
+    "events": [],
+    "prices": [
+      {
+        "currency": "コイン",
+        "amount": 45
+      }
+    ],
+    "locations": [
+      "旧海の海辺"
+    ],
+    "weathers": [
+      "雨",
+      "雪",
+      "虹"
+    ],
+    "times": [
+      "6:00〜24:00"
+    ],
+    "distanceMeters": 3,
+    "fiveStarAction": "羽を広げる",
+    "fiveStarWeathers": [
+      "虹"
+    ],
+    "fiveStarTimes": [
+      "6:00〜18:00"
+    ]
+  },
+  {
+    "nameEn": "redBrowedFinch",
+    "nameJa": "フヨウチョウ",
+    "level": 12,
+    "events": [],
+    "prices": [
+      {
+        "currency": "コイン",
+        "amount": 30
+      }
+    ],
+    "locations": [
+      "温泉山-火山湖"
+    ],
+    "weathers": [
+      "虹"
+    ],
+    "times": [
+      "全時間"
+    ],
+    "distanceMeters": 3,
+    "fiveStarAction": "羽を広げる",
+    "fiveStarWeathers": [
+      "虹"
+    ],
+    "fiveStarTimes": [
+      "18:00〜24:00"
+    ]
+  },
+  {
+    "nameEn": "atlanticPuffin",
+    "nameJa": "ニシツノメドリ",
+    "level": 12,
+    "events": [],
+    "prices": [
+      {
+        "currency": "コイン",
+        "amount": 45
+      }
+    ],
+    "locations": [
+      "クジラ海の海辺"
+    ],
+    "weathers": [
+      "晴れ",
+      "虹"
+    ],
+    "times": [
+      "0:00〜12:00",
+      "18:00〜24:00"
+    ],
+    "distanceMeters": 3,
+    "fiveStarAction": "羽を広げる",
+    "fiveStarWeathers": [
+      "虹"
+    ],
+    "fiveStarTimes": [
+      "6:00〜12:00"
+    ]
+  },
+  {
+    "nameEn": "blueFootedBooby",
+    "nameJa": "アオアシカツオドリ",
+    "level": 12,
+    "events": [],
+    "prices": [
+      {
+        "currency": "コイン",
+        "amount": 45
+      }
+    ],
+    "locations": [
+      "そよ風の海の海辺"
+    ],
+    "weathers": [
+      "雨",
+      "雪",
+      "虹"
+    ],
+    "times": [
+      "全時間"
+    ],
+    "distanceMeters": 3,
+    "fiveStarAction": "羽を広げる",
+    "fiveStarWeathers": [
+      "虹"
+    ],
+    "fiveStarTimes": [
+      "12:00〜18:00"
+    ]
+  },
+  {
+    "nameEn": "snowyOwl",
+    "nameJa": "シロフクロウ",
+    "level": 12,
+    "events": [],
+    "prices": [
+      {
+        "currency": "コイン",
+        "amount": 65
+      }
+    ],
+    "locations": [
+      "森林-不思議な松林"
+    ],
+    "weathers": [
+      "全天気"
+    ],
+    "times": [
+      "12:00〜24:00"
+    ],
+    "distanceMeters": 4,
+    "fiveStarAction": "首回し",
+    "fiveStarWeathers": [
+      "虹"
+    ],
+    "fiveStarTimes": [
+      "18:00〜24:00"
+    ]
+  },
+  {
+    "nameEn": "blackPeafowl",
+    "nameJa": "クロクジャク",
+    "level": 13,
+    "events": [],
+    "prices": [
+      {
+        "currency": "コイン",
+        "amount": 37
+      }
+    ],
+    "locations": [
+      "巣ごもりクエスト（追加段階）"
+    ],
+    "weathers": [
+      "全天気"
+    ],
+    "times": [
+      "全時間"
+    ],
+    "distanceMeters": 5,
+    "fiveStarAction": "羽を広げる",
+    "fiveStarWeathers": [
+      "虹"
+    ],
+    "fiveStarTimes": [
+      "12:00〜18:00"
+    ]
+  },
+  {
+    "nameEn": "whooperSwan",
+    "nameJa": "オオハクチョウ",
+    "level": 13,
+    "events": [],
+    "prices": [
+      {
+        "currency": "コイン",
+        "amount": 45
+      }
+    ],
+    "locations": [
+      "郊外の湖"
+    ],
+    "weathers": [
+      "晴れ",
+      "虹"
+    ],
+    "times": [
+      "全時間"
+    ],
+    "distanceMeters": 5,
+    "fiveStarAction": "羽を広げる",
+    "fiveStarWeathers": [
+      "虹"
+    ],
+    "fiveStarTimes": [
+      "12:00〜18:00"
+    ]
+  },
+  {
+    "nameEn": "blackSwan",
+    "nameJa": "コクチョウ",
+    "level": 13,
+    "events": [],
+    "prices": [
+      {
+        "currency": "コイン",
+        "amount": 45
+      }
+    ],
+    "locations": [
+      "郊外の湖"
+    ],
+    "weathers": [
+      "雨",
+      "雪",
+      "虹"
+    ],
+    "times": [
+      "全時間"
+    ],
+    "distanceMeters": 5,
+    "fiveStarAction": "羽を広げる",
+    "fiveStarWeathers": [
+      "虹"
+    ],
+    "fiveStarTimes": [
+      "12:00〜18:00"
+    ]
+  },
+  {
+    "nameEn": "blackStork",
+    "nameJa": "ナベコウ",
+    "level": 14,
+    "events": [],
+    "prices": [
+      {
+        "currency": "コイン",
+        "amount": 55
+      }
+    ],
+    "locations": [
+      "草原の湖畔"
+    ],
+    "weathers": [
+      "全天気"
+    ],
+    "times": [
+      "0:00〜6:00",
+      "12:00〜24:00"
+    ],
+    "distanceMeters": 5,
+    "fiveStarAction": "羽を広げる",
+    "fiveStarWeathers": [
+      "虹"
+    ],
+    "fiveStarTimes": [
+      "12:00〜18:00"
+    ]
+  },
+  {
+    "nameEn": "spectacledOwl",
+    "nameJa": "メガネフクロウ",
+    "level": 14,
+    "events": [],
+    "prices": [
+      {
+        "currency": "コイン",
+        "amount": 65
+      }
+    ],
+    "locations": [
+      "森林-ジャンプステージ"
+    ],
+    "weathers": [
+      "全天気"
+    ],
+    "times": [
+      "0:00〜12:00"
+    ],
+    "distanceMeters": 5,
+    "fiveStarAction": "首回し",
+    "fiveStarWeathers": [
+      "虹"
+    ],
+    "fiveStarTimes": [
+      "6:00〜12:00"
+    ]
+  },
+  {
+    "nameEn": "winterGreaterFlamingo",
+    "nameJa": "冬服・オオフラミンゴ",
+    "level": 1,
+    "events": [
+      "スノーシーズン"
+    ],
+    "prices": [
+      {
+        "currency": "コイン",
+        "amount": 20
+      },
+      {
+        "currency": "トレンドコイン",
+        "amount": 15
+      }
+    ],
+    "locations": [
+      "郊外の湖畔"
+    ],
+    "weathers": [
+      "全天気"
+    ],
+    "times": [
+      "全時間"
+    ],
+    "distanceMeters": 4,
+    "fiveStarAction": "首を伸ばす",
+    "fiveStarWeathers": [
+      "雨",
+      "雪",
+      "虹"
+    ],
+    "fiveStarTimes": [
+      "全時間"
+    ]
+  },
+  {
+    "nameEn": "winterMallard",
+    "nameJa": "冬服・マガモ",
+    "level": 1,
+    "events": [
+      "スノーシーズン"
+    ],
+    "prices": [
+      {
+        "currency": "コイン",
+        "amount": 17
+      },
+      {
+        "currency": "トレンドコイン",
+        "amount": 15
+      }
+    ],
+    "locations": [
+      "郊外の湖"
+    ],
+    "weathers": [
+      "全天気"
+    ],
+    "times": [
+      "全時間"
+    ],
+    "distanceMeters": 3,
+    "fiveStarAction": "羽を広げる",
+    "fiveStarWeathers": [
+      "雨",
+      "雪",
+      "虹"
+    ],
+    "fiveStarTimes": [
+      "全時間"
+    ]
+  },
+  {
+    "nameEn": "winterSmew",
+    "nameJa": "冬服・ミコアイサ",
+    "level": 1,
+    "events": [
+      "スノーシーズン"
+    ],
+    "prices": [
+      {
+        "currency": "コイン",
+        "amount": 17
+      },
+      {
+        "currency": "トレンドコイン",
+        "amount": 15
+      }
+    ],
+    "locations": [
+      "郊外の湖"
+    ],
+    "weathers": [
+      "全天気"
+    ],
+    "times": [
+      "全時間"
+    ],
+    "distanceMeters": 3,
+    "fiveStarAction": "羽を広げる",
+    "fiveStarWeathers": [
+      "雨",
+      "雪",
+      "虹"
+    ],
+    "fiveStarTimes": [
+      "全時間"
+    ]
+  },
+  {
+    "nameEn": "winterEurasianWigeon",
+    "nameJa": "冬服・ヒドリガモ",
+    "level": 1,
+    "events": [
+      "スノーシーズン"
+    ],
+    "prices": [
+      {
+        "currency": "コイン",
+        "amount": 17
+      },
+      {
+        "currency": "トレンドコイン",
+        "amount": 15
+      }
+    ],
+    "locations": [
+      "郊外の湖"
+    ],
+    "weathers": [
+      "全天気"
+    ],
+    "times": [
+      "全時間"
+    ],
+    "distanceMeters": 3,
+    "fiveStarAction": "羽を広げる",
+    "fiveStarWeathers": [
+      "雨",
+      "雪",
+      "虹"
+    ],
+    "fiveStarTimes": [
+      "全時間"
+    ]
+  },
+  {
+    "nameEn": "winterMandarinDuck",
+    "nameJa": "冬服・オシドリ",
+    "level": 1,
+    "events": [
+      "スノーシーズン"
+    ],
+    "prices": [
+      {
+        "currency": "コイン",
+        "amount": 22
+      },
+      {
+        "currency": "トレンドコイン",
+        "amount": 15
+      }
+    ],
+    "locations": [
+      "冬季採録クエスト（追加段階）"
+    ],
+    "weathers": [
+      "全天気"
+    ],
+    "times": [
+      "全時間"
+    ],
+    "distanceMeters": 3,
+    "fiveStarAction": "羽を広げる",
+    "fiveStarWeathers": [
+      "雨",
+      "雪",
+      "虹"
+    ],
+    "fiveStarTimes": [
+      "全時間"
+    ]
+  },
+  {
+    "nameEn": "greenSuitDove",
+    "nameJa": "紳士チビアオバト",
+    "level": 1,
+    "events": [
+      "ドリームライトフェス"
+    ],
+    "prices": [
+      {
+        "currency": "コイン",
+        "amount": 15
+      },
+      {
+        "currency": "フェスコイン",
+        "amount": 5
+      }
+    ],
+    "locations": [
+      "森林-ジャンプステージ"
+    ],
+    "weathers": [
+      "全天気"
+    ],
+    "times": [
+      "全時間"
+    ],
+    "distanceMeters": 2,
+    "fiveStarAction": "羽を広げる",
+    "fiveStarWeathers": [
+      "雨",
+      "雪",
+      "虹"
+    ],
+    "fiveStarTimes": [
+      "全時間"
+    ]
+  },
+  {
+    "nameEn": "blueSuitDove",
+    "nameJa": "紳士チビアイバト",
+    "level": 1,
+    "events": [
+      "ドリームライトフェス"
+    ],
+    "prices": [
+      {
+        "currency": "コイン",
+        "amount": 15
+      },
+      {
+        "currency": "フェスコイン",
+        "amount": 5
+      }
+    ],
+    "locations": [
+      "森林-不思議な松林"
+    ],
+    "weathers": [
+      "全天気"
+    ],
+    "times": [
+      "全時間"
+    ],
+    "distanceMeters": 2,
+    "fiveStarAction": "羽を広げる",
+    "fiveStarWeathers": [
+      "雨",
+      "雪",
+      "虹"
+    ],
+    "fiveStarTimes": [
+      "全時間"
+    ]
+  },
+  {
+    "nameEn": "graySuitDove",
+    "nameJa": "紳士チビハイバト",
+    "level": 1,
+    "events": [
+      "ドリームライトフェス"
+    ],
+    "prices": [
+      {
+        "currency": "コイン",
+        "amount": 15
+      },
+      {
+        "currency": "フェスコイン",
+        "amount": 5
+      }
+    ],
+    "locations": [
+      "森林-コジカ塔"
+    ],
+    "weathers": [
+      "全天気"
+    ],
+    "times": [
+      "全時間"
+    ],
+    "distanceMeters": 2,
+    "fiveStarAction": "羽を広げる",
+    "fiveStarWeathers": [
+      "雨",
+      "雪",
+      "虹"
+    ],
+    "fiveStarTimes": [
+      "全時間"
+    ]
+  },
+  {
+    "nameEn": "redSuitDove",
+    "nameJa": "紳士チビアカバト",
+    "level": 1,
+    "events": [
+      "ドリームライトフェス"
+    ],
+    "prices": [
+      {
+        "currency": "コイン",
+        "amount": 15
+      },
+      {
+        "currency": "フェスコイン",
+        "amount": 5
+      }
+    ],
+    "locations": [
+      "森林-森の島"
+    ],
+    "weathers": [
+      "全天気"
+    ],
+    "times": [
+      "全時間"
+    ],
+    "distanceMeters": 2,
+    "fiveStarAction": "羽を広げる",
+    "fiveStarWeathers": [
+      "雨",
+      "雪",
+      "虹"
+    ],
+    "fiveStarTimes": [
+      "全時間"
+    ]
+  },
+  {
+    "nameEn": "stripedSuitDove",
+    "nameJa": "紳士チビハナバト",
+    "level": 1,
+    "events": [
+      "ドリームライトフェス"
+    ],
+    "prices": [
+      {
+        "currency": "コイン",
+        "amount": 17
+      },
+      {
+        "currency": "フェスコイン",
+        "amount": 5
+      }
+    ],
+    "locations": [
+      "「アクターバト」クエスト（追加段階）"
+    ],
+    "weathers": [
+      "全天気"
+    ],
+    "times": [
+      "全時間"
+    ],
+    "distanceMeters": 2,
+    "fiveStarAction": "羽を広げる",
+    "fiveStarWeathers": [
+      "雨",
+      "雪",
+      "虹"
+    ],
+    "fiveStarTimes": [
+      "全時間"
+    ]
+  },
+  {
+    "nameEn": "pinkBrickSparrow",
+    "nameJa": "積み木スズメ（ピンク）",
+    "level": 1,
+    "events": [
+      "ブロック市街地フェス"
+    ],
+    "prices": [
+      {
+        "currency": "コイン",
+        "amount": 10
+      },
+      {
+        "currency": "フェスコイン",
+        "amount": 5
+      }
+    ],
+    "locations": [
+      "温泉山-石海岸の崖"
+    ],
+    "weathers": [
+      "全天気"
+    ],
+    "times": [
+      "全時間"
+    ],
+    "distanceMeters": 4,
+    "fiveStarAction": "羽を広げる",
+    "fiveStarWeathers": [
+      "雨",
+      "雪",
+      "虹"
+    ],
+    "fiveStarTimes": [
+      "全時間"
+    ]
+  },
+  {
+    "nameEn": "blueBrickSparrow",
+    "nameJa": "積み木スズメ（青）",
+    "level": 1,
+    "events": [
+      "ブロック市街地フェス"
+    ],
+    "prices": [
+      {
+        "currency": "コイン",
+        "amount": 10
+      },
+      {
+        "currency": "フェスコイン",
+        "amount": 5
+      }
+    ],
+    "locations": [
+      "温泉山-温泉"
+    ],
+    "weathers": [
+      "全天気"
+    ],
+    "times": [
+      "全時間"
+    ],
+    "distanceMeters": 4,
+    "fiveStarAction": "羽を広げる",
+    "fiveStarWeathers": [
+      "雨",
+      "雪",
+      "虹"
+    ],
+    "fiveStarTimes": [
+      "全時間"
+    ]
+  },
+  {
+    "nameEn": "greenBrickSparrow",
+    "nameJa": "積み木スズメ（緑）",
+    "level": 1,
+    "events": [
+      "ブロック市街地フェス"
+    ],
+    "prices": [
+      {
+        "currency": "コイン",
+        "amount": 10
+      },
+      {
+        "currency": "フェスコイン",
+        "amount": 5
+      }
+    ],
+    "locations": [
+      "温泉山-火山湖"
+    ],
+    "weathers": [
+      "全天気"
+    ],
+    "times": [
+      "全時間"
+    ],
+    "distanceMeters": 4,
+    "fiveStarAction": "羽を広げる",
+    "fiveStarWeathers": [
+      "雨",
+      "雪",
+      "虹"
+    ],
+    "fiveStarTimes": [
+      "全時間"
+    ]
+  },
+  {
+    "nameEn": "purpleBrickSparrow",
+    "nameJa": "積み木スズメ（紫）",
+    "level": 1,
+    "events": [
+      "ブロック市街地フェス"
+    ],
+    "prices": [
+      {
+        "currency": "コイン",
+        "amount": 10
+      },
+      {
+        "currency": "フェスコイン",
+        "amount": 5
+      }
+    ],
+    "locations": [
+      "温泉山-遺跡"
+    ],
+    "weathers": [
+      "全天気"
+    ],
+    "times": [
+      "全時間"
+    ],
+    "distanceMeters": 4,
+    "fiveStarAction": "羽を広げる",
+    "fiveStarWeathers": [
+      "雨",
+      "雪",
+      "虹"
+    ],
+    "fiveStarTimes": [
+      "全時間"
+    ]
+  },
+  {
+    "nameEn": "colorfulBrickSparrow",
+    "nameJa": "積み木スズメ（虹）",
+    "level": 1,
+    "events": [
+      "ブロック市街地フェス"
+    ],
+    "prices": [
+      {
+        "currency": "コイン",
+        "amount": 15
+      },
+      {
+        "currency": "フェスコイン",
+        "amount": 5
+      }
+    ],
+    "locations": [
+      "特殊積み木鳥クエスト"
+    ],
+    "weathers": [
+      "全天気"
+    ],
+    "times": [
+      "全時間"
+    ],
+    "distanceMeters": 4,
+    "fiveStarAction": "羽を広げる",
+    "fiveStarWeathers": [
+      "雨",
+      "雪",
+      "虹"
+    ],
+    "fiveStarTimes": [
+      "全時間"
+    ]
+  },
+  {
+    "nameEn": "whiteWingedTern",
+    "nameJa": "ハジロクロハラアジサシ",
+    "level": 1,
+    "events": [
+      "ホエールシーズン"
+    ],
+    "prices": [
+      {
+        "currency": "コイン",
+        "amount": 15
+      },
+      {
+        "currency": "トレンドコイン",
+        "amount": 10
+      }
+    ],
+    "locations": [
+      "花畑-クジラ山"
+    ],
+    "weathers": [
+      "全天気"
+    ],
+    "times": [
+      "全時間"
+    ],
+    "distanceMeters": 3,
+    "fiveStarAction": "羽を広げる",
+    "fiveStarWeathers": [
+      "雨",
+      "雪",
+      "虹"
+    ],
+    "fiveStarTimes": [
+      "全時間"
+    ]
+  },
+  {
+    "nameEn": "pomarineSkua",
+    "nameJa": "トウゾクカモメ",
+    "level": 1,
+    "events": [
+      "ホエールシーズン"
+    ],
+    "prices": [
+      {
+        "currency": "コイン",
+        "amount": 15
+      },
+      {
+        "currency": "トレンドコイン",
+        "amount": 10
+      }
+    ],
+    "locations": [
+      "花畑"
+    ],
+    "weathers": [
+      "全天気"
+    ],
+    "times": [
+      "全時間"
+    ],
+    "distanceMeters": 3,
+    "fiveStarAction": "羽を広げる",
+    "fiveStarWeathers": [
+      "雨",
+      "雪",
+      "虹"
+    ],
+    "fiveStarTimes": [
+      "全時間"
+    ]
+  },
+  {
+    "nameEn": "whiteSpoonbill",
+    "nameJa": "ヘラサギ",
+    "level": 1,
+    "events": [
+      "ホエールシーズン"
+    ],
+    "prices": [
+      {
+        "currency": "コイン",
+        "amount": 20
+      },
+      {
+        "currency": "トレンドコイン",
+        "amount": 10
+      }
+    ],
+    "locations": [
+      "温泉山の湖畔"
+    ],
+    "weathers": [
+      "全天気"
+    ],
+    "times": [
+      "全時間"
+    ],
+    "distanceMeters": 5,
+    "fiveStarAction": "羽を広げる",
+    "fiveStarWeathers": [
+      "雨",
+      "雪",
+      "虹"
+    ],
+    "fiveStarTimes": [
+      "全時間"
+    ]
+  },
+  {
+    "nameEn": "wanderingAlbatross",
+    "nameJa": "ワタリアホウドリ",
+    "level": 1,
+    "events": [
+      "ホエールシーズン"
+    ],
+    "prices": [
+      {
+        "currency": "コイン",
+        "amount": 15
+      },
+      {
+        "currency": "トレンドコイン",
+        "amount": 10
+      }
+    ],
+    "locations": [
+      "花畑-パープルビーチ"
+    ],
+    "weathers": [
+      "全天気"
+    ],
+    "times": [
+      "全時間"
+    ],
+    "distanceMeters": 3,
+    "fiveStarAction": "羽を広げる",
+    "fiveStarWeathers": [
+      "雨",
+      "雪",
+      "虹"
+    ],
+    "fiveStarTimes": [
+      "全時間"
+    ]
+  },
+  {
+    "nameEn": "greyMantledAlbatross",
+    "nameJa": "ハイイロアホウドリ",
+    "level": 1,
+    "events": [
+      "ホエールシーズン"
+    ],
+    "prices": [
+      {
+        "currency": "コイン",
+        "amount": 15
+      },
+      {
+        "currency": "トレンドコイン",
+        "amount": 10
+      }
+    ],
+    "locations": [
+      "温泉山-石海岸の崖"
+    ],
+    "weathers": [
+      "全天気"
+    ],
+    "times": [
+      "全時間"
+    ],
+    "distanceMeters": 3,
+    "fiveStarAction": "羽を広げる",
+    "fiveStarWeathers": [
+      "雨",
+      "雪",
+      "虹"
+    ],
+    "fiveStarTimes": [
+      "全時間"
+    ]
+  },
+  {
+    "nameEn": "roseateSpoonbill",
+    "nameJa": "ベニヘラサギ",
+    "level": 1,
+    "events": [
+      "ホエールシーズン"
+    ],
+    "prices": [
+      {
+        "currency": "コイン",
+        "amount": 27
+      },
+      {
+        "currency": "トレンドコイン",
+        "amount": 10
+      }
+    ],
+    "locations": [
+      "迷子鳥クエスト（追加段階）"
+    ],
+    "weathers": [
+      "全天気"
+    ],
+    "times": [
+      "全時間"
+    ],
+    "distanceMeters": 5,
+    "fiveStarAction": "羽を広げる",
+    "fiveStarWeathers": [
+      "雨",
+      "雪",
+      "虹"
+    ],
+    "fiveStarTimes": [
+      "全時間"
+    ]
+  }
+]
