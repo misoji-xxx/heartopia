@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="ハートピアスローライフの野鳥・魚・昆虫・グルメを記録する収集手帳です。">
+    <title>収集一覧 | ハートピア収集手帳</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=LINE+Seed+JP:wght@400;700;800&amp;display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/mingcute_icon@2.9.72/font/Mingcute.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <script src="assets/js/app.js" defer></script>
+  </head>
+  <body data-page="home">
+    <header class="site-header">
+      <div class="site-header__inner">
+        <a class="brand" href="index.html">
+          <span class="brand__mark"><i class="mgc_notebook_fill"></i></span>
+          <span class="brand__text"><strong>ハートピア</strong><small>収集手帳</small></span>
+        </a>
+        <nav class="global-nav">
+          <a class="global-nav__link is-current" href="index.html" aria-current="page"><i class="mgc_grid_fill"></i><span>収集一覧</span></a>
+          <a class="global-nav__link" href="birds.html"><i class="mgc_bird_fill"></i><span>野鳥</span></a>
+          <a class="global-nav__link" href="fish.html"><i class="mgc_fish_fill"></i><span>魚</span></a>
+          <a class="global-nav__link" href="insects.html"><i class="mgc_butterfly_fill"></i><span>昆虫</span></a>
+          <a class="global-nav__link" href="gourmet.html"><i class="mgc_soup_pot_2_fill"></i><span>グルメ</span></a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="collections-section page-shell" id="collections">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow"><i class="mgc_bookmark_fill"></i> Collection</p>
+            <h2>収集するカテゴリ</h2>
+          </div>
+          <p><strong id="homeTotalCount">—</strong>件の情報を掲載しています。</p>
+        </div>
+
+        <div class="collection-links">
+          <a class="collection-link collection-link--bird" href="birds.html">
+            <span class="collection-link__icon"><i class="mgc_bird_fill"></i></span>
+            <span class="collection-link__body">
+              <span class="collection-link__meta"><strong data-home-count="bird">—件</strong><span>Birds</span></span>
+              <span class="collection-link__title">野鳥</span>
+              <span class="collection-link__description">出現条件と撮影情報を確認し、観察記録を管理します。</span>
+            </span>
+            <span class="collection-link__arrow"><i class="mgc_arrow_right_fill"></i></span>
+          </a>
+
+          <a class="collection-link collection-link--fish" href="fish.html">
+            <span class="collection-link__icon"><i class="mgc_fish_fill"></i></span>
+            <span class="collection-link__body">
+              <span class="collection-link__meta"><strong data-home-count="fish">—件</strong><span>Fish</span></span>
+              <span class="collection-link__title">魚</span>
+              <span class="collection-link__description">水域、天気、時間と魚影サイズをまとめて確認できます。</span>
+            </span>
+            <span class="collection-link__arrow"><i class="mgc_arrow_right_fill"></i></span>
+          </a>
+
+          <a class="collection-link collection-link--insect" href="insects.html">
+            <span class="collection-link__icon"><i class="mgc_butterfly_fill"></i></span>
+            <span class="collection-link__body">
+              <span class="collection-link__meta"><strong data-home-count="insect">—件</strong><span>Insects</span></span>
+              <span class="collection-link__title">昆虫</span>
+              <span class="collection-link__description">生息地と出現条件を確認し、採集記録を管理します。</span>
+            </span>
+            <span class="collection-link__arrow"><i class="mgc_arrow_right_fill"></i></span>
+          </a>
+
+          <a class="collection-link collection-link--gourmet" href="gourmet.html">
+            <span class="collection-link__icon"><i class="mgc_soup_pot_2_fill"></i></span>
+            <span class="collection-link__body">
+              <span class="collection-link__meta"><strong data-home-count="gourmet">—件</strong><span>Gourmet</span></span>
+              <span class="collection-link__title">グルメ</span>
+              <span class="collection-link__description">料理の材料と売値を確認し、調理記録を管理します。</span>
+            </span>
+            <span class="collection-link__arrow"><i class="mgc_arrow_right_fill"></i></span>
+          </a>
+        </div>
+      </section>
+
+      <section class="guide-section page-shell">
+        <div class="guide-card">
+          <span class="guide-card__icon"><i class="mgc_star_fill"></i></span>
+          <div><h2>星評価で達成状況を記録</h2><p>各ページで星1〜5を設定できます。評価はこのブラウザに保存され、次回も維持されます。</p></div>
+        </div>
+        <div class="guide-card">
+          <span class="guide-card__icon"><i class="mgc_filter_fill"></i></span>
+          <div><h2>条件から目的の項目を検索</h2><p>複数語検索、分類、天気、場所、評価状況を組み合わせて絞り込めます。</p></div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer"><div class="page-shell"><i class="mgc_leaf_fill"></i><span>ハートピア収集手帳</span><small>グローバル版の情報を掲載</small></div></footer>
+  </body>
+</html>

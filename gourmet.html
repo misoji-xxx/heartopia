@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="ハートピアスローライフのグルメ情報と星評価を記録するページです。">
+    <title>グルメ | ハートピア収集手帳</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=LINE+Seed+JP:wght@400;700;800&amp;display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/mingcute_icon@2.9.72/font/Mingcute.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <script src="assets/js/app.js" defer></script>
+  </head>
+  <body data-page="gourmet">
+    <header class="site-header">
+      <div class="site-header__inner">
+        <a class="brand" href="index.html"><span class="brand__mark"><i class="mgc_notebook_fill"></i></span><span class="brand__text"><strong>ハートピア</strong><small>収集手帳</small></span></a>
+        <nav class="global-nav">
+          <a class="global-nav__link" href="index.html"><i class="mgc_grid_fill"></i><span>収集一覧</span></a>
+          <a class="global-nav__link" href="birds.html"><i class="mgc_bird_fill"></i><span>野鳥</span></a>
+          <a class="global-nav__link" href="fish.html"><i class="mgc_fish_fill"></i><span>魚</span></a>
+          <a class="global-nav__link" href="insects.html"><i class="mgc_butterfly_fill"></i><span>昆虫</span></a>
+          <a class="global-nav__link is-current" href="gourmet.html" aria-current="page"><i class="mgc_soup_pot_2_fill"></i><span>グルメ</span></a>
+        </nav>
+      </div>
+    </header>
+    <main class="collection-page" data-collection-root>
+      <section class="collection-hero collection-hero--gourmet">
+        <div class="page-shell collection-hero__inner">
+          <div class="collection-hero__title"><span class="collection-hero__icon"><i class="mgc_soup_pot_2_fill"></i></span><div><p class="eyebrow">Gourmet Collection</p><h1>グルメの記録</h1><p>料理の材料と売値を確認し、星評価を記録できます。</p></div></div>
+          <div class="progress-card"><div class="progress-card__top"><span><i class="mgc_star_fill"></i>星5達成</span><strong data-progress-rate>0%</strong></div><div class="progress-card__count"><strong data-progress-complete>0</strong><span>/</span><span data-progress-total>—</span><small>件</small></div><div class="progress-track"><span data-progress-bar></span></div></div>
+        </div>
+      </section>
+      <div class="page-shell collection-content" data-collection-content></div>
+    </main>
+    <footer class="site-footer"><div class="page-shell"><i class="mgc_leaf_fill"></i><span>ハートピア収集手帳</span><small>グローバル版の情報を掲載</small></div></footer>
+  </body>
+</html>
