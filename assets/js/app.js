@@ -15,14 +15,12 @@
       key: "bird",
       label: "野鳥",
       dataPath: "data/bird.json",
-      icon: "mgc_bird_fill",
       categories: STANDARD_CATEGORIES
     },
     fish: {
       key: "fish",
       label: "魚",
       dataPath: "data/fish.json",
-      icon: "mgc_fish_fill",
       categories: [
         { value: "river", label: "川" },
         { value: "lake", label: "湖" },
@@ -34,14 +32,12 @@
       key: "insect",
       label: "昆虫",
       dataPath: "data/insect.json",
-      icon: "mgc_butterfly_fill",
       categories: STANDARD_CATEGORIES
     },
     gourmet: {
       key: "gourmet",
       label: "グルメ",
       dataPath: "data/gourmet.json",
-      icon: "mgc_soup_pot_2_fill",
       categories: STANDARD_CATEGORIES
     }
   };
@@ -50,6 +46,32 @@
     "雨": "mgc_rain_fill",
     "虹": "mgc_rainbow_fill",
     "雪": "mgc_snow_fill"
+  };
+  const WEATHER_ORDER = ["全天気", "晴れ", "雨", "虹", "雪"];
+  const WATER_TYPE_CLASSIFICATIONS = {
+    "川": { key: "river", label: "川" },
+    "湖": { key: "lake", label: "湖" },
+    "海": { key: "sea", label: "海" }
+  };
+  const FISH_SHADOW_KINDS = {
+    "小": "small",
+    "中": "medium",
+    "大": "large",
+    "金": "gold"
+  };
+  const CURRENCY_TYPES = {
+    "コイン": "coin",
+    "トレンドコイン": "trend",
+    "フェスコイン": "festival"
+  };
+  const DEFAULT_FILTER_STATE = {
+    query: "",
+    category: "",
+    weather: "",
+    location: "",
+    hideRatedOneToFour: false,
+    hideRatedFive: false,
+    sort: "original"
   };
   const RECIPE_SLOT_LIMIT = 4;
   const INGREDIENT_PLACEHOLDER_PATH = "assets/images/ingredients/_placeholder.svg";
@@ -70,22 +92,20 @@
 
   function initializeHome() {
     const totalElement = document.querySelector("#homeTotalCount");
-    const requests = Object.values(COLLECTIONS).map(async (collection) => {
-      const response = await fetch(collection.dataPath);
-      if (!response.ok) {
-        throw new Error(`${collection.dataPath} の読込に失敗しました。`);
-      }
-
-      const items = await response.json();
-      const countElement = document.querySelector(`[data-home-count="${collection.key}"]`);
-      if (countElement) {
-        countElement.textContent = `${items.length.toLocaleString("ja-JP")}件`;
-      }
-      return items.length;
-    });
+    const collections = Object.values(COLLECTIONS);
+    const requests = collections.map((collection) => loadCollectionData(collection));
 
     Promise.all(requests)
-      .then((counts) => {
+      .then((itemGroups) => {
+        const counts = itemGroups.map((items, index) => {
+          const collection = collections[index];
+          const countElement = document.querySelector(`[data-home-count="${collection.key}"]`);
+          if (countElement) {
+            countElement.textContent = `${items.length.toLocaleString("ja-JP")}件`;
+          }
+          return items.length;
+        });
+
         if (totalElement) {
           const total = counts.reduce((sum, count) => sum + count, 0);
           totalElement.textContent = total.toLocaleString("ja-JP");
@@ -98,45 +118,47 @@
 
   async function initializeCollection(collection, collectionRoot) {
     const content = collectionRoot.querySelector("[data-collection-content]");
-    const state = {
-      query: "",
-      category: "",
-      weather: "",
-      location: "",
-      hideRatedOneToFour: false,
-      hideRatedFive: false,
-      sort: "original"
-    };
+    const state = createFilterState();
     let items = [];
 
     content.innerHTML = renderLoadingState(collection.label);
 
     try {
-      const response = await fetch(collection.dataPath);
-      if (!response.ok) {
-        throw new Error(`HTTP ${response.status}`);
-      }
-
-      const data = await response.json();
-      if (!Array.isArray(data)) {
-        throw new Error("データ形式が正しくありません。");
-      }
-
+      const data = await loadCollectionData(collection);
       items = data.map((item, index) => prepareItem(collection, item, index));
       content.innerHTML = renderCollectionInterface(collection);
 
       const controls = getControls(content);
+      const itemById = new Map(items.map((item) => [item.nameEn, item]));
+      const updateView = () => updateCollectionView(collection, collectionRoot, items, state, controls);
       populateFilterOptions(collection, items, controls);
-      bindControls(collection, content, items, state, controls);
-      bindRatingActions(collection, content, items, state, controls);
-      renderResults(collection, items, state, controls);
-      updateProgress(collection, collectionRoot, items);
+      bindControls(state, controls, updateView);
+      bindRatingActions(collection, content, itemById, updateView);
+      updateView();
     } catch (error) {
       content.innerHTML = renderErrorState(collection.label);
       const retryButton = content.querySelector("[data-retry]");
       retryButton?.addEventListener("click", () => window.location.reload());
       console.error(`${collection.label}データの読込に失敗しました。`, error);
     }
+  }
+
+  async function loadCollectionData(collection) {
+    const response = await fetch(collection.dataPath);
+    if (!response.ok) {
+      throw new Error(`HTTP ${response.status}`);
+    }
+
+    const data = await response.json();
+    if (!Array.isArray(data)) {
+      throw new Error("データ形式が正しくありません。");
+    }
+
+    return data;
+  }
+
+  function createFilterState() {
+    return { ...DEFAULT_FILTER_STATE };
   }
 
   function prepareItem(collection, item, index) {
@@ -225,7 +247,7 @@
       ? '<option value="price">星1売値が高い順</option>'
       : "";
     return `
-      <section class="index-tools">
+      <section class="index-tools${collection.key === "gourmet" ? " index-tools--gourmet" : ""}">
         <div class="index-tools__main">
           <label class="index-search">
             <span class="index-search__label">キーワード検索</span>
@@ -319,11 +341,10 @@
       return;
     }
 
-    const weatherOrder = ["全天気", "晴れ", "雨", "虹", "雪"];
     const weathers = uniqueValues(items.flatMap((item) => item.weathers || []))
       .sort((a, b) => {
-        const aIndex = weatherOrder.indexOf(a);
-        const bIndex = weatherOrder.indexOf(b);
+        const aIndex = WEATHER_ORDER.indexOf(a);
+        const bIndex = WEATHER_ORDER.indexOf(b);
         if (aIndex === -1 && bIndex === -1) return a.localeCompare(b, "ja");
         if (aIndex === -1) return 1;
         if (bIndex === -1) return -1;
@@ -344,15 +365,14 @@
     return [...new Set(values.filter(Boolean))];
   }
 
-  function bindControls(collection, content, items, state, controls) {
-    const refresh = () => renderResults(collection, items, state, controls);
+  function bindControls(state, controls, updateView) {
     let searchTimer = null;
 
     controls.search.addEventListener("input", () => {
       state.query = controls.search.value;
       controls.searchClear.hidden = !state.query;
       window.clearTimeout(searchTimer);
-      searchTimer = window.setTimeout(refresh, 100);
+      searchTimer = window.setTimeout(updateView, 100);
     });
 
     controls.searchClear.addEventListener("click", () => {
@@ -361,68 +381,62 @@
       controls.search.value = "";
       controls.searchClear.hidden = true;
       controls.search.focus();
-      refresh();
+      updateView();
     });
 
     controls.category.addEventListener("change", () => {
       state.category = controls.category.value;
-      refresh();
+      updateView();
     });
 
     controls.weather?.addEventListener("change", () => {
       state.weather = controls.weather.value;
-      refresh();
+      updateView();
     });
 
     controls.location?.addEventListener("change", () => {
       state.location = controls.location.value;
-      refresh();
+      updateView();
     });
 
     controls.hideOneFour.addEventListener("change", () => {
       state.hideRatedOneToFour = controls.hideOneFour.checked;
-      refresh();
+      updateView();
     });
 
     controls.hideFive.addEventListener("change", () => {
       state.hideRatedFive = controls.hideFive.checked;
-      refresh();
+      updateView();
     });
 
     controls.sort.addEventListener("change", () => {
       state.sort = controls.sort.value;
-      refresh();
+      updateView();
     });
 
     const reset = () => {
       window.clearTimeout(searchTimer);
       resetFilterState(state, controls);
-      refresh();
+      updateView();
     };
     controls.reset.addEventListener("click", reset);
     controls.emptyReset.addEventListener("click", reset);
   }
 
   function resetFilterState(state, controls) {
-    state.query = "";
-    state.category = "";
-    state.weather = "";
-    state.location = "";
-    state.hideRatedOneToFour = false;
-    state.hideRatedFive = false;
-    state.sort = "original";
+    Object.assign(state, createFilterState());
 
-    controls.search.value = "";
-    controls.searchClear.hidden = true;
-    controls.category.value = "";
-    if (controls.weather) controls.weather.value = "";
-    if (controls.location) controls.location.value = "";
-    controls.hideOneFour.checked = false;
-    controls.hideFive.checked = false;
-    controls.sort.value = "original";
+    controls.search.value = state.query;
+    controls.searchClear.hidden = !state.query;
+    controls.category.value = state.category;
+    if (controls.weather) controls.weather.value = state.weather;
+    if (controls.location) controls.location.value = state.location;
+    controls.hideOneFour.checked = state.hideRatedOneToFour;
+    controls.hideFive.checked = state.hideRatedFive;
+    controls.sort.value = state.sort;
   }
 
-  function bindRatingActions(collection, content, items, state, controls) {
+  function bindRatingActions(collection, content, itemById, updateView) {
     content.addEventListener("click", (event) => {
       const ratingButton = event.target.closest("[data-rating-value]");
       if (!ratingButton) {
@@ -430,7 +444,7 @@
       }
 
       const itemId = ratingButton.dataset.itemId;
-      const item = items.find((candidate) => candidate.nameEn === itemId);
+      const item = itemById.get(itemId);
       if (!item) {
         return;
       }
@@ -438,13 +452,22 @@
       const selectedRating = Number(ratingButton.dataset.ratingValue);
       const rating = readRating(collection.key, item.nameEn) === selectedRating ? 0 : selectedRating;
       writeRating(collection.key, item.nameEn, rating);
-      updateProgress(collection, document.querySelector("[data-collection-root]"), items);
-      renderResults(collection, items, state, controls);
+      updateView();
     });
   }
 
-  function renderResults(collection, items, state, controls) {
-    const visibleItems = filterAndSortItems(collection, items, state);
+  function updateCollectionView(collection, collectionRoot, items, state, controls) {
+    const ratingByItemId = createRatingSnapshot(collection.key, items);
+    renderResults(collection, items, state, controls, ratingByItemId);
+    updateProgress(collectionRoot, items, ratingByItemId);
+  }
+
+  function createRatingSnapshot(collectionKey, items) {
+    return new Map(items.map((item) => [item.nameEn, readRating(collectionKey, item.nameEn)]));
+  }
+
+  function renderResults(collection, items, state, controls, ratingByItemId) {
+    const visibleItems = filterAndSortItems(collection, items, state, ratingByItemId);
     controls.visibleCount.textContent = visibleItems.length.toLocaleString("ja-JP");
     controls.totalCount.textContent = items.length.toLocaleString("ja-JP");
     controls.table.hidden = visibleItems.length === 0;
@@ -455,11 +478,13 @@
       return;
     }
 
-    controls.grid.innerHTML = visibleItems.map((item) => renderCollectionCard(collection, item)).join("");
+    controls.grid.innerHTML = visibleItems
+      .map((item) => renderCollectionCard(collection, item, ratingByItemId))
+      .join("");
     bindImageFallbacks(controls.grid);
   }
 
-  function filterAndSortItems(collection, items, state) {
+  function filterAndSortItems(collection, items, state, ratingByItemId) {
     const terms = normalizeText(state.query).split(/\s+/).filter(Boolean);
     const filtered = items.filter((item) => {
       if (terms.length > 0) {
@@ -482,7 +507,7 @@
         return false;
       }
 
-      const rating = readRating(collection.key, item.nameEn);
+      const rating = ratingByItemId.get(item.nameEn) || 0;
       if (state.hideRatedOneToFour && rating >= 1 && rating <= 4) {
         return false;
       }
@@ -493,7 +518,7 @@
       return true;
     });
 
-    return filtered.sort((a, b) => compareItems(collection, a, b, state.sort));
+    return filtered.sort((a, b) => compareItems(collection, a, b, state.sort, ratingByItemId));
   }
 
   function createSearchText(collection, item) {
@@ -558,7 +583,7 @@
     return locations.includes(`全${item.waterType}`) && selectedLocation.includes(item.waterType);
   }
 
-  function compareItems(collection, a, b, sort) {
+  function compareItems(collection, a, b, sort, ratingByItemId) {
     let comparison = 0;
 
     if (sort === "level") {
@@ -568,8 +593,8 @@
     } else if (sort === "price" && collection.key === "gourmet") {
       comparison = getGourmetSortPrice(b) - getGourmetSortPrice(a);
     } else if (sort === "incomplete") {
-      const aCompleted = readRating(collection.key, a.nameEn) === 5 ? 1 : 0;
-      const bCompleted = readRating(collection.key, b.nameEn) === 5 ? 1 : 0;
+      const aCompleted = ratingByItemId.get(a.nameEn) === 5 ? 1 : 0;
+      const bCompleted = ratingByItemId.get(b.nameEn) === 5 ? 1 : 0;
       comparison = aCompleted - bCompleted;
     }
 
@@ -591,19 +616,14 @@
       return { key: "advanced", label: "上級" };
     }
     if (collection.key === "fish") {
-      const waterTypes = {
-        "川": { key: "river", label: "川" },
-        "湖": { key: "lake", label: "湖" },
-        "海": { key: "sea", label: "海" }
-      };
-      return waterTypes[item.waterType] || { key: "sea", label: item.waterType || "海" };
+      return WATER_TYPE_CLASSIFICATIONS[item.waterType] || { key: "sea", label: item.waterType || "海" };
     }
     return { key: "normal", label: "通常" };
   }
 
-  function renderCollectionCard(collection, item) {
+  function renderCollectionCard(collection, item, ratingByItemId) {
     const classification = getClassification(collection, item);
-    const rating = readRating(collection.key, item.nameEn);
+    const rating = ratingByItemId.get(item.nameEn) || 0;
     const imagePath = `assets/images/items/${collection.key}/${encodeURIComponent(item.nameEn)}.webp`;
     const eventMarkup = item.events.length > 0
       ? `<p class="collection-card__event">${escapeHTML(item.events.join(" / "))}</p>`
@@ -633,7 +653,7 @@
 
     if (collection.key === "gourmet") {
       return `
-        <article class="collection-card collection-card--gourmet" data-item-id="${escapeHTML(item.nameEn)}" data-rating="${rating}">
+        <article class="collection-card collection-card--gourmet">
           ${image}
           ${identity}
           <div class="collection-card__information">
@@ -650,7 +670,7 @@
     }
 
     return `
-      <article class="collection-card collection-card--${collection.key}" data-item-id="${escapeHTML(item.nameEn)}" data-rating="${rating}">
+      <article class="collection-card collection-card--${collection.key}">
         ${image}
         ${identity}
         <div class="collection-card__occurrence">
@@ -693,13 +713,7 @@
       return "";
     }
 
-    const shadowKinds = {
-      "小": "small",
-      "中": "medium",
-      "大": "large",
-      "金": "gold"
-    };
-    const kind = shadowKinds[shadow] || "device";
+    const kind = FISH_SHADOW_KINDS[shadow] || "device";
     return `<span class="fish-shadow fish-shadow--${kind}">
       <i class="mgc_fish_fill"></i>
       <strong>${escapeHTML(shadow)}</strong>
@@ -785,13 +799,8 @@
       return "";
     }
 
-    const currencyTypes = {
-      "コイン": "coin",
-      "トレンドコイン": "trend",
-      "フェスコイン": "festival"
-    };
     const tokens = prices.map((price) => {
-      const type = currencyTypes[price.currency] || "other";
+      const type = CURRENCY_TYPES[price.currency] || "other";
       return `<span class="price-token price-token--${type}"><i class="mgc_coin_fill"></i><strong>${Number(price.amount).toLocaleString("ja-JP")}</strong></span>`;
     }).join("");
     return `<div class="price-tokens">${tokens}</div>`;
@@ -835,8 +844,10 @@
     });
   }
 
-  function updateProgress(collection, collectionRoot, items) {
-    const completed = items.reduce((count, item) => count + (readRating(collection.key, item.nameEn) === 5 ? 1 : 0), 0);
+  function updateProgress(collectionRoot, items, ratingByItemId) {
+    const completed = items.reduce((count, item) => (
+      count + (ratingByItemId.get(item.nameEn) === 5 ? 1 : 0)
+    ), 0);
     const total = items.length;
     const rate = total > 0 ? Math.round((completed / total) * 100) : 0;
 

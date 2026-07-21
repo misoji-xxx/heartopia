@@ -5,7 +5,6 @@
   --paper: #fffefa;
   --ink: #21342b;
   --ink-soft: #66736a;
-  --green-900: #274a39;
   --green-800: #315c46;
   --green-700: #3f7258;
   --green-600: #568a6b;
@@ -13,7 +12,6 @@
   --green-50: #eef6ec;
   --coral-700: #c95f4f;
   --coral-600: #df7461;
-  --coral-500: #ed8b73;
   --coral-100: #fde4db;
   --gold: #e2a637;
   --gold-soft: #fff0bc;
@@ -26,7 +24,6 @@
   --shadow-small: 0 7px 24px rgba(43, 61, 50, 0.07);
   --radius-xl: 27px;
   --radius-lg: 20px;
-  --radius-md: 14px;
 }
 
 *,
@@ -413,7 +410,6 @@ p {
   --hero-soft: var(--coral-100);
   --hero-glow: rgba(237, 139, 115, 0.15);
   --hero-tint: #f9eee2;
-  --hero-line: rgba(201, 95, 79, 0.25);
 }
 
 .collection-hero--fish {
@@ -421,7 +417,6 @@ p {
   --hero-soft: var(--blue-soft);
   --hero-glow: rgba(75, 137, 146, 0.15);
   --hero-tint: #e9f2e8;
-  --hero-line: rgba(75, 137, 146, 0.27);
 }
 
 .collection-hero--insect {
@@ -429,7 +424,6 @@ p {
   --hero-soft: var(--violet-soft);
   --hero-glow: rgba(129, 113, 156, 0.14);
   --hero-tint: #f1ede7;
-  --hero-line: rgba(129, 113, 156, 0.25);
 }
 
 .collection-hero--gourmet {
@@ -437,7 +431,6 @@ p {
   --hero-soft: var(--gold-soft);
   --hero-glow: rgba(226, 166, 55, 0.15);
   --hero-tint: #f6eee0;
-  --hero-line: rgba(181, 125, 44, 0.25);
 }
 
 .collection-hero__inner {
@@ -580,7 +573,7 @@ p {
   gap: 15px;
 }
 
-.index-tools__main:not(:has([data-filter-weather])) {
+.index-tools--gourmet .index-tools__main {
   grid-template-columns: minmax(340px, 1.45fr) minmax(230px, 0.9fr) minmax(200px, 0.72fr);
 }
 
@@ -859,10 +852,15 @@ p {
 }
 
 .collection-card__specific {
+  display: flex;
+  min-width: 0;
+  flex-direction: column;
+  justify-content: center;
   overflow-wrap: anywhere;
   font-size: 11.5px;
   font-weight: 700;
   line-height: 1.55;
+  gap: 6px;
 }
 
 .collection-card__weather,
@@ -907,14 +905,6 @@ p {
 
 .collection-card--gourmet .collection-card__rating {
   justify-content: flex-end;
-}
-
-.collection-card__specific {
-  display: flex;
-  min-width: 0;
-  flex-direction: column;
-  justify-content: center;
-  gap: 6px;
 }
 
 .collection-card__distance {
@@ -1255,7 +1245,7 @@ p {
 
 @media (max-width: 1180px) {
   .index-tools__main,
-  .index-tools__main:not(:has([data-filter-weather])) {
+  .index-tools--gourmet .index-tools__main {
     grid-template-columns: repeat(3, minmax(0, 1fr));
   }
 
@@ -1275,49 +1265,9 @@ p {
   }
 }
 
-@media (max-width: 980px) {
-  .site-header__inner {
-    align-items: flex-start;
-    min-height: auto;
-    padding-block: 12px 9px;
-    flex-direction: column;
-    gap: 9px;
-  }
-
-  .global-nav {
-    width: 100%;
-    overflow-x: auto;
-    padding-bottom: 3px;
-    scrollbar-width: none;
-  }
-
-  .global-nav::-webkit-scrollbar {
-    display: none;
-  }
-
-  .global-nav__link {
-    min-height: 37px;
-  }
-
-  .collection-link {
-    grid-template-columns: 70px minmax(0, 1fr) 36px;
-    min-height: 170px;
-    padding: 22px;
-    gap: 17px;
-  }
-
-  .collection-link__icon {
-    width: 70px;
-    height: 70px;
-    border-radius: 23px 23px 23px 9px;
-    font-size: 32px;
-  }
-
-}
-
 @media (max-width: 1050px) {
   .index-tools__main,
-  .index-tools__main:not(:has([data-filter-weather])) {
+  .index-tools--gourmet .index-tools__main {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
@@ -1359,74 +1309,48 @@ p {
   }
 }
 
+@media (max-width: 980px) {
+  .site-header__inner {
+    align-items: flex-start;
+    min-height: auto;
+    padding-block: 12px 9px;
+    flex-direction: column;
+    gap: 9px;
+  }
+
+  .global-nav {
+    width: 100%;
+    overflow-x: auto;
+    padding-bottom: 3px;
+    scrollbar-width: none;
+  }
+
+  .global-nav::-webkit-scrollbar {
+    display: none;
+  }
+
+  .global-nav__link {
+    min-height: 37px;
+  }
+
+  .collection-link {
+    grid-template-columns: 70px minmax(0, 1fr) 36px;
+    min-height: 170px;
+    padding: 22px;
+    gap: 17px;
+  }
+
+  .collection-link__icon {
+    width: 70px;
+    height: 70px;
+    border-radius: 23px 23px 23px 9px;
+    font-size: 32px;
+  }
+}
+
 @media (max-width: 900px) {
   .collection-index__head {
     display: none;
-    grid-template:
-      "collectible collectible rating rating" auto
-      "location location weather time" auto
-      "specific specific specific sale" auto
-      / var(--item-image-size) minmax(0, 1fr) auto auto;
-    min-height: 0;
-    margin-bottom: 8px;
-    padding: 0 16px;
-    align-items: center;
-    column-gap: 14px;
-    row-gap: 3px;
-    font-size: 9px;
-    line-height: 1.35;
-  }
-
-  .collection-index__head .collection-index__collectible {
-    grid-area: collectible;
-  }
-
-  .collection-index__head span:nth-child(2) {
-    grid-area: location;
-  }
-
-  .collection-index__head span:nth-child(3) {
-    grid-area: weather;
-  }
-
-  .collection-index__head span:nth-child(4) {
-    grid-area: time;
-  }
-
-  .collection-index__head span:nth-child(5) {
-    grid-area: specific;
-  }
-
-  .collection-index__head span:nth-child(6) {
-    grid-area: sale;
-  }
-
-  .collection-index__head span:nth-child(7) {
-    grid-area: rating;
-  }
-
-  .collection-index--gourmet .collection-index__head {
-    grid-template:
-      "collectible collectible rating rating" auto
-      "information information information information" auto
-      "sale energy energy energy" auto
-      / var(--item-image-size) minmax(0, 1fr) auto auto;
-  }
-
-  .collection-index--gourmet .collection-index__head span:nth-child(2) {
-    grid-area: information;
-  }
-
-  .collection-index--gourmet .collection-index__head span:nth-child(3) {
-    grid-area: sale;
-  }
-
-  .collection-index--gourmet .collection-index__head span:nth-child(4) {
-    grid-area: energy;
-  }
-
-  .collection-index--gourmet .collection-index__head span:nth-child(5) {
-    grid-area: rating;
   }
 
   .collection-card {
@@ -1637,20 +1561,6 @@ p {
     font-weight: 800;
   }
 
-  .collection-index__head span:nth-child(6),
-  .collection-index__head span:nth-child(7) {
-    justify-self: end;
-  }
-
-  .collection-index--gourmet .collection-index__head span:nth-child(3),
-  .collection-index--gourmet .collection-index__head span:nth-child(4) {
-    justify-self: start;
-  }
-
-  .collection-index--gourmet .collection-index__head span:nth-child(5) {
-    justify-self: end;
-  }
-
   .collection-card__sale {
     justify-self: end;
   }
@@ -1752,9 +1662,7 @@ p {
     padding-block: 20px 58px;
   }
 
-  .index-tools__main,
-  .index-tools__main:not(:has([data-filter-weather])) {
-    grid-template-columns: repeat(2, minmax(0, 1fr));
+  .index-tools__main {
     gap: 12px 10px;
   }
 
