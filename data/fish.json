@@ -23,8 +23,8 @@
     "shadow": "中"
   },
   {
-    "nameEn": "barbel",
-    "nameJa": "バーベル",
+    "nameEn": "commonChub",
+    "nameJa": "チャブ",
     "level": 1,
     "events": [],
     "prices": [
@@ -33,9 +33,9 @@
         "amount": 75
       }
     ],
-    "waterType": "川",
+    "waterType": "湖",
     "locations": [
-      "浅水川"
+      "全湖"
     ],
     "weathers": [
       "全天気"
@@ -44,29 +44,6 @@
       "全時間"
     ],
     "shadow": "中"
-  },
-  {
-    "nameEn": "orientalShrimp",
-    "nameJa": "コウライエビ",
-    "level": 1,
-    "events": [],
-    "prices": [
-      {
-        "currency": "コイン",
-        "amount": 50
-      }
-    ],
-    "waterType": "川",
-    "locations": [
-      "全川"
-    ],
-    "weathers": [
-      "全天気"
-    ],
-    "times": [
-      "全時間"
-    ],
-    "shadow": "小"
   },
   {
     "nameEn": "spinedLoach",
@@ -90,6 +67,29 @@
       "全時間"
     ],
     "shadow": "小"
+  },
+  {
+    "nameEn": "barbel",
+    "nameJa": "バーベル",
+    "level": 1,
+    "events": [],
+    "prices": [
+      {
+        "currency": "コイン",
+        "amount": 75
+      }
+    ],
+    "waterType": "川",
+    "locations": [
+      "浅水川"
+    ],
+    "weathers": [
+      "全天気"
+    ],
+    "times": [
+      "全時間"
+    ],
+    "shadow": "中"
   },
   {
     "nameEn": "streber",
@@ -138,29 +138,6 @@
     "shadow": "小"
   },
   {
-    "nameEn": "commonChub",
-    "nameJa": "チャブ",
-    "level": 1,
-    "events": [],
-    "prices": [
-      {
-        "currency": "コイン",
-        "amount": 75
-      }
-    ],
-    "waterType": "湖",
-    "locations": [
-      "全湖"
-    ],
-    "weathers": [
-      "全天気"
-    ],
-    "times": [
-      "全時間"
-    ],
-    "shadow": "中"
-  },
-  {
     "nameEn": "tench",
     "nameJa": "テンチ",
     "level": 1,
@@ -182,6 +159,29 @@
       "全時間"
     ],
     "shadow": "小"
+  },
+  {
+    "nameEn": "commonWhitefish",
+    "nameJa": "ホワイトフィッシュ",
+    "level": 1,
+    "events": [],
+    "prices": [
+      {
+        "currency": "コイン",
+        "amount": 105
+      }
+    ],
+    "waterType": "湖",
+    "locations": [
+      "温泉山の湖"
+    ],
+    "weathers": [
+      "全天気"
+    ],
+    "times": [
+      "全時間"
+    ],
+    "shadow": "中"
   },
   {
     "nameEn": "crucianCarp",
@@ -230,29 +230,6 @@
     "shadow": "小"
   },
   {
-    "nameEn": "commonWhitefish",
-    "nameJa": "ホワイトフィッシュ",
-    "level": 1,
-    "events": [],
-    "prices": [
-      {
-        "currency": "コイン",
-        "amount": 105
-      }
-    ],
-    "waterType": "湖",
-    "locations": [
-      "温泉山の湖"
-    ],
-    "weathers": [
-      "全天気"
-    ],
-    "times": [
-      "全時間"
-    ],
-    "shadow": "中"
-  },
-  {
     "nameEn": "schneider",
     "nameJa": "シュナイダー",
     "level": 1,
@@ -266,6 +243,29 @@
     "waterType": "湖",
     "locations": [
       "郊外の湖"
+    ],
+    "weathers": [
+      "全天気"
+    ],
+    "times": [
+      "全時間"
+    ],
+    "shadow": "小"
+  },
+  {
+    "nameEn": "orientalShrimp",
+    "nameJa": "コウライエビ",
+    "level": 1,
+    "events": [],
+    "prices": [
+      {
+        "currency": "コイン",
+        "amount": 50
+      }
+    ],
+    "waterType": "川",
+    "locations": [
+      "全川"
     ],
     "weathers": [
       "全天気"
@@ -414,6 +414,29 @@
     "shadow": "小"
   },
   {
+    "nameEn": "rabbitFish",
+    "nameJa": "カイブツギンザメ",
+    "level": 4,
+    "events": [],
+    "prices": [
+      {
+        "currency": "コイン",
+        "amount": 320
+      }
+    ],
+    "waterType": "海",
+    "locations": [
+      "全海"
+    ],
+    "weathers": [
+      "全天気"
+    ],
+    "times": [
+      "全時間"
+    ],
+    "shadow": "装置（青）"
+  },
+  {
     "nameEn": "seaStickleback",
     "nameJa": "ウミトゲウオ",
     "level": 1,
@@ -458,29 +481,6 @@
       "全時間"
     ],
     "shadow": "金"
-  },
-  {
-    "nameEn": "atlanticPygmyOctopus",
-    "nameJa": "ピグミータコ",
-    "level": 1,
-    "events": [],
-    "prices": [
-      {
-        "currency": "コイン",
-        "amount": 150
-      }
-    ],
-    "waterType": "海",
-    "locations": [
-      "そよ風の海"
-    ],
-    "weathers": [
-      "全天気"
-    ],
-    "times": [
-      "全時間"
-    ],
-    "shadow": "小"
   },
   {
     "nameEn": "stoneLoach",
@@ -644,30 +644,6 @@
     "shadow": "金"
   },
   {
-    "nameEn": "zander",
-    "nameJa": "パイクパーチ",
-    "level": 3,
-    "events": [],
-    "prices": [
-      {
-        "currency": "コイン",
-        "amount": 230
-      }
-    ],
-    "waterType": "川",
-    "locations": [
-      "巨木の川"
-    ],
-    "weathers": [
-      "晴れ",
-      "虹"
-    ],
-    "times": [
-      "全時間"
-    ],
-    "shadow": "中"
-  },
-  {
     "nameEn": "mussel",
     "nameJa": "イガイ",
     "level": 3,
@@ -691,6 +667,30 @@
       "全時間"
     ],
     "shadow": "小"
+  },
+  {
+    "nameEn": "zander",
+    "nameJa": "パイクパーチ",
+    "level": 3,
+    "events": [],
+    "prices": [
+      {
+        "currency": "コイン",
+        "amount": 230
+      }
+    ],
+    "waterType": "川",
+    "locations": [
+      "巨木の川"
+    ],
+    "weathers": [
+      "晴れ",
+      "虹"
+    ],
+    "times": [
+      "全時間"
+    ],
+    "shadow": "中"
   },
   {
     "nameEn": "tadpole",
@@ -742,9 +742,9 @@
     "shadow": "小"
   },
   {
-    "nameEn": "turbot",
-    "nameJa": "イシビラメ",
-    "level": 3,
+    "nameEn": "commonOctopus",
+    "nameJa": "マダコ",
+    "level": 4,
     "events": [],
     "prices": [
       {
@@ -789,6 +789,29 @@
     "shadow": "中"
   },
   {
+    "nameEn": "atlanticPygmyOctopus",
+    "nameJa": "ピグミータコ",
+    "level": 1,
+    "events": [],
+    "prices": [
+      {
+        "currency": "コイン",
+        "amount": 150
+      }
+    ],
+    "waterType": "海",
+    "locations": [
+      "そよ風の海"
+    ],
+    "weathers": [
+      "全天気"
+    ],
+    "times": [
+      "全時間"
+    ],
+    "shadow": "小"
+  },
+  {
     "nameEn": "hermitCrab",
     "nameJa": "ヤドカリ",
     "level": 3,
@@ -802,29 +825,6 @@
     "waterType": "海",
     "locations": [
       "東海"
-    ],
-    "weathers": [
-      "全天気"
-    ],
-    "times": [
-      "全時間"
-    ],
-    "shadow": "小"
-  },
-  {
-    "nameEn": "clownfish",
-    "nameJa": "カクレクマノミ",
-    "level": 3,
-    "events": [],
-    "prices": [
-      {
-        "currency": "コイン",
-        "amount": 100
-      }
-    ],
-    "waterType": "海",
-    "locations": [
-      "旧海"
     ],
     "weathers": [
       "全天気"
@@ -856,6 +856,29 @@
       "全時間"
     ],
     "shadow": "装置（青）"
+  },
+  {
+    "nameEn": "clownfish",
+    "nameJa": "カクレクマノミ",
+    "level": 3,
+    "events": [],
+    "prices": [
+      {
+        "currency": "コイン",
+        "amount": 100
+      }
+    ],
+    "waterType": "海",
+    "locations": [
+      "旧海"
+    ],
+    "weathers": [
+      "全天気"
+    ],
+    "times": [
+      "全時間"
+    ],
+    "shadow": "小"
   },
   {
     "nameEn": "commonCarp",
@@ -901,29 +924,6 @@
     ],
     "times": [
       "12:00〜24:00"
-    ],
-    "shadow": "中"
-  },
-  {
-    "nameEn": "redBelliedPiranha",
-    "nameJa": "レッドベリーピラニア",
-    "level": 4,
-    "events": [],
-    "prices": [
-      {
-        "currency": "コイン",
-        "amount": 230
-      }
-    ],
-    "waterType": "川",
-    "locations": [
-      "巨木の川"
-    ],
-    "weathers": [
-      "全天気"
-    ],
-    "times": [
-      "全時間"
     ],
     "shadow": "中"
   },
@@ -975,6 +975,29 @@
     "shadow": "中"
   },
   {
+    "nameEn": "goby",
+    "nameJa": "ハゼ",
+    "level": 4,
+    "events": [],
+    "prices": [
+      {
+        "currency": "コイン",
+        "amount": 150
+      }
+    ],
+    "waterType": "海",
+    "locations": [
+      "東海"
+    ],
+    "weathers": [
+      "全天気"
+    ],
+    "times": [
+      "6:00〜18:00"
+    ],
+    "shadow": "小"
+  },
+  {
     "nameEn": "riverCrab",
     "nameJa": "サワガニ",
     "level": 4,
@@ -996,6 +1019,76 @@
       "全時間"
     ],
     "shadow": "小"
+  },
+  {
+    "nameEn": "turbot",
+    "nameJa": "イシビラメ",
+    "level": 3,
+    "events": [],
+    "prices": [
+      {
+        "currency": "コイン",
+        "amount": 320
+      }
+    ],
+    "waterType": "海",
+    "locations": [
+      "海釣りクエスト"
+    ],
+    "weathers": [
+      "全天気"
+    ],
+    "times": [
+      "全時間"
+    ],
+    "shadow": "金"
+  },
+  {
+    "nameEn": "europeanPlaice",
+    "nameJa": "ヨーロッパヒラメ",
+    "level": 4,
+    "events": [],
+    "prices": [
+      {
+        "currency": "コイン",
+        "amount": 230
+      }
+    ],
+    "waterType": "海",
+    "locations": [
+      "旧海"
+    ],
+    "weathers": [
+      "全天気"
+    ],
+    "times": [
+      "0:00〜6:00",
+      "18:00〜24:00"
+    ],
+    "shadow": "中"
+  },
+  {
+    "nameEn": "redBelliedPiranha",
+    "nameJa": "レッドベリーピラニア",
+    "level": 4,
+    "events": [],
+    "prices": [
+      {
+        "currency": "コイン",
+        "amount": 230
+      }
+    ],
+    "waterType": "川",
+    "locations": [
+      "巨木の川"
+    ],
+    "weathers": [
+      "全天気"
+    ],
+    "times": [
+      "全時間"
+    ],
+    "shadow": "中"
   },
   {
     "nameEn": "butterflyKoi",
@@ -1021,99 +1114,6 @@
       "全時間"
     ],
     "shadow": "大"
-  },
-  {
-    "nameEn": "commonOctopus",
-    "nameJa": "マダコ",
-    "level": 4,
-    "events": [],
-    "prices": [
-      {
-        "currency": "コイン",
-        "amount": 320
-      }
-    ],
-    "waterType": "海",
-    "locations": [
-      "海釣りクエスト"
-    ],
-    "weathers": [
-      "全天気"
-    ],
-    "times": [
-      "全時間"
-    ],
-    "shadow": "金"
-  },
-  {
-    "nameEn": "rabbitFish",
-    "nameJa": "カイブツギンザメ",
-    "level": 4,
-    "events": [],
-    "prices": [
-      {
-        "currency": "コイン",
-        "amount": 320
-      }
-    ],
-    "waterType": "海",
-    "locations": [
-      "全海"
-    ],
-    "weathers": [
-      "全天気"
-    ],
-    "times": [
-      "全時間"
-    ],
-    "shadow": "装置（青）"
-  },
-  {
-    "nameEn": "goby",
-    "nameJa": "ハゼ",
-    "level": 4,
-    "events": [],
-    "prices": [
-      {
-        "currency": "コイン",
-        "amount": 150
-      }
-    ],
-    "waterType": "海",
-    "locations": [
-      "東海"
-    ],
-    "weathers": [
-      "全天気"
-    ],
-    "times": [
-      "6:00〜18:00"
-    ],
-    "shadow": "小"
-  },
-  {
-    "nameEn": "europeanPlaice",
-    "nameJa": "ヨーロッパヒラメ",
-    "level": 4,
-    "events": [],
-    "prices": [
-      {
-        "currency": "コイン",
-        "amount": 230
-      }
-    ],
-    "waterType": "海",
-    "locations": [
-      "旧海"
-    ],
-    "weathers": [
-      "全天気"
-    ],
-    "times": [
-      "0:00〜6:00",
-      "18:00〜24:00"
-    ],
-    "shadow": "中"
   },
   {
     "nameEn": "freshwaterBlenny",
@@ -1350,29 +1350,6 @@
     "shadow": "中"
   },
   {
-    "nameEn": "tubGurnard",
-    "nameJa": "タブ・ガーナード",
-    "level": 6,
-    "events": [],
-    "prices": [
-      {
-        "currency": "コイン",
-        "amount": 380
-      }
-    ],
-    "waterType": "海",
-    "locations": [
-      "東海"
-    ],
-    "weathers": [
-      "虹"
-    ],
-    "times": [
-      "全時間"
-    ],
-    "shadow": "中"
-  },
-  {
     "nameEn": "nursehound",
     "nameJa": "ネコザメ",
     "level": 6,
@@ -1394,6 +1371,29 @@
       "全時間"
     ],
     "shadow": "金"
+  },
+  {
+    "nameEn": "tubGurnard",
+    "nameJa": "タブ・ガーナード",
+    "level": 6,
+    "events": [],
+    "prices": [
+      {
+        "currency": "コイン",
+        "amount": 380
+      }
+    ],
+    "waterType": "海",
+    "locations": [
+      "東海"
+    ],
+    "weathers": [
+      "虹"
+    ],
+    "times": [
+      "全時間"
+    ],
+    "shadow": "中"
   },
   {
     "nameEn": "threeSpinedStickleback",
@@ -2197,7 +2197,12 @@
     "nameJa": "ニザダイ",
     "level": 13,
     "events": [],
-    "prices": [],
+    "prices": [
+      {
+        "currency": "コイン",
+        "amount": 610
+      }
+    ],
     "waterType": "海",
     "locations": [
       "旧海"
@@ -2218,7 +2223,12 @@
     "nameJa": "ミノカサゴ",
     "level": 13,
     "events": [],
-    "prices": [],
+    "prices": [
+      {
+        "currency": "コイン",
+        "amount": 610
+      }
+    ],
     "waterType": "海",
     "locations": [
       "クジラ海"
@@ -2238,7 +2248,12 @@
     "nameJa": "レナーズラス",
     "level": 14,
     "events": [],
-    "prices": [],
+    "prices": [
+      {
+        "currency": "コイン",
+        "amount": 610
+      }
+    ],
     "waterType": "海",
     "locations": [
       "東海"
@@ -2257,7 +2272,12 @@
     "nameJa": "シリキルリスズメダイ",
     "level": 14,
     "events": [],
-    "prices": [],
+    "prices": [
+      {
+        "currency": "コイン",
+        "amount": 395
+      }
+    ],
     "waterType": "海",
     "locations": [
       "そよ風の海"
