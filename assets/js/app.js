@@ -73,6 +73,7 @@
     hideRatedFive: false,
     sort: "original"
   };
+  const PERSISTED_FILTER_PROPERTIES = ["hideRatedOneToFour", "hideRatedFive"];
   const RECIPE_SLOT_LIMIT = 4;
   const INGREDIENT_PLACEHOLDER_PATH = "assets/images/ingredients/_placeholder.svg";
 
@@ -118,7 +119,7 @@
 
   async function initializeCollection(collection, collectionRoot) {
     const content = collectionRoot.querySelector("[data-collection-content]");
-    const state = createFilterState();
+    const state = createFilterState(collection.key);
     let items = [];
 
     content.innerHTML = renderLoadingState(collection.label);
@@ -132,7 +133,8 @@
       const itemById = new Map(items.map((item) => [item.nameEn, item]));
       const updateView = () => updateCollectionView(collection, collectionRoot, items, state, controls);
       populateFilterOptions(collection, items, controls);
-      bindControls(state, controls, updateView);
+      syncFilterControls(state, controls);
+      bindControls(collection.key, state, controls, updateView);
       bindRatingActions(collection, content, itemById, updateView);
       updateView();
     } catch (error) {
@@ -157,8 +159,11 @@
     return data;
   }
 
-  function createFilterState() {
-    return { ...DEFAULT_FILTER_STATE };
+  function createFilterState(collectionKey) {
+    return {
+      ...DEFAULT_FILTER_STATE,
+      ...readPersistedFilterState(collectionKey)
+    };
   }
 
   function prepareItem(collection, item, index) {
@@ -365,7 +370,7 @@
     return [...new Set(values.filter(Boolean))];
   }
 
-  function bindControls(state, controls, updateView) {
+  function bindControls(collectionKey, state, controls, updateView) {
     let searchTimer = null;
 
     controls.search.addEventListener("input", () => {
@@ -401,11 +406,13 @@
 
     controls.hideOneFour.addEventListener("change", () => {
       state.hideRatedOneToFour = controls.hideOneFour.checked;
+      writePersistedFilterState(collectionKey, state);
       updateView();
     });
 
     controls.hideFive.addEventListener("change", () => {
       state.hideRatedFive = controls.hideFive.checked;
+      writePersistedFilterState(collectionKey, state);
       updateView();
     });
 
@@ -417,6 +424,7 @@
     const reset = () => {
       window.clearTimeout(searchTimer);
       resetFilterState(state, controls);
+      writePersistedFilterState(collectionKey, state);
       updateView();
     };
     controls.reset.addEventListener("click", reset);
@@ -424,8 +432,11 @@
   }
 
   function resetFilterState(state, controls) {
-    Object.assign(state, createFilterState());
+    Object.assign(state, DEFAULT_FILTER_STATE);
+    syncFilterControls(state, controls);
+  }
 
+  function syncFilterControls(state, controls) {
     controls.search.value = state.query;
     controls.searchClear.hidden = !state.query;
     controls.category.value = state.category;
@@ -845,16 +856,23 @@
   }
 
   function updateProgress(collectionRoot, items, ratingByItemId) {
+    updateProgressElements(collectionRoot, items, ratingByItemId, "progress");
+
+    const permanentItems = items.filter((item) => item.events.length === 0);
+    updateProgressElements(collectionRoot, permanentItems, ratingByItemId, "permanent-progress");
+  }
+
+  function updateProgressElements(collectionRoot, items, ratingByItemId, attributePrefix) {
     const completed = items.reduce((count, item) => (
       count + (ratingByItemId.get(item.nameEn) === 5 ? 1 : 0)
     ), 0);
     const total = items.length;
     const rate = total > 0 ? Math.round((completed / total) * 100) : 0;
 
-    const completedElement = collectionRoot.querySelector("[data-progress-complete]");
-    const totalElement = collectionRoot.querySelector("[data-progress-total]");
-    const rateElement = collectionRoot.querySelector("[data-progress-rate]");
-    const barElement = collectionRoot.querySelector("[data-progress-bar]");
+    const completedElement = collectionRoot.querySelector(`[data-${attributePrefix}-complete]`);
+    const totalElement = collectionRoot.querySelector(`[data-${attributePrefix}-total]`);
+    const rateElement = collectionRoot.querySelector(`[data-${attributePrefix}-rate]`);
+    const barElement = collectionRoot.querySelector(`[data-${attributePrefix}-bar]`);
 
     if (completedElement) completedElement.textContent = completed.toLocaleString("ja-JP");
     if (totalElement) totalElement.textContent = total.toLocaleString("ja-JP");
@@ -886,6 +904,40 @@
 
   function createRatingKey(collectionKey, itemId) {
     return `heartopia:rating:${collectionKey}:${itemId}`;
+  }
+
+  function readPersistedFilterState(collectionKey) {
+    if (!collectionKey) {
+      return {};
+    }
+
+    try {
+      return Object.fromEntries(PERSISTED_FILTER_PROPERTIES.map((property) => [
+        property,
+        localStorage.getItem(createFilterStateKey(collectionKey, property)) === "true"
+      ]));
+    } catch (_error) {
+      return {};
+    }
+  }
+
+  function writePersistedFilterState(collectionKey, state) {
+    try {
+      PERSISTED_FILTER_PROPERTIES.forEach((property) => {
+        const key = createFilterStateKey(collectionKey, property);
+        if (state[property]) {
+          localStorage.setItem(key, "true");
+        } else {
+          localStorage.removeItem(key);
+        }
+      });
+    } catch (_error) {
+      // localStorageが利用できない環境でも絞り込みを継続します。
+    }
+  }
+
+  function createFilterStateKey(collectionKey, property) {
+    return `heartopia:filter:${collectionKey}:${property}`;
   }
 
   function renderLoadingState(label) {
