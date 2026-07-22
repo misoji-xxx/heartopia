@@ -1568,28 +1568,6 @@
     ]
   },
   {
-    "nameEn": "greaterAsianLadyBeetle",
-    "nameJa": "ジュウサンホシテントウ",
-    "level": 11,
-    "events": [],
-    "prices": [
-      {
-        "currency": "コイン",
-        "amount": 440
-      }
-    ],
-    "locations": [
-      "花畑-クジラ山"
-    ],
-    "weathers": [
-      "虹"
-    ],
-    "times": [
-      "12:00〜24:00"
-    ],
-    "spawnSurfaces": []
-  },
-  {
     "nameEn": "orchidMantis",
     "nameJa": "ハナカマキリ",
     "level": 11,
@@ -1610,6 +1588,28 @@
     ],
     "times": [
       "6:00〜18:00"
+    ],
+    "spawnSurfaces": []
+  },
+  {
+    "nameEn": "greaterAsianLadyBeetle",
+    "nameJa": "ジュウサンホシテントウ",
+    "level": 11,
+    "events": [],
+    "prices": [
+      {
+        "currency": "コイン",
+        "amount": 440
+      }
+    ],
+    "locations": [
+      "花畑-クジラ山"
+    ],
+    "weathers": [
+      "虹"
+    ],
+    "times": [
+      "12:00〜24:00"
     ],
     "spawnSurfaces": []
   },

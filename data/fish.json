@@ -414,52 +414,6 @@
     "shadow": "小"
   },
   {
-    "nameEn": "rabbitFish",
-    "nameJa": "カイブツギンザメ",
-    "level": 4,
-    "events": [],
-    "prices": [
-      {
-        "currency": "コイン",
-        "amount": 320
-      }
-    ],
-    "waterType": "海",
-    "locations": [
-      "全海"
-    ],
-    "weathers": [
-      "全天気"
-    ],
-    "times": [
-      "全時間"
-    ],
-    "shadow": "装置（青）"
-  },
-  {
-    "nameEn": "seaStickleback",
-    "nameJa": "ウミトゲウオ",
-    "level": 1,
-    "events": [],
-    "prices": [
-      {
-        "currency": "コイン",
-        "amount": 50
-      }
-    ],
-    "waterType": "海",
-    "locations": [
-      "旧海"
-    ],
-    "weathers": [
-      "全天気"
-    ],
-    "times": [
-      "全時間"
-    ],
-    "shadow": "小"
-  },
-  {
     "nameEn": "stripedRedMullet",
     "nameJa": "ストライプトレッドマレット",
     "level": 1,
@@ -481,6 +435,29 @@
       "全時間"
     ],
     "shadow": "金"
+  },
+  {
+    "nameEn": "seaStickleback",
+    "nameJa": "ウミトゲウオ",
+    "level": 2,
+    "events": [],
+    "prices": [
+      {
+        "currency": "コイン",
+        "amount": 50
+      }
+    ],
+    "waterType": "海",
+    "locations": [
+      "旧海"
+    ],
+    "weathers": [
+      "全天気"
+    ],
+    "times": [
+      "全時間"
+    ],
+    "shadow": "小"
   },
   {
     "nameEn": "stoneLoach",
@@ -742,29 +719,6 @@
     "shadow": "小"
   },
   {
-    "nameEn": "commonOctopus",
-    "nameJa": "マダコ",
-    "level": 4,
-    "events": [],
-    "prices": [
-      {
-        "currency": "コイン",
-        "amount": 320
-      }
-    ],
-    "waterType": "海",
-    "locations": [
-      "海釣りクエスト"
-    ],
-    "weathers": [
-      "全天気"
-    ],
-    "times": [
-      "全時間"
-    ],
-    "shadow": "金"
-  },
-  {
     "nameEn": "atlanticSalmon",
     "nameJa": "タイセイヨウサケ",
     "level": 3,
@@ -791,7 +745,7 @@
   {
     "nameEn": "atlanticPygmyOctopus",
     "nameJa": "ピグミータコ",
-    "level": 1,
+    "level": 3,
     "events": [],
     "prices": [
       {
@@ -835,29 +789,6 @@
     "shadow": "小"
   },
   {
-    "nameEn": "tilapia",
-    "nameJa": "ティラピア",
-    "level": 4,
-    "events": [],
-    "prices": [
-      {
-        "currency": "コイン",
-        "amount": 320
-      }
-    ],
-    "waterType": "川",
-    "locations": [
-      "全川"
-    ],
-    "weathers": [
-      "全天気"
-    ],
-    "times": [
-      "全時間"
-    ],
-    "shadow": "装置（青）"
-  },
-  {
     "nameEn": "clownfish",
     "nameJa": "カクレクマノミ",
     "level": 3,
@@ -881,6 +812,98 @@
     "shadow": "小"
   },
   {
+    "nameEn": "turbot",
+    "nameJa": "イシビラメ",
+    "level": 3,
+    "events": [],
+    "prices": [
+      {
+        "currency": "コイン",
+        "amount": 320
+      }
+    ],
+    "waterType": "海",
+    "locations": [
+      "海釣りクエスト"
+    ],
+    "weathers": [
+      "全天気"
+    ],
+    "times": [
+      "全時間"
+    ],
+    "shadow": "金"
+  },
+  {
+    "nameEn": "tilapia",
+    "nameJa": "ティラピア",
+    "level": 4,
+    "events": [],
+    "prices": [
+      {
+        "currency": "コイン",
+        "amount": 320
+      }
+    ],
+    "waterType": "川",
+    "locations": [
+      "全川"
+    ],
+    "weathers": [
+      "全天気"
+    ],
+    "times": [
+      "全時間"
+    ],
+    "shadow": "装置（青）"
+  },
+  {
+    "nameEn": "rabbitFish",
+    "nameJa": "カイブツギンザメ",
+    "level": 4,
+    "events": [],
+    "prices": [
+      {
+        "currency": "コイン",
+        "amount": 320
+      }
+    ],
+    "waterType": "海",
+    "locations": [
+      "全海"
+    ],
+    "weathers": [
+      "全天気"
+    ],
+    "times": [
+      "全時間"
+    ],
+    "shadow": "装置（青）"
+  },
+  {
+    "nameEn": "commonOctopus",
+    "nameJa": "マダコ",
+    "level": 4,
+    "events": [],
+    "prices": [
+      {
+        "currency": "コイン",
+        "amount": 320
+      }
+    ],
+    "waterType": "海",
+    "locations": [
+      "海釣りクエスト"
+    ],
+    "weathers": [
+      "全天気"
+    ],
+    "times": [
+      "全時間"
+    ],
+    "shadow": "金"
+  },
+  {
     "nameEn": "commonCarp",
     "nameJa": "ヨーロッパコイ",
     "level": 4,
@@ -898,29 +921,6 @@
     "weathers": [
       "晴れ",
       "虹"
-    ],
-    "times": [
-      "12:00〜24:00"
-    ],
-    "shadow": "中"
-  },
-  {
-    "nameEn": "burbot",
-    "nameJa": "カワメンタイ",
-    "level": 4,
-    "events": [],
-    "prices": [
-      {
-        "currency": "コイン",
-        "amount": 230
-      }
-    ],
-    "waterType": "川",
-    "locations": [
-      "静川"
-    ],
-    "weathers": [
-      "全天気"
     ],
     "times": [
       "12:00〜24:00"
@@ -975,6 +975,29 @@
     "shadow": "中"
   },
   {
+    "nameEn": "burbot",
+    "nameJa": "カワメンタイ",
+    "level": 4,
+    "events": [],
+    "prices": [
+      {
+        "currency": "コイン",
+        "amount": 230
+      }
+    ],
+    "waterType": "川",
+    "locations": [
+      "静川"
+    ],
+    "weathers": [
+      "全天気"
+    ],
+    "times": [
+      "12:00〜24:00"
+    ],
+    "shadow": "中"
+  },
+  {
     "nameEn": "goby",
     "nameJa": "ハゼ",
     "level": 4,
@@ -1019,29 +1042,6 @@
       "全時間"
     ],
     "shadow": "小"
-  },
-  {
-    "nameEn": "turbot",
-    "nameJa": "イシビラメ",
-    "level": 3,
-    "events": [],
-    "prices": [
-      {
-        "currency": "コイン",
-        "amount": 320
-      }
-    ],
-    "waterType": "海",
-    "locations": [
-      "海釣りクエスト"
-    ],
-    "weathers": [
-      "全天気"
-    ],
-    "times": [
-      "全時間"
-    ],
-    "shadow": "金"
   },
   {
     "nameEn": "europeanPlaice",

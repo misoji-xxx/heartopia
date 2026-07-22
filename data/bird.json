@@ -1964,35 +1964,6 @@
     ]
   },
   {
-    "nameEn": "whitePeafowl",
-    "nameJa": "シロクジャク",
-    "level": 11,
-    "events": [],
-    "prices": [
-      {
-        "currency": "コイン",
-        "amount": 37
-      }
-    ],
-    "locations": [
-      "巣ごもりクエスト（追加段階）"
-    ],
-    "weathers": [
-      "全天気"
-    ],
-    "times": [
-      "全時間"
-    ],
-    "distanceMeters": 5,
-    "fiveStarAction": "羽を広げる",
-    "fiveStarWeathers": [
-      "虹"
-    ],
-    "fiveStarTimes": [
-      "12:00〜18:00"
-    ]
-  },
-  {
     "nameEn": "baikalTeal",
     "nameJa": "トモエガモ",
     "level": 11,
@@ -2050,6 +2021,35 @@
     ],
     "fiveStarTimes": [
       "6:00〜18:00"
+    ]
+  },
+  {
+    "nameEn": "whitePeafowl",
+    "nameJa": "シロクジャク",
+    "level": 11,
+    "events": [],
+    "prices": [
+      {
+        "currency": "コイン",
+        "amount": 37
+      }
+    ],
+    "locations": [
+      "巣ごもりクエスト（追加段階）"
+    ],
+    "weathers": [
+      "全天気"
+    ],
+    "times": [
+      "全時間"
+    ],
+    "distanceMeters": 5,
+    "fiveStarAction": "羽を広げる",
+    "fiveStarWeathers": [
+      "虹"
+    ],
+    "fiveStarTimes": [
+      "12:00〜18:00"
     ]
   },
   {
@@ -2877,80 +2877,6 @@
     ]
   },
   {
-    "nameEn": "whiteWingedTern",
-    "nameJa": "ハジロクロハラアジサシ",
-    "level": 1,
-    "events": [
-      "ホエールシーズン"
-    ],
-    "prices": [
-      {
-        "currency": "コイン",
-        "amount": 15
-      },
-      {
-        "currency": "トレンドコイン",
-        "amount": 10
-      }
-    ],
-    "locations": [
-      "花畑-クジラ山"
-    ],
-    "weathers": [
-      "全天気"
-    ],
-    "times": [
-      "全時間"
-    ],
-    "distanceMeters": 3,
-    "fiveStarAction": "羽を広げる",
-    "fiveStarWeathers": [
-      "雨",
-      "雪",
-      "虹"
-    ],
-    "fiveStarTimes": [
-      "全時間"
-    ]
-  },
-  {
-    "nameEn": "pomarineSkua",
-    "nameJa": "トウゾクカモメ",
-    "level": 1,
-    "events": [
-      "ホエールシーズン"
-    ],
-    "prices": [
-      {
-        "currency": "コイン",
-        "amount": 15
-      },
-      {
-        "currency": "トレンドコイン",
-        "amount": 10
-      }
-    ],
-    "locations": [
-      "花畑"
-    ],
-    "weathers": [
-      "全天気"
-    ],
-    "times": [
-      "全時間"
-    ],
-    "distanceMeters": 3,
-    "fiveStarAction": "羽を広げる",
-    "fiveStarWeathers": [
-      "雨",
-      "雪",
-      "虹"
-    ],
-    "fiveStarTimes": [
-      "全時間"
-    ]
-  },
-  {
     "nameEn": "whiteSpoonbill",
     "nameJa": "ヘラサギ",
     "level": 1,
@@ -2977,6 +2903,43 @@
       "全時間"
     ],
     "distanceMeters": 5,
+    "fiveStarAction": "羽を広げる",
+    "fiveStarWeathers": [
+      "雨",
+      "雪",
+      "虹"
+    ],
+    "fiveStarTimes": [
+      "全時間"
+    ]
+  },
+  {
+    "nameEn": "whiteWingedTern",
+    "nameJa": "ハジロクロハラアジサシ",
+    "level": 1,
+    "events": [
+      "ホエールシーズン"
+    ],
+    "prices": [
+      {
+        "currency": "コイン",
+        "amount": 15
+      },
+      {
+        "currency": "トレンドコイン",
+        "amount": 10
+      }
+    ],
+    "locations": [
+      "花畑-クジラ山"
+    ],
+    "weathers": [
+      "全天気"
+    ],
+    "times": [
+      "全時間"
+    ],
+    "distanceMeters": 3,
     "fiveStarAction": "羽を広げる",
     "fiveStarWeathers": [
       "雨",
@@ -3043,6 +3006,43 @@
     ],
     "locations": [
       "温泉山-石海岸の崖"
+    ],
+    "weathers": [
+      "全天気"
+    ],
+    "times": [
+      "全時間"
+    ],
+    "distanceMeters": 3,
+    "fiveStarAction": "羽を広げる",
+    "fiveStarWeathers": [
+      "雨",
+      "雪",
+      "虹"
+    ],
+    "fiveStarTimes": [
+      "全時間"
+    ]
+  },
+  {
+    "nameEn": "pomarineSkua",
+    "nameJa": "トウゾクカモメ",
+    "level": 1,
+    "events": [
+      "ホエールシーズン"
+    ],
+    "prices": [
+      {
+        "currency": "コイン",
+        "amount": 15
+      },
+      {
+        "currency": "トレンドコイン",
+        "amount": 10
+      }
+    ],
+    "locations": [
+      "花畑"
     ],
     "weathers": [
       "全天気"

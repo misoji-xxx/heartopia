@@ -283,31 +283,9 @@
     "energy": 80
   },
   {
-    "nameEn": "starfruitJam",
-    "nameJa": "スターフルーツジャム",
-    "level": 1,
-    "events": [
-      "ホエールシーズン"
-    ],
-    "prices": [
-      {
-        "currency": "コイン",
-        "amount": 200
-      }
-    ],
-    "ingredients": [
-      {
-        "name": "スターフルーツ",
-        "quantity": 4,
-        "alternatives": []
-      }
-    ],
-    "energy": 20
-  },
-  {
     "nameEn": "cheeseCake",
     "nameJa": "チーズケーキ",
-    "level": 2,
+    "level": 1,
     "events": [],
     "prices": [
       {
@@ -433,36 +411,6 @@
     "energy": 48
   },
   {
-    "nameEn": "greenRollCake",
-    "nameJa": "緑のロールケーキ",
-    "level": 1,
-    "events": [],
-    "prices": [
-      {
-        "currency": "コイン",
-        "amount": 670
-      }
-    ],
-    "ingredients": [
-      {
-        "name": "卵",
-        "quantity": 1,
-        "alternatives": []
-      },
-      {
-        "name": "牛乳",
-        "quantity": 1,
-        "alternatives": []
-      },
-      {
-        "name": "緑のキャンディ",
-        "quantity": 2,
-        "alternatives": []
-      }
-    ],
-    "energy": 48
-  },
-  {
     "nameEn": "yellowRollCake",
     "nameJa": "黄色いロールケーキ",
     "level": 1,
@@ -486,6 +434,36 @@
       },
       {
         "name": "黄色いキャンディ",
+        "quantity": 2,
+        "alternatives": []
+      }
+    ],
+    "energy": 48
+  },
+  {
+    "nameEn": "greenRollCake",
+    "nameJa": "緑のロールケーキ",
+    "level": 1,
+    "events": [],
+    "prices": [
+      {
+        "currency": "コイン",
+        "amount": 670
+      }
+    ],
+    "ingredients": [
+      {
+        "name": "卵",
+        "quantity": 1,
+        "alternatives": []
+      },
+      {
+        "name": "牛乳",
+        "quantity": 1,
+        "alternatives": []
+      },
+      {
+        "name": "緑のキャンディ",
         "quantity": 2,
         "alternatives": []
       }
@@ -875,409 +853,89 @@
     "energy": 15
   },
   {
-    "nameEn": "onsenEgg",
-    "nameJa": "温泉卵",
+    "nameEn": "seaGrapeShiitakeChawanmushi",
+    "nameJa": "海ぶどうとシイタケの茶碗蒸し",
     "level": 1,
-    "events": [
-      "温泉卵の約束"
-    ],
+    "events": [],
     "prices": [
       {
         "currency": "コイン",
-        "amount": 130
+        "amount": 230
       }
     ],
     "ingredients": [
+      {
+        "name": "海ぶどう",
+        "quantity": 2,
+        "alternatives": []
+      },
+      {
+        "name": "シイタケ",
+        "quantity": 1,
+        "alternatives": []
+      },
       {
         "name": "無菌卵",
         "quantity": 1,
         "alternatives": []
       }
     ],
-    "energy": 15
+    "energy": 35
   },
   {
-    "nameEn": "trianglePlainRiceZongzi",
-    "nameJa": "三角の白米ちまき",
+    "nameEn": "wakameMeatballSoup",
+    "nameJa": "ワカメと肉団子のスープ",
     "level": 1,
-    "events": [
-      "仲夏の端陽"
-    ],
+    "events": [],
     "prices": [
       {
         "currency": "コイン",
-        "amount": 240
+        "amount": 500
       }
     ],
     "ingredients": [
       {
-        "name": "ちまきの葉",
-        "quantity": 1,
-        "alternatives": []
-      },
-      {
-        "name": "稲",
-        "quantity": 1,
-        "alternatives": []
-      },
-      {
-        "name": "ちまき素材",
+        "name": "ワカメ",
         "quantity": 2,
-        "alternatives": [
-          "あずき",
-          "卵",
-          "肉"
-        ]
-      }
-    ],
-    "energy": 25
-  },
-  {
-    "nameEn": "triangleRedBeanZongzi",
-    "nameJa": "三角のあずきちまき",
-    "level": 1,
-    "events": [
-      "仲夏の端陽"
-    ],
-    "prices": [
-      {
-        "currency": "コイン",
-        "amount": 260
-      }
-    ],
-    "ingredients": [
-      {
-        "name": "ちまきの葉",
-        "quantity": 1,
-        "alternatives": []
-      },
-      {
-        "name": "稲",
-        "quantity": 1,
-        "alternatives": []
-      },
-      {
-        "name": "あずき",
-        "quantity": 2,
-        "alternatives": []
-      }
-    ],
-    "energy": 25
-  },
-  {
-    "nameEn": "triangleEggYolkPorkZongzi",
-    "nameJa": "三角の卵黄入り肉ちまき",
-    "level": 1,
-    "events": [
-      "仲夏の端陽"
-    ],
-    "prices": [
-      {
-        "currency": "コイン",
-        "amount": 460
-      }
-    ],
-    "ingredients": [
-      {
-        "name": "ちまきの葉",
-        "quantity": 1,
-        "alternatives": []
-      },
-      {
-        "name": "稲",
-        "quantity": 1,
-        "alternatives": []
-      },
-      {
-        "name": "卵",
-        "quantity": 1,
         "alternatives": []
       },
       {
         "name": "肉",
-        "quantity": 1,
-        "alternatives": []
-      }
-    ],
-    "energy": 40
-  },
-  {
-    "nameEn": "pillowShapedPlainRiceZongzi",
-    "nameJa": "枕型の白米ちまき",
-    "level": 1,
-    "events": [
-      "仲夏の端陽"
-    ],
-    "prices": [
-      {
-        "currency": "コイン",
-        "amount": 240
-      }
-    ],
-    "ingredients": [
-      {
-        "name": "ちまきの葉",
-        "quantity": 1,
-        "alternatives": []
-      },
-      {
-        "name": "稲",
-        "quantity": 1,
-        "alternatives": []
-      },
-      {
-        "name": "ちまき素材",
-        "quantity": 2,
-        "alternatives": [
-          "あずき",
-          "卵",
-          "肉"
-        ]
-      }
-    ],
-    "energy": 25
-  },
-  {
-    "nameEn": "pillowShapedRedBeanZongzi",
-    "nameJa": "枕型のこしあんちまき",
-    "level": 1,
-    "events": [
-      "仲夏の端陽"
-    ],
-    "prices": [
-      {
-        "currency": "コイン",
-        "amount": 260
-      }
-    ],
-    "ingredients": [
-      {
-        "name": "ちまきの葉",
-        "quantity": 1,
-        "alternatives": []
-      },
-      {
-        "name": "稲",
-        "quantity": 1,
-        "alternatives": []
-      },
-      {
-        "name": "あずき",
         "quantity": 2,
         "alternatives": []
       }
     ],
-    "energy": 25
+    "energy": 55
   },
   {
-    "nameEn": "pillowShapedEggYolkPorkZongzi",
-    "nameJa": "枕型の卵黄入り肉ちまき",
+    "nameEn": "glasswortShrimpFriedRice",
+    "nameJa": "シーアスパラガスのエビチャーハン",
     "level": 1,
-    "events": [
-      "仲夏の端陽"
-    ],
+    "events": [],
     "prices": [
       {
         "currency": "コイン",
-        "amount": 460
+        "amount": 160
       }
     ],
     "ingredients": [
-      {
-        "name": "ちまきの葉",
-        "quantity": 1,
-        "alternatives": []
-      },
       {
         "name": "稲",
         "quantity": 1,
         "alternatives": []
       },
       {
-        "name": "卵",
-        "quantity": 1,
+        "name": "シーアスパラガス",
+        "quantity": 2,
         "alternatives": []
       },
       {
-        "name": "肉",
+        "name": "ウミエビ",
         "quantity": 1,
         "alternatives": []
       }
     ],
-    "energy": 40
-  },
-  {
-    "nameEn": "rainbowHeart",
-    "nameJa": "虹のときめきグミ",
-    "level": 1,
-    "events": [
-      "虹色のことば"
-    ],
-    "prices": [
-      {
-        "currency": "コイン",
-        "amount": 170
-      }
-    ],
-    "ingredients": [
-      {
-        "name": "果物",
-        "quantity": 4,
-        "alternatives": [
-          "ブルーベリー",
-          "ラズベリー",
-          "リンゴ",
-          "オレンジ",
-          "パイナップル",
-          "いちご",
-          "ブドウ",
-          "スターフルーツ"
-        ]
-      }
-    ],
-    "energy": 20
-  },
-  {
-    "nameEn": "rainbowSpark",
-    "nameJa": "虹のドキドキグミ",
-    "level": 1,
-    "events": [
-      "虹色のことば"
-    ],
-    "prices": [
-      {
-        "currency": "コイン",
-        "amount": 170
-      }
-    ],
-    "ingredients": [
-      {
-        "name": "果物",
-        "quantity": 4,
-        "alternatives": [
-          "ブルーベリー",
-          "ラズベリー",
-          "リンゴ",
-          "オレンジ",
-          "パイナップル",
-          "いちご",
-          "ブドウ",
-          "スターフルーツ"
-        ]
-      }
-    ],
-    "energy": 20
-  },
-  {
-    "nameEn": "cinnamorollCrepe",
-    "nameJa": "シナモロールのクレープ",
-    "level": 1,
-    "events": [
-      "サンリオキャラクターズコラボ"
-    ],
-    "prices": [
-      {
-        "currency": "コイン",
-        "amount": 670
-      }
-    ],
-    "ingredients": [
-      {
-        "name": "小麦",
-        "quantity": 1,
-        "alternatives": []
-      },
-      {
-        "name": "バター",
-        "quantity": 1,
-        "alternatives": []
-      },
-      {
-        "name": "卵",
-        "quantity": 1,
-        "alternatives": []
-      },
-      {
-        "name": "コーヒー豆",
-        "quantity": 1,
-        "alternatives": []
-      }
-    ],
-    "energy": 80
-  },
-  {
-    "nameEn": "kuromiCrepe",
-    "nameJa": "クロミのクレープ",
-    "level": 1,
-    "events": [
-      "サンリオキャラクターズコラボ"
-    ],
-    "prices": [
-      {
-        "currency": "コイン",
-        "amount": 670
-      }
-    ],
-    "ingredients": [
-      {
-        "name": "小麦",
-        "quantity": 1,
-        "alternatives": []
-      },
-      {
-        "name": "バター",
-        "quantity": 1,
-        "alternatives": []
-      },
-      {
-        "name": "卵",
-        "quantity": 1,
-        "alternatives": []
-      },
-      {
-        "name": "ラズベリー",
-        "quantity": 1,
-        "alternatives": []
-      }
-    ],
-    "energy": 80
-  },
-  {
-    "nameEn": "myMelodyCrepe",
-    "nameJa": "マイメロディのクレープ",
-    "level": 1,
-    "events": [
-      "サンリオキャラクターズコラボ"
-    ],
-    "prices": [
-      {
-        "currency": "コイン",
-        "amount": 670
-      }
-    ],
-    "ingredients": [
-      {
-        "name": "小麦",
-        "quantity": 1,
-        "alternatives": []
-      },
-      {
-        "name": "バター",
-        "quantity": 1,
-        "alternatives": []
-      },
-      {
-        "name": "卵",
-        "quantity": 1,
-        "alternatives": []
-      },
-      {
-        "name": "牛乳",
-        "quantity": 1,
-        "alternatives": []
-      }
-    ],
-    "energy": 90
+    "energy": 25
   },
   {
     "nameEn": "coffee",
@@ -1368,61 +1026,6 @@
     "energy": 50
   },
   {
-    "nameEn": "seaGrapeShiitakeChawanmushi",
-    "nameJa": "海ぶどうとシイタケの茶碗蒸し",
-    "level": 1,
-    "events": [],
-    "prices": [
-      {
-        "currency": "コイン",
-        "amount": 230
-      }
-    ],
-    "ingredients": [
-      {
-        "name": "海ぶどう",
-        "quantity": 2,
-        "alternatives": []
-      },
-      {
-        "name": "シイタケ",
-        "quantity": 1,
-        "alternatives": []
-      },
-      {
-        "name": "無菌卵",
-        "quantity": 1,
-        "alternatives": []
-      }
-    ],
-    "energy": 35
-  },
-  {
-    "nameEn": "wakameMeatballSoup",
-    "nameJa": "ワカメと肉団子のスープ",
-    "level": 1,
-    "events": [],
-    "prices": [
-      {
-        "currency": "コイン",
-        "amount": 500
-      }
-    ],
-    "ingredients": [
-      {
-        "name": "ワカメ",
-        "quantity": 2,
-        "alternatives": []
-      },
-      {
-        "name": "肉",
-        "quantity": 2,
-        "alternatives": []
-      }
-    ],
-    "energy": 55
-  },
-  {
     "nameEn": "seafoodRisotto",
     "nameJa": "シーフードリゾット",
     "level": 3,
@@ -1458,6 +1061,396 @@
       }
     ],
     "energy": 40
+  },
+  {
+    "nameEn": "rusticRatatouille",
+    "nameJa": "カントリー風煮込み",
+    "level": 3,
+    "events": [],
+    "prices": [
+      {
+        "currency": "コイン",
+        "amount": 640
+      }
+    ],
+    "ingredients": [
+      {
+        "name": "トマト",
+        "quantity": 1,
+        "alternatives": []
+      },
+      {
+        "name": "じゃがいも",
+        "quantity": 1,
+        "alternatives": []
+      },
+      {
+        "name": "レタス",
+        "quantity": 1,
+        "alternatives": []
+      }
+    ],
+    "energy": 60
+  },
+  {
+    "nameEn": "blackTruffleCreamPasta",
+    "nameJa": "トリュフのクリームパスタ",
+    "level": 3,
+    "events": [],
+    "prices": [
+      {
+        "currency": "コイン",
+        "amount": 900
+      }
+    ],
+    "ingredients": [
+      {
+        "name": "トリュフ",
+        "quantity": 1,
+        "alternatives": []
+      },
+      {
+        "name": "小麦",
+        "quantity": 2,
+        "alternatives": []
+      },
+      {
+        "name": "牛乳",
+        "quantity": 1,
+        "alternatives": []
+      }
+    ],
+    "energy": 90
+  },
+  {
+    "nameEn": "seafoodPizza",
+    "nameJa": "シーフードピザ",
+    "level": 4,
+    "events": [],
+    "prices": [
+      {
+        "currency": "コイン",
+        "amount": 780
+      }
+    ],
+    "ingredients": [
+      {
+        "name": "チーズ",
+        "quantity": 1,
+        "alternatives": []
+      },
+      {
+        "name": "トマトソース",
+        "quantity": 1,
+        "alternatives": []
+      },
+      {
+        "name": "小麦",
+        "quantity": 1,
+        "alternatives": []
+      },
+      {
+        "name": "魚",
+        "quantity": 1,
+        "alternatives": []
+      }
+    ],
+    "energy": 70
+  },
+  {
+    "nameEn": "meatSaucePasta",
+    "nameJa": "ミートソースパスタ",
+    "level": 4,
+    "events": [],
+    "prices": [
+      {
+        "currency": "コイン",
+        "amount": 670
+      }
+    ],
+    "ingredients": [
+      {
+        "name": "肉",
+        "quantity": 1,
+        "alternatives": []
+      },
+      {
+        "name": "小麦",
+        "quantity": 1,
+        "alternatives": []
+      },
+      {
+        "name": "トマト",
+        "quantity": 1,
+        "alternatives": []
+      },
+      {
+        "name": "チーズ",
+        "quantity": 1,
+        "alternatives": []
+      }
+    ],
+    "energy": 80
+  },
+  {
+    "nameEn": "applePie",
+    "nameJa": "アップルパイ",
+    "level": 5,
+    "events": [],
+    "prices": [
+      {
+        "currency": "コイン",
+        "amount": 730
+      }
+    ],
+    "ingredients": [
+      {
+        "name": "リンゴ",
+        "quantity": 1,
+        "alternatives": []
+      },
+      {
+        "name": "小麦",
+        "quantity": 1,
+        "alternatives": []
+      },
+      {
+        "name": "卵",
+        "quantity": 1,
+        "alternatives": []
+      },
+      {
+        "name": "バター",
+        "quantity": 1,
+        "alternatives": []
+      }
+    ],
+    "energy": 70
+  },
+  {
+    "nameEn": "carrotCake",
+    "nameJa": "ニンジンケーキ",
+    "level": 5,
+    "events": [],
+    "prices": [
+      {
+        "currency": "コイン",
+        "amount": 840
+      }
+    ],
+    "ingredients": [
+      {
+        "name": "ニンジン",
+        "quantity": 2,
+        "alternatives": []
+      },
+      {
+        "name": "卵",
+        "quantity": 1,
+        "alternatives": []
+      },
+      {
+        "name": "小麦",
+        "quantity": 1,
+        "alternatives": []
+      }
+    ],
+    "energy": 55
+  },
+  {
+    "nameEn": "cornSoup",
+    "nameJa": "コーンポタージュ",
+    "level": 5,
+    "events": [],
+    "prices": [
+      {
+        "currency": "コイン",
+        "amount": 1340
+      }
+    ],
+    "ingredients": [
+      {
+        "name": "トウモロコシ",
+        "quantity": 2,
+        "alternatives": []
+      },
+      {
+        "name": "牛乳",
+        "quantity": 1,
+        "alternatives": []
+      },
+      {
+        "name": "バター",
+        "quantity": 1,
+        "alternatives": []
+      }
+    ],
+    "energy": 80
+  },
+  {
+    "nameEn": "deluxeSeafoodPlatter",
+    "nameJa": "豪華海鮮盛り合わせ",
+    "level": 6,
+    "events": [],
+    "prices": [
+      {
+        "currency": "コイン",
+        "amount": 410
+      }
+    ],
+    "ingredients": [
+      {
+        "name": "北欧アカザエビ",
+        "quantity": 2,
+        "alternatives": []
+      },
+      {
+        "name": "魚",
+        "quantity": 2,
+        "alternatives": []
+      }
+    ],
+    "energy": 65
+  },
+  {
+    "nameEn": "tiramisu",
+    "nameJa": "ティラミス",
+    "level": 6,
+    "events": [],
+    "prices": [
+      {
+        "currency": "コイン",
+        "amount": 530
+      }
+    ],
+    "ingredients": [
+      {
+        "name": "コーヒー豆",
+        "quantity": 1,
+        "alternatives": []
+      },
+      {
+        "name": "卵",
+        "quantity": 1,
+        "alternatives": []
+      },
+      {
+        "name": "牛乳",
+        "quantity": 1,
+        "alternatives": []
+      },
+      {
+        "name": "チーズ",
+        "quantity": 1,
+        "alternatives": []
+      }
+    ],
+    "energy": 65
+  },
+  {
+    "nameEn": "picnicSet",
+    "nameJa": "キャンプセット",
+    "level": 7,
+    "events": [],
+    "prices": [
+      {
+        "currency": "コイン",
+        "amount": 2260
+      }
+    ],
+    "ingredients": [
+      {
+        "name": "コーヒー",
+        "quantity": 1,
+        "alternatives": []
+      },
+      {
+        "name": "シーフードピザ",
+        "quantity": 1,
+        "alternatives": []
+      },
+      {
+        "name": "アップルパイ",
+        "quantity": 1,
+        "alternatives": []
+      },
+      {
+        "name": "フィッシュアンドチップス",
+        "quantity": 1,
+        "alternatives": []
+      }
+    ],
+    "energy": 100
+  },
+  {
+    "nameEn": "afternoonTea",
+    "nameJa": "英式アフタヌーンティー",
+    "level": 7,
+    "events": [],
+    "prices": [
+      {
+        "currency": "コイン",
+        "amount": 710
+      }
+    ],
+    "ingredients": [
+      {
+        "name": "ティラミス",
+        "quantity": 1,
+        "alternatives": []
+      },
+      {
+        "name": "ジャム素材",
+        "quantity": 1,
+        "alternatives": [
+          "ラズベリー",
+          "ブルーベリー",
+          "リンゴ",
+          "オレンジ",
+          "いちご",
+          "パイナップル",
+          "ブドウ",
+          "カカオ豆",
+          "スターフルーツ"
+        ]
+      }
+    ],
+    "energy": 20
+  },
+  {
+    "nameEn": "meatBurger",
+    "nameJa": "ミートバーガー",
+    "level": 8,
+    "events": [],
+    "prices": [
+      {
+        "currency": "コイン",
+        "amount": 1350
+      }
+    ],
+    "ingredients": [
+      {
+        "name": "小麦",
+        "quantity": 1,
+        "alternatives": []
+      },
+      {
+        "name": "肉",
+        "quantity": 1,
+        "alternatives": []
+      },
+      {
+        "name": "レタス",
+        "quantity": 1,
+        "alternatives": []
+      },
+      {
+        "name": "トマトソース",
+        "quantity": 1,
+        "alternatives": []
+      }
+    ],
+    "energy": 75
   },
   {
     "nameEn": "crayfishSashimi",
@@ -2182,34 +2175,1067 @@
     "energy": 80
   },
   {
-    "nameEn": "rusticRatatouille",
-    "nameJa": "カントリー風煮込み",
-    "level": 3,
-    "events": [],
+    "nameEn": "starfruitJam",
+    "nameJa": "スターフルーツジャム",
+    "level": 1,
+    "events": [
+      "ホエールシーズン"
+    ],
     "prices": [
       {
         "currency": "コイン",
-        "amount": 640
+        "amount": 200
       }
     ],
     "ingredients": [
+      {
+        "name": "スターフルーツ",
+        "quantity": 4,
+        "alternatives": []
+      }
+    ],
+    "energy": 20
+  },
+  {
+    "nameEn": "oceanIcedDrink",
+    "nameJa": "オーシャンアイスドリンク",
+    "level": 1,
+    "events": [
+      "ホエールシーズン"
+    ],
+    "prices": [
+      {
+        "currency": "コイン",
+        "amount": 190
+      },
+      {
+        "currency": "トレンドコイン",
+        "amount": 80
+      }
+    ],
+    "ingredients": [
+      {
+        "name": "藍藻パウダー",
+        "quantity": 2,
+        "alternatives": []
+      },
+      {
+        "name": "スターフルーツ",
+        "quantity": 2,
+        "alternatives": []
+      }
+    ],
+    "energy": 20
+  },
+  {
+    "nameEn": "tomatoSeafoodSoup",
+    "nameJa": "海鮮トマトポタージュ",
+    "level": 1,
+    "events": [
+      "ホエールシーズン"
+    ],
+    "prices": [
+      {
+        "currency": "コイン",
+        "amount": 450
+      },
+      {
+        "currency": "トレンドコイン",
+        "amount": 180
+      }
+    ],
+    "ingredients": [
+      {
+        "name": "ウミエビ",
+        "quantity": 1,
+        "alternatives": []
+      },
       {
         "name": "トマト",
         "quantity": 1,
         "alternatives": []
       },
       {
-        "name": "じゃがいも",
+        "name": "シーアスパラガス",
         "quantity": 1,
         "alternatives": []
       },
       {
-        "name": "レタス",
+        "name": "小麦",
         "quantity": 1,
         "alternatives": []
       }
     ],
-    "energy": 60
+    "energy": 40
+  },
+  {
+    "nameEn": "seashellPearlCake",
+    "nameJa": "ミニパールケーキ",
+    "level": 1,
+    "events": [
+      "ホエールシーズン"
+    ],
+    "prices": [
+      {
+        "currency": "コイン",
+        "amount": 570
+      },
+      {
+        "currency": "トレンドコイン",
+        "amount": 230
+      }
+    ],
+    "ingredients": [
+      {
+        "name": "ホタテ",
+        "quantity": 1,
+        "alternatives": []
+      },
+      {
+        "name": "小麦",
+        "quantity": 1,
+        "alternatives": []
+      },
+      {
+        "name": "牛乳",
+        "quantity": 1,
+        "alternatives": []
+      },
+      {
+        "name": "果物",
+        "quantity": 1,
+        "alternatives": [
+          "ブルーベリー",
+          "ラズベリー",
+          "リンゴ",
+          "オレンジ",
+          "パイナップル",
+          "いちご",
+          "ブドウ",
+          "スターフルーツ"
+        ]
+      }
+    ],
+    "energy": 45
+  },
+  {
+    "nameEn": "starfruitPearlCake",
+    "nameJa": "ミニスターフルーツパールケーキ",
+    "level": 1,
+    "events": [
+      "ホエールシーズン"
+    ],
+    "prices": [
+      {
+        "currency": "コイン",
+        "amount": 570
+      },
+      {
+        "currency": "トレンドコイン",
+        "amount": 230
+      }
+    ],
+    "ingredients": [
+      {
+        "name": "ホタテ",
+        "quantity": 1,
+        "alternatives": []
+      },
+      {
+        "name": "小麦",
+        "quantity": 1,
+        "alternatives": []
+      },
+      {
+        "name": "牛乳",
+        "quantity": 1,
+        "alternatives": []
+      },
+      {
+        "name": "スターフルーツ",
+        "quantity": 1,
+        "alternatives": []
+      }
+    ],
+    "energy": 45
+  },
+  {
+    "nameEn": "applePearlCake",
+    "nameJa": "ミニアップルパールケーキ",
+    "level": 1,
+    "events": [
+      "ホエールシーズン"
+    ],
+    "prices": [
+      {
+        "currency": "コイン",
+        "amount": 590
+      },
+      {
+        "currency": "トレンドコイン",
+        "amount": 240
+      }
+    ],
+    "ingredients": [
+      {
+        "name": "ホタテ",
+        "quantity": 1,
+        "alternatives": []
+      },
+      {
+        "name": "小麦",
+        "quantity": 1,
+        "alternatives": []
+      },
+      {
+        "name": "牛乳",
+        "quantity": 1,
+        "alternatives": []
+      },
+      {
+        "name": "リンゴ",
+        "quantity": 1,
+        "alternatives": []
+      }
+    ],
+    "energy": 45
+  },
+  {
+    "nameEn": "mandarinPearlCake",
+    "nameJa": "ミニオレンジパールケーキ",
+    "level": 1,
+    "events": [
+      "ホエールシーズン"
+    ],
+    "prices": [
+      {
+        "currency": "コイン",
+        "amount": 590
+      },
+      {
+        "currency": "トレンドコイン",
+        "amount": 240
+      }
+    ],
+    "ingredients": [
+      {
+        "name": "ホタテ",
+        "quantity": 1,
+        "alternatives": []
+      },
+      {
+        "name": "小麦",
+        "quantity": 1,
+        "alternatives": []
+      },
+      {
+        "name": "牛乳",
+        "quantity": 1,
+        "alternatives": []
+      },
+      {
+        "name": "オレンジ",
+        "quantity": 1,
+        "alternatives": []
+      }
+    ],
+    "energy": 45
+  },
+  {
+    "nameEn": "blueberryPearlCake",
+    "nameJa": "ミニブルーベリーパールケーキ",
+    "level": 1,
+    "events": [
+      "ホエールシーズン"
+    ],
+    "prices": [
+      {
+        "currency": "コイン",
+        "amount": 570
+      },
+      {
+        "currency": "トレンドコイン",
+        "amount": 230
+      }
+    ],
+    "ingredients": [
+      {
+        "name": "ホタテ",
+        "quantity": 1,
+        "alternatives": []
+      },
+      {
+        "name": "小麦",
+        "quantity": 1,
+        "alternatives": []
+      },
+      {
+        "name": "牛乳",
+        "quantity": 1,
+        "alternatives": []
+      },
+      {
+        "name": "ブルーベリー",
+        "quantity": 1,
+        "alternatives": []
+      }
+    ],
+    "energy": 45
+  },
+  {
+    "nameEn": "raspberryPearlCake",
+    "nameJa": "ミニラズベリーパールケーキ",
+    "level": 1,
+    "events": [
+      "ホエールシーズン"
+    ],
+    "prices": [
+      {
+        "currency": "コイン",
+        "amount": 590
+      },
+      {
+        "currency": "トレンドコイン",
+        "amount": 240
+      }
+    ],
+    "ingredients": [
+      {
+        "name": "ホタテ",
+        "quantity": 1,
+        "alternatives": []
+      },
+      {
+        "name": "小麦",
+        "quantity": 1,
+        "alternatives": []
+      },
+      {
+        "name": "牛乳",
+        "quantity": 1,
+        "alternatives": []
+      },
+      {
+        "name": "ラズベリー",
+        "quantity": 1,
+        "alternatives": []
+      }
+    ],
+    "energy": 45
+  },
+  {
+    "nameEn": "grilledSquidWFruitJam",
+    "nameJa": "ジャム添えイカ焼き",
+    "level": 1,
+    "events": [
+      "ホエールシーズン"
+    ],
+    "prices": [
+      {
+        "currency": "コイン",
+        "amount": 440
+      },
+      {
+        "currency": "トレンドコイン",
+        "amount": 180
+      }
+    ],
+    "ingredients": [
+      {
+        "name": "スルメイカ",
+        "quantity": 1,
+        "alternatives": []
+      },
+      {
+        "name": "海ぶどう",
+        "quantity": 1,
+        "alternatives": []
+      },
+      {
+        "name": "ワカメ",
+        "quantity": 1,
+        "alternatives": []
+      },
+      {
+        "name": "ジャム",
+        "quantity": 1,
+        "alternatives": [
+          "ラズベリージャム",
+          "ブルーベリージャム",
+          "リンゴジャム",
+          "オレンジジャム",
+          "いちごジャム",
+          "パイナップルジャム",
+          "ブドウジャム",
+          "チョコソース",
+          "スターフルーツジャム"
+        ]
+      }
+    ],
+    "energy": 40
+  },
+  {
+    "nameEn": "grilledSquidWAppleJam",
+    "nameJa": "リンゴジャム添えイカ焼き",
+    "level": 1,
+    "events": [
+      "ホエールシーズン"
+    ],
+    "prices": [
+      {
+        "currency": "コイン",
+        "amount": 550
+      },
+      {
+        "currency": "トレンドコイン",
+        "amount": 220
+      }
+    ],
+    "ingredients": [
+      {
+        "name": "スルメイカ",
+        "quantity": 1,
+        "alternatives": []
+      },
+      {
+        "name": "海ぶどう",
+        "quantity": 1,
+        "alternatives": []
+      },
+      {
+        "name": "ワカメ",
+        "quantity": 1,
+        "alternatives": []
+      },
+      {
+        "name": "リンゴジャム",
+        "quantity": 1,
+        "alternatives": []
+      }
+    ],
+    "energy": 45
+  },
+  {
+    "nameEn": "grilledSquidWBlueberryJam",
+    "nameJa": "ブルーベリージャム添えイカ焼き",
+    "level": 1,
+    "events": [
+      "ホエールシーズン"
+    ],
+    "prices": [
+      {
+        "currency": "コイン",
+        "amount": 450
+      },
+      {
+        "currency": "トレンドコイン",
+        "amount": 180
+      }
+    ],
+    "ingredients": [
+      {
+        "name": "スルメイカ",
+        "quantity": 1,
+        "alternatives": []
+      },
+      {
+        "name": "海ぶどう",
+        "quantity": 1,
+        "alternatives": []
+      },
+      {
+        "name": "ワカメ",
+        "quantity": 1,
+        "alternatives": []
+      },
+      {
+        "name": "ブルーベリージャム",
+        "quantity": 1,
+        "alternatives": []
+      }
+    ],
+    "energy": 40
+  },
+  {
+    "nameEn": "grilledSquidWStarfruitJam",
+    "nameJa": "スターフルーツジャム添えイカ焼き",
+    "level": 1,
+    "events": [
+      "ホエールシーズン"
+    ],
+    "prices": [
+      {
+        "currency": "コイン",
+        "amount": 480
+      },
+      {
+        "currency": "トレンドコイン",
+        "amount": 200
+      }
+    ],
+    "ingredients": [
+      {
+        "name": "スルメイカ",
+        "quantity": 1,
+        "alternatives": []
+      },
+      {
+        "name": "海ぶどう",
+        "quantity": 1,
+        "alternatives": []
+      },
+      {
+        "name": "ワカメ",
+        "quantity": 1,
+        "alternatives": []
+      },
+      {
+        "name": "スターフルーツジャム",
+        "quantity": 1,
+        "alternatives": []
+      }
+    ],
+    "energy": 40
+  },
+  {
+    "nameEn": "grilledSquidWPineappleJam",
+    "nameJa": "パイナップルジャム添えイカ焼き",
+    "level": 1,
+    "events": [
+      "ホエールシーズン"
+    ],
+    "prices": [
+      {
+        "currency": "コイン",
+        "amount": 560
+      },
+      {
+        "currency": "トレンドコイン",
+        "amount": 230
+      }
+    ],
+    "ingredients": [
+      {
+        "name": "スルメイカ",
+        "quantity": 1,
+        "alternatives": []
+      },
+      {
+        "name": "海ぶどう",
+        "quantity": 1,
+        "alternatives": []
+      },
+      {
+        "name": "ワカメ",
+        "quantity": 1,
+        "alternatives": []
+      },
+      {
+        "name": "パイナップルジャム",
+        "quantity": 1,
+        "alternatives": []
+      }
+    ],
+    "energy": 45
+  },
+  {
+    "nameEn": "grilledSquidWStrawberryJam",
+    "nameJa": "いちごジャム添えイカ焼き",
+    "level": 1,
+    "events": [
+      "ホエールシーズン"
+    ],
+    "prices": [
+      {
+        "currency": "コイン",
+        "amount": 1860
+      },
+      {
+        "currency": "トレンドコイン",
+        "amount": 750
+      }
+    ],
+    "ingredients": [
+      {
+        "name": "スルメイカ",
+        "quantity": 1,
+        "alternatives": []
+      },
+      {
+        "name": "海ぶどう",
+        "quantity": 1,
+        "alternatives": []
+      },
+      {
+        "name": "ワカメ",
+        "quantity": 1,
+        "alternatives": []
+      },
+      {
+        "name": "いちごジャム",
+        "quantity": 1,
+        "alternatives": []
+      }
+    ],
+    "energy": 100
+  },
+  {
+    "nameEn": "oceanFeast",
+    "nameJa": "オーシャンパーティー",
+    "level": 1,
+    "events": [
+      "ホエールシーズン"
+    ],
+    "prices": [
+      {
+        "currency": "コイン",
+        "amount": 1700
+      },
+      {
+        "currency": "トレンドコイン",
+        "amount": 680
+      }
+    ],
+    "ingredients": [
+      {
+        "name": "海鮮トマトポタージュ",
+        "quantity": 1,
+        "alternatives": []
+      },
+      {
+        "name": "オーシャンアイスドリンク",
+        "quantity": 1,
+        "alternatives": []
+      },
+      {
+        "name": "ミニパールケーキ",
+        "quantity": 1,
+        "alternatives": [
+          "ミニスターフルーツパールケーキ",
+          "ミニアップルパールケーキ",
+          "ミニオレンジパールケーキ",
+          "ミニブルーベリーパールケーキ",
+          "ミニラズベリーパールケーキ"
+        ]
+      },
+      {
+        "name": "ジャム添えイカ焼き",
+        "quantity": 1,
+        "alternatives": [
+          "リンゴジャム添えイカ焼き",
+          "ブルーベリージャム添えイカ焼き",
+          "スターフルーツジャム添えイカ焼き",
+          "パイナップルジャム添えイカ焼き",
+          "いちごジャム添えイカ焼き"
+        ]
+      }
+    ],
+    "energy": 45
+  },
+  {
+    "nameEn": "onsenEgg",
+    "nameJa": "温泉卵",
+    "level": 1,
+    "events": [
+      "温泉卵の約束"
+    ],
+    "prices": [
+      {
+        "currency": "コイン",
+        "amount": 130
+      }
+    ],
+    "ingredients": [
+      {
+        "name": "無菌卵",
+        "quantity": 1,
+        "alternatives": []
+      }
+    ],
+    "energy": 15
+  },
+  {
+    "nameEn": "trianglePlainRiceZongzi",
+    "nameJa": "三角の白米ちまき",
+    "level": 1,
+    "events": [
+      "仲夏の端陽"
+    ],
+    "prices": [
+      {
+        "currency": "コイン",
+        "amount": 240
+      }
+    ],
+    "ingredients": [
+      {
+        "name": "ちまきの葉",
+        "quantity": 1,
+        "alternatives": []
+      },
+      {
+        "name": "稲",
+        "quantity": 1,
+        "alternatives": []
+      },
+      {
+        "name": "ちまき素材",
+        "quantity": 2,
+        "alternatives": [
+          "あずき",
+          "卵",
+          "肉"
+        ]
+      }
+    ],
+    "energy": 25
+  },
+  {
+    "nameEn": "triangleRedBeanZongzi",
+    "nameJa": "三角のあずきちまき",
+    "level": 1,
+    "events": [
+      "仲夏の端陽"
+    ],
+    "prices": [
+      {
+        "currency": "コイン",
+        "amount": 260
+      }
+    ],
+    "ingredients": [
+      {
+        "name": "ちまきの葉",
+        "quantity": 1,
+        "alternatives": []
+      },
+      {
+        "name": "稲",
+        "quantity": 1,
+        "alternatives": []
+      },
+      {
+        "name": "あずき",
+        "quantity": 2,
+        "alternatives": []
+      }
+    ],
+    "energy": 25
+  },
+  {
+    "nameEn": "triangleEggYolkPorkZongzi",
+    "nameJa": "三角の卵黄入り肉ちまき",
+    "level": 1,
+    "events": [
+      "仲夏の端陽"
+    ],
+    "prices": [
+      {
+        "currency": "コイン",
+        "amount": 460
+      }
+    ],
+    "ingredients": [
+      {
+        "name": "ちまきの葉",
+        "quantity": 1,
+        "alternatives": []
+      },
+      {
+        "name": "稲",
+        "quantity": 1,
+        "alternatives": []
+      },
+      {
+        "name": "卵",
+        "quantity": 1,
+        "alternatives": []
+      },
+      {
+        "name": "肉",
+        "quantity": 1,
+        "alternatives": []
+      }
+    ],
+    "energy": 40
+  },
+  {
+    "nameEn": "pillowShapedPlainRiceZongzi",
+    "nameJa": "枕型の白米ちまき",
+    "level": 1,
+    "events": [
+      "仲夏の端陽"
+    ],
+    "prices": [
+      {
+        "currency": "コイン",
+        "amount": 240
+      }
+    ],
+    "ingredients": [
+      {
+        "name": "ちまきの葉",
+        "quantity": 1,
+        "alternatives": []
+      },
+      {
+        "name": "稲",
+        "quantity": 1,
+        "alternatives": []
+      },
+      {
+        "name": "ちまき素材",
+        "quantity": 2,
+        "alternatives": [
+          "あずき",
+          "卵",
+          "肉"
+        ]
+      }
+    ],
+    "energy": 25
+  },
+  {
+    "nameEn": "pillowShapedRedBeanZongzi",
+    "nameJa": "枕型のこしあんちまき",
+    "level": 1,
+    "events": [
+      "仲夏の端陽"
+    ],
+    "prices": [
+      {
+        "currency": "コイン",
+        "amount": 260
+      }
+    ],
+    "ingredients": [
+      {
+        "name": "ちまきの葉",
+        "quantity": 1,
+        "alternatives": []
+      },
+      {
+        "name": "稲",
+        "quantity": 1,
+        "alternatives": []
+      },
+      {
+        "name": "あずき",
+        "quantity": 2,
+        "alternatives": []
+      }
+    ],
+    "energy": 25
+  },
+  {
+    "nameEn": "pillowShapedEggYolkPorkZongzi",
+    "nameJa": "枕型の卵黄入り肉ちまき",
+    "level": 1,
+    "events": [
+      "仲夏の端陽"
+    ],
+    "prices": [
+      {
+        "currency": "コイン",
+        "amount": 460
+      }
+    ],
+    "ingredients": [
+      {
+        "name": "ちまきの葉",
+        "quantity": 1,
+        "alternatives": []
+      },
+      {
+        "name": "稲",
+        "quantity": 1,
+        "alternatives": []
+      },
+      {
+        "name": "卵",
+        "quantity": 1,
+        "alternatives": []
+      },
+      {
+        "name": "肉",
+        "quantity": 1,
+        "alternatives": []
+      }
+    ],
+    "energy": 40
+  },
+  {
+    "nameEn": "rainbowHeart",
+    "nameJa": "虹のときめきグミ",
+    "level": 1,
+    "events": [
+      "虹色のことば"
+    ],
+    "prices": [
+      {
+        "currency": "コイン",
+        "amount": 170
+      }
+    ],
+    "ingredients": [
+      {
+        "name": "果物",
+        "quantity": 4,
+        "alternatives": [
+          "ブルーベリー",
+          "ラズベリー",
+          "リンゴ",
+          "オレンジ",
+          "パイナップル",
+          "いちご",
+          "ブドウ",
+          "スターフルーツ"
+        ]
+      }
+    ],
+    "energy": 20
+  },
+  {
+    "nameEn": "rainbowSpark",
+    "nameJa": "虹のドキドキグミ",
+    "level": 1,
+    "events": [
+      "虹色のことば"
+    ],
+    "prices": [
+      {
+        "currency": "コイン",
+        "amount": 170
+      }
+    ],
+    "ingredients": [
+      {
+        "name": "果物",
+        "quantity": 4,
+        "alternatives": [
+          "ブルーベリー",
+          "ラズベリー",
+          "リンゴ",
+          "オレンジ",
+          "パイナップル",
+          "いちご",
+          "ブドウ",
+          "スターフルーツ"
+        ]
+      }
+    ],
+    "energy": 20
+  },
+  {
+    "nameEn": "cinnamorollCrepe",
+    "nameJa": "シナモロールのクレープ",
+    "level": 1,
+    "events": [
+      "サンリオキャラクターズコラボ"
+    ],
+    "prices": [
+      {
+        "currency": "コイン",
+        "amount": 670
+      }
+    ],
+    "ingredients": [
+      {
+        "name": "小麦",
+        "quantity": 1,
+        "alternatives": []
+      },
+      {
+        "name": "バター",
+        "quantity": 1,
+        "alternatives": []
+      },
+      {
+        "name": "卵",
+        "quantity": 1,
+        "alternatives": []
+      },
+      {
+        "name": "コーヒー豆",
+        "quantity": 1,
+        "alternatives": []
+      }
+    ],
+    "energy": 80
+  },
+  {
+    "nameEn": "kuromiCrepe",
+    "nameJa": "クロミのクレープ",
+    "level": 1,
+    "events": [
+      "サンリオキャラクターズコラボ"
+    ],
+    "prices": [
+      {
+        "currency": "コイン",
+        "amount": 670
+      }
+    ],
+    "ingredients": [
+      {
+        "name": "小麦",
+        "quantity": 1,
+        "alternatives": []
+      },
+      {
+        "name": "バター",
+        "quantity": 1,
+        "alternatives": []
+      },
+      {
+        "name": "卵",
+        "quantity": 1,
+        "alternatives": []
+      },
+      {
+        "name": "ラズベリー",
+        "quantity": 1,
+        "alternatives": []
+      }
+    ],
+    "energy": 80
+  },
+  {
+    "nameEn": "myMelodyCrepe",
+    "nameJa": "マイメロディのクレープ",
+    "level": 1,
+    "events": [
+      "サンリオキャラクターズコラボ"
+    ],
+    "prices": [
+      {
+        "currency": "コイン",
+        "amount": 670
+      }
+    ],
+    "ingredients": [
+      {
+        "name": "小麦",
+        "quantity": 1,
+        "alternatives": []
+      },
+      {
+        "name": "バター",
+        "quantity": 1,
+        "alternatives": []
+      },
+      {
+        "name": "卵",
+        "quantity": 1,
+        "alternatives": []
+      },
+      {
+        "name": "牛乳",
+        "quantity": 1,
+        "alternatives": []
+      }
+    ],
+    "energy": 90
   },
   {
     "nameEn": "egg",
@@ -2350,201 +3376,6 @@
       },
       {
         "name": "復活祭の模様入り卵（オレンジ）",
-        "quantity": 1,
-        "alternatives": []
-      }
-    ],
-    "energy": 55
-  },
-  {
-    "nameEn": "blackTruffleCreamPasta",
-    "nameJa": "トリュフのクリームパスタ",
-    "level": 3,
-    "events": [],
-    "prices": [
-      {
-        "currency": "コイン",
-        "amount": 900
-      }
-    ],
-    "ingredients": [
-      {
-        "name": "トリュフ",
-        "quantity": 1,
-        "alternatives": []
-      },
-      {
-        "name": "小麦",
-        "quantity": 2,
-        "alternatives": []
-      },
-      {
-        "name": "牛乳",
-        "quantity": 1,
-        "alternatives": []
-      }
-    ],
-    "energy": 90
-  },
-  {
-    "nameEn": "glasswortShrimpFriedRice",
-    "nameJa": "シーアスパラガスのエビチャーハン",
-    "level": 1,
-    "events": [],
-    "prices": [
-      {
-        "currency": "コイン",
-        "amount": 160
-      }
-    ],
-    "ingredients": [
-      {
-        "name": "稲",
-        "quantity": 1,
-        "alternatives": []
-      },
-      {
-        "name": "シーアスパラガス",
-        "quantity": 2,
-        "alternatives": []
-      },
-      {
-        "name": "ウミエビ",
-        "quantity": 1,
-        "alternatives": []
-      }
-    ],
-    "energy": 25
-  },
-  {
-    "nameEn": "seafoodPizza",
-    "nameJa": "シーフードピザ",
-    "level": 4,
-    "events": [],
-    "prices": [
-      {
-        "currency": "コイン",
-        "amount": 780
-      }
-    ],
-    "ingredients": [
-      {
-        "name": "チーズ",
-        "quantity": 1,
-        "alternatives": []
-      },
-      {
-        "name": "トマトソース",
-        "quantity": 1,
-        "alternatives": []
-      },
-      {
-        "name": "小麦",
-        "quantity": 1,
-        "alternatives": []
-      },
-      {
-        "name": "魚",
-        "quantity": 1,
-        "alternatives": []
-      }
-    ],
-    "energy": 70
-  },
-  {
-    "nameEn": "meatSaucePasta",
-    "nameJa": "ミートソースパスタ",
-    "level": 4,
-    "events": [],
-    "prices": [
-      {
-        "currency": "コイン",
-        "amount": 670
-      }
-    ],
-    "ingredients": [
-      {
-        "name": "肉",
-        "quantity": 1,
-        "alternatives": []
-      },
-      {
-        "name": "小麦",
-        "quantity": 1,
-        "alternatives": []
-      },
-      {
-        "name": "トマト",
-        "quantity": 1,
-        "alternatives": []
-      },
-      {
-        "name": "チーズ",
-        "quantity": 1,
-        "alternatives": []
-      }
-    ],
-    "energy": 80
-  },
-  {
-    "nameEn": "applePie",
-    "nameJa": "アップルパイ",
-    "level": 5,
-    "events": [],
-    "prices": [
-      {
-        "currency": "コイン",
-        "amount": 730
-      }
-    ],
-    "ingredients": [
-      {
-        "name": "リンゴ",
-        "quantity": 1,
-        "alternatives": []
-      },
-      {
-        "name": "小麦",
-        "quantity": 1,
-        "alternatives": []
-      },
-      {
-        "name": "卵",
-        "quantity": 1,
-        "alternatives": []
-      },
-      {
-        "name": "バター",
-        "quantity": 1,
-        "alternatives": []
-      }
-    ],
-    "energy": 70
-  },
-  {
-    "nameEn": "carrotCake",
-    "nameJa": "ニンジンケーキ",
-    "level": 5,
-    "events": [],
-    "prices": [
-      {
-        "currency": "コイン",
-        "amount": 840
-      }
-    ],
-    "ingredients": [
-      {
-        "name": "ニンジン",
-        "quantity": 2,
-        "alternatives": []
-      },
-      {
-        "name": "卵",
-        "quantity": 1,
-        "alternatives": []
-      },
-      {
-        "name": "小麦",
         "quantity": 1,
         "alternatives": []
       }
@@ -2747,61 +3578,6 @@
       }
     ],
     "energy": 50
-  },
-  {
-    "nameEn": "cornSoup",
-    "nameJa": "コーンポタージュ",
-    "level": 5,
-    "events": [],
-    "prices": [
-      {
-        "currency": "コイン",
-        "amount": 1340
-      }
-    ],
-    "ingredients": [
-      {
-        "name": "トウモロコシ",
-        "quantity": 2,
-        "alternatives": []
-      },
-      {
-        "name": "牛乳",
-        "quantity": 1,
-        "alternatives": []
-      },
-      {
-        "name": "バター",
-        "quantity": 1,
-        "alternatives": []
-      }
-    ],
-    "energy": 80
-  },
-  {
-    "nameEn": "deluxeSeafoodPlatter",
-    "nameJa": "豪華海鮮盛り合わせ",
-    "level": 6,
-    "events": [],
-    "prices": [
-      {
-        "currency": "コイン",
-        "amount": 410
-      }
-    ],
-    "ingredients": [
-      {
-        "name": "北欧アカザエビ",
-        "quantity": 2,
-        "alternatives": []
-      },
-      {
-        "name": "魚",
-        "quantity": 2,
-        "alternatives": []
-      }
-    ],
-    "energy": 65
   },
   {
     "nameEn": "icedCupCoffee",
@@ -4884,781 +5660,5 @@
       }
     ],
     "energy": 35
-  },
-  {
-    "nameEn": "tiramisu",
-    "nameJa": "ティラミス",
-    "level": 6,
-    "events": [],
-    "prices": [
-      {
-        "currency": "コイン",
-        "amount": 530
-      }
-    ],
-    "ingredients": [
-      {
-        "name": "コーヒー豆",
-        "quantity": 1,
-        "alternatives": []
-      },
-      {
-        "name": "卵",
-        "quantity": 1,
-        "alternatives": []
-      },
-      {
-        "name": "牛乳",
-        "quantity": 1,
-        "alternatives": []
-      },
-      {
-        "name": "チーズ",
-        "quantity": 1,
-        "alternatives": []
-      }
-    ],
-    "energy": 65
-  },
-  {
-    "nameEn": "oceanIcedDrink",
-    "nameJa": "オーシャンアイスドリンク",
-    "level": 1,
-    "events": [
-      "ホエールシーズン"
-    ],
-    "prices": [
-      {
-        "currency": "コイン",
-        "amount": 190
-      },
-      {
-        "currency": "トレンドコイン",
-        "amount": 80
-      }
-    ],
-    "ingredients": [
-      {
-        "name": "藍藻パウダー",
-        "quantity": 2,
-        "alternatives": []
-      },
-      {
-        "name": "スターフルーツ",
-        "quantity": 2,
-        "alternatives": []
-      }
-    ],
-    "energy": 20
-  },
-  {
-    "nameEn": "tomatoSeafoodSoup",
-    "nameJa": "海鮮トマトポタージュ",
-    "level": 1,
-    "events": [
-      "ホエールシーズン"
-    ],
-    "prices": [
-      {
-        "currency": "コイン",
-        "amount": 450
-      },
-      {
-        "currency": "トレンドコイン",
-        "amount": 180
-      }
-    ],
-    "ingredients": [
-      {
-        "name": "ウミエビ",
-        "quantity": 1,
-        "alternatives": []
-      },
-      {
-        "name": "トマト",
-        "quantity": 1,
-        "alternatives": []
-      },
-      {
-        "name": "シーアスパラガス",
-        "quantity": 1,
-        "alternatives": []
-      },
-      {
-        "name": "小麦",
-        "quantity": 1,
-        "alternatives": []
-      }
-    ],
-    "energy": 40
-  },
-  {
-    "nameEn": "seashellPearlCake",
-    "nameJa": "ミニパールケーキ",
-    "level": 1,
-    "events": [
-      "ホエールシーズン"
-    ],
-    "prices": [
-      {
-        "currency": "コイン",
-        "amount": 570
-      },
-      {
-        "currency": "トレンドコイン",
-        "amount": 230
-      }
-    ],
-    "ingredients": [
-      {
-        "name": "ホタテ",
-        "quantity": 1,
-        "alternatives": []
-      },
-      {
-        "name": "小麦",
-        "quantity": 1,
-        "alternatives": []
-      },
-      {
-        "name": "牛乳",
-        "quantity": 1,
-        "alternatives": []
-      },
-      {
-        "name": "果物",
-        "quantity": 1,
-        "alternatives": [
-          "ブルーベリー",
-          "ラズベリー",
-          "リンゴ",
-          "オレンジ",
-          "パイナップル",
-          "いちご",
-          "ブドウ",
-          "スターフルーツ"
-        ]
-      }
-    ],
-    "energy": 45
-  },
-  {
-    "nameEn": "starfruitPearlCake",
-    "nameJa": "ミニスターフルーツパールケーキ",
-    "level": 1,
-    "events": [
-      "ホエールシーズン"
-    ],
-    "prices": [
-      {
-        "currency": "コイン",
-        "amount": 570
-      },
-      {
-        "currency": "トレンドコイン",
-        "amount": 230
-      }
-    ],
-    "ingredients": [
-      {
-        "name": "ホタテ",
-        "quantity": 1,
-        "alternatives": []
-      },
-      {
-        "name": "小麦",
-        "quantity": 1,
-        "alternatives": []
-      },
-      {
-        "name": "牛乳",
-        "quantity": 1,
-        "alternatives": []
-      },
-      {
-        "name": "スターフルーツ",
-        "quantity": 1,
-        "alternatives": []
-      }
-    ],
-    "energy": 45
-  },
-  {
-    "nameEn": "applePearlCake",
-    "nameJa": "ミニアップルパールケーキ",
-    "level": 1,
-    "events": [
-      "ホエールシーズン"
-    ],
-    "prices": [
-      {
-        "currency": "コイン",
-        "amount": 590
-      },
-      {
-        "currency": "トレンドコイン",
-        "amount": 240
-      }
-    ],
-    "ingredients": [
-      {
-        "name": "ホタテ",
-        "quantity": 1,
-        "alternatives": []
-      },
-      {
-        "name": "小麦",
-        "quantity": 1,
-        "alternatives": []
-      },
-      {
-        "name": "牛乳",
-        "quantity": 1,
-        "alternatives": []
-      },
-      {
-        "name": "リンゴ",
-        "quantity": 1,
-        "alternatives": []
-      }
-    ],
-    "energy": 45
-  },
-  {
-    "nameEn": "mandarinPearlCake",
-    "nameJa": "ミニオレンジパールケーキ",
-    "level": 1,
-    "events": [
-      "ホエールシーズン"
-    ],
-    "prices": [
-      {
-        "currency": "コイン",
-        "amount": 590
-      },
-      {
-        "currency": "トレンドコイン",
-        "amount": 240
-      }
-    ],
-    "ingredients": [
-      {
-        "name": "ホタテ",
-        "quantity": 1,
-        "alternatives": []
-      },
-      {
-        "name": "小麦",
-        "quantity": 1,
-        "alternatives": []
-      },
-      {
-        "name": "牛乳",
-        "quantity": 1,
-        "alternatives": []
-      },
-      {
-        "name": "オレンジ",
-        "quantity": 1,
-        "alternatives": []
-      }
-    ],
-    "energy": 45
-  },
-  {
-    "nameEn": "blueberryPearlCake",
-    "nameJa": "ミニブルーベリーパールケーキ",
-    "level": 1,
-    "events": [
-      "ホエールシーズン"
-    ],
-    "prices": [
-      {
-        "currency": "コイン",
-        "amount": 570
-      },
-      {
-        "currency": "トレンドコイン",
-        "amount": 230
-      }
-    ],
-    "ingredients": [
-      {
-        "name": "ホタテ",
-        "quantity": 1,
-        "alternatives": []
-      },
-      {
-        "name": "小麦",
-        "quantity": 1,
-        "alternatives": []
-      },
-      {
-        "name": "牛乳",
-        "quantity": 1,
-        "alternatives": []
-      },
-      {
-        "name": "ブルーベリー",
-        "quantity": 1,
-        "alternatives": []
-      }
-    ],
-    "energy": 45
-  },
-  {
-    "nameEn": "raspberryPearlCake",
-    "nameJa": "ミニラズベリーパールケーキ",
-    "level": 1,
-    "events": [
-      "ホエールシーズン"
-    ],
-    "prices": [
-      {
-        "currency": "コイン",
-        "amount": 590
-      },
-      {
-        "currency": "トレンドコイン",
-        "amount": 240
-      }
-    ],
-    "ingredients": [
-      {
-        "name": "ホタテ",
-        "quantity": 1,
-        "alternatives": []
-      },
-      {
-        "name": "小麦",
-        "quantity": 1,
-        "alternatives": []
-      },
-      {
-        "name": "牛乳",
-        "quantity": 1,
-        "alternatives": []
-      },
-      {
-        "name": "ラズベリー",
-        "quantity": 1,
-        "alternatives": []
-      }
-    ],
-    "energy": 45
-  },
-  {
-    "nameEn": "grilledSquidWFruitJam",
-    "nameJa": "ジャム添えイカ焼き",
-    "level": 1,
-    "events": [
-      "ホエールシーズン"
-    ],
-    "prices": [
-      {
-        "currency": "コイン",
-        "amount": 440
-      },
-      {
-        "currency": "トレンドコイン",
-        "amount": 180
-      }
-    ],
-    "ingredients": [
-      {
-        "name": "スルメイカ",
-        "quantity": 1,
-        "alternatives": []
-      },
-      {
-        "name": "海ぶどう",
-        "quantity": 1,
-        "alternatives": []
-      },
-      {
-        "name": "ワカメ",
-        "quantity": 1,
-        "alternatives": []
-      },
-      {
-        "name": "ジャム",
-        "quantity": 1,
-        "alternatives": [
-          "ラズベリージャム",
-          "ブルーベリージャム",
-          "リンゴジャム",
-          "オレンジジャム",
-          "いちごジャム",
-          "パイナップルジャム",
-          "ブドウジャム",
-          "チョコソース",
-          "スターフルーツジャム"
-        ]
-      }
-    ],
-    "energy": 40
-  },
-  {
-    "nameEn": "grilledSquidWAppleJam",
-    "nameJa": "リンゴジャム添えイカ焼き",
-    "level": 1,
-    "events": [
-      "ホエールシーズン"
-    ],
-    "prices": [
-      {
-        "currency": "コイン",
-        "amount": 550
-      },
-      {
-        "currency": "トレンドコイン",
-        "amount": 220
-      }
-    ],
-    "ingredients": [
-      {
-        "name": "スルメイカ",
-        "quantity": 1,
-        "alternatives": []
-      },
-      {
-        "name": "海ぶどう",
-        "quantity": 1,
-        "alternatives": []
-      },
-      {
-        "name": "ワカメ",
-        "quantity": 1,
-        "alternatives": []
-      },
-      {
-        "name": "リンゴジャム",
-        "quantity": 1,
-        "alternatives": []
-      }
-    ],
-    "energy": 45
-  },
-  {
-    "nameEn": "grilledSquidWBlueberryJam",
-    "nameJa": "ブルーベリージャム添えイカ焼き",
-    "level": 1,
-    "events": [
-      "ホエールシーズン"
-    ],
-    "prices": [
-      {
-        "currency": "コイン",
-        "amount": 450
-      },
-      {
-        "currency": "トレンドコイン",
-        "amount": 180
-      }
-    ],
-    "ingredients": [
-      {
-        "name": "スルメイカ",
-        "quantity": 1,
-        "alternatives": []
-      },
-      {
-        "name": "海ぶどう",
-        "quantity": 1,
-        "alternatives": []
-      },
-      {
-        "name": "ワカメ",
-        "quantity": 1,
-        "alternatives": []
-      },
-      {
-        "name": "ブルーベリージャム",
-        "quantity": 1,
-        "alternatives": []
-      }
-    ],
-    "energy": 40
-  },
-  {
-    "nameEn": "grilledSquidWStarfruitJam",
-    "nameJa": "スターフルーツジャム添えイカ焼き",
-    "level": 1,
-    "events": [
-      "ホエールシーズン"
-    ],
-    "prices": [
-      {
-        "currency": "コイン",
-        "amount": 480
-      },
-      {
-        "currency": "トレンドコイン",
-        "amount": 200
-      }
-    ],
-    "ingredients": [
-      {
-        "name": "スルメイカ",
-        "quantity": 1,
-        "alternatives": []
-      },
-      {
-        "name": "海ぶどう",
-        "quantity": 1,
-        "alternatives": []
-      },
-      {
-        "name": "ワカメ",
-        "quantity": 1,
-        "alternatives": []
-      },
-      {
-        "name": "スターフルーツジャム",
-        "quantity": 1,
-        "alternatives": []
-      }
-    ],
-    "energy": 40
-  },
-  {
-    "nameEn": "grilledSquidWPineappleJam",
-    "nameJa": "パイナップルジャム添えイカ焼き",
-    "level": 1,
-    "events": [
-      "ホエールシーズン"
-    ],
-    "prices": [
-      {
-        "currency": "コイン",
-        "amount": 560
-      },
-      {
-        "currency": "トレンドコイン",
-        "amount": 230
-      }
-    ],
-    "ingredients": [
-      {
-        "name": "スルメイカ",
-        "quantity": 1,
-        "alternatives": []
-      },
-      {
-        "name": "海ぶどう",
-        "quantity": 1,
-        "alternatives": []
-      },
-      {
-        "name": "ワカメ",
-        "quantity": 1,
-        "alternatives": []
-      },
-      {
-        "name": "パイナップルジャム",
-        "quantity": 1,
-        "alternatives": []
-      }
-    ],
-    "energy": 45
-  },
-  {
-    "nameEn": "grilledSquidWStrawberryJam",
-    "nameJa": "いちごジャム添えイカ焼き",
-    "level": 1,
-    "events": [
-      "ホエールシーズン"
-    ],
-    "prices": [
-      {
-        "currency": "コイン",
-        "amount": 1860
-      },
-      {
-        "currency": "トレンドコイン",
-        "amount": 750
-      }
-    ],
-    "ingredients": [
-      {
-        "name": "スルメイカ",
-        "quantity": 1,
-        "alternatives": []
-      },
-      {
-        "name": "海ぶどう",
-        "quantity": 1,
-        "alternatives": []
-      },
-      {
-        "name": "ワカメ",
-        "quantity": 1,
-        "alternatives": []
-      },
-      {
-        "name": "いちごジャム",
-        "quantity": 1,
-        "alternatives": []
-      }
-    ],
-    "energy": 100
-  },
-  {
-    "nameEn": "oceanFeast",
-    "nameJa": "オーシャンパーティー",
-    "level": 1,
-    "events": [
-      "ホエールシーズン"
-    ],
-    "prices": [
-      {
-        "currency": "コイン",
-        "amount": 1700
-      },
-      {
-        "currency": "トレンドコイン",
-        "amount": 680
-      }
-    ],
-    "ingredients": [
-      {
-        "name": "海鮮トマトポタージュ",
-        "quantity": 1,
-        "alternatives": []
-      },
-      {
-        "name": "オーシャンアイスドリンク",
-        "quantity": 1,
-        "alternatives": []
-      },
-      {
-        "name": "ミニパールケーキ",
-        "quantity": 1,
-        "alternatives": [
-          "ミニスターフルーツパールケーキ",
-          "ミニアップルパールケーキ",
-          "ミニオレンジパールケーキ",
-          "ミニブルーベリーパールケーキ",
-          "ミニラズベリーパールケーキ"
-        ]
-      },
-      {
-        "name": "ジャム添えイカ焼き",
-        "quantity": 1,
-        "alternatives": [
-          "リンゴジャム添えイカ焼き",
-          "ブルーベリージャム添えイカ焼き",
-          "スターフルーツジャム添えイカ焼き",
-          "パイナップルジャム添えイカ焼き",
-          "いちごジャム添えイカ焼き"
-        ]
-      }
-    ],
-    "energy": 45
-  },
-  {
-    "nameEn": "picnicSet",
-    "nameJa": "キャンプセット",
-    "level": 7,
-    "events": [],
-    "prices": [
-      {
-        "currency": "コイン",
-        "amount": 2260
-      }
-    ],
-    "ingredients": [
-      {
-        "name": "コーヒー",
-        "quantity": 1,
-        "alternatives": []
-      },
-      {
-        "name": "シーフードピザ",
-        "quantity": 1,
-        "alternatives": []
-      },
-      {
-        "name": "アップルパイ",
-        "quantity": 1,
-        "alternatives": []
-      },
-      {
-        "name": "フィッシュアンドチップス",
-        "quantity": 1,
-        "alternatives": []
-      }
-    ],
-    "energy": 100
-  },
-  {
-    "nameEn": "afternoonTea",
-    "nameJa": "英式アフタヌーンティー",
-    "level": 7,
-    "events": [],
-    "prices": [
-      {
-        "currency": "コイン",
-        "amount": 710
-      }
-    ],
-    "ingredients": [
-      {
-        "name": "ティラミス",
-        "quantity": 1,
-        "alternatives": []
-      },
-      {
-        "name": "ジャム素材",
-        "quantity": 1,
-        "alternatives": [
-          "ラズベリー",
-          "ブルーベリー",
-          "リンゴ",
-          "オレンジ",
-          "いちご",
-          "パイナップル",
-          "ブドウ",
-          "カカオ豆",
-          "スターフルーツ"
-        ]
-      }
-    ],
-    "energy": 20
-  },
-  {
-    "nameEn": "meatBurger",
-    "nameJa": "ミートバーガー",
-    "level": 8,
-    "events": [],
-    "prices": [
-      {
-        "currency": "コイン",
-        "amount": 1350
-      }
-    ],
-    "ingredients": [
-      {
-        "name": "小麦",
-        "quantity": 1,
-        "alternatives": []
-      },
-      {
-        "name": "肉",
-        "quantity": 1,
-        "alternatives": []
-      },
-      {
-        "name": "レタス",
-        "quantity": 1,
-        "alternatives": []
-      },
-      {
-        "name": "トマトソース",
-        "quantity": 1,
-        "alternatives": []
-      }
-    ],
-    "energy": 75
   }
 ]
